@@ -1,0 +1,15 @@
+{
+  "asOf": "2026-09-08T23:17:12Z",
+  "verification": {
+    "dc_cases": 470,
+    "hand_anchors": 6,
+    "invalid_cases_rejected": 6,
+    "max_node_error_volts": 4.618527782440651e-14,
+    "max_linear_equation_residual": 8.326672684688674e-16,
+    "numerical_tolerance_volts": 1e-10,
+    "tolerance_scope": "Floating-point agreement only; not hardware accuracy.",
+    "dynamic_tests_run": 0,
+    "hardware_tests_run": 0,
+    "model_scope": "Ideal linear DC, ideal 2.5V reference and op amps; no rail limiting."
+  }
+}
