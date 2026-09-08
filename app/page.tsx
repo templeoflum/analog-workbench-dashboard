@@ -25,7 +25,7 @@ export default function Page(){
  if(!input||typeof input!=='object')throw Error('Expected controls');const v=input as Record<string,unknown>;
  if(Object.keys(v).some(k=>!['gain','offset','mode'].includes(k))||typeof v.gain!=='number'||typeof v.offset!=='number'||!Number.isFinite(v.gain)||!Number.isFinite(v.offset)||v.gain<0||v.gain>1||v.offset<0||v.offset>1||!['offset_input','offset_thru'].includes(String(v.mode)))throw Error('Invalid controls');
  flushSync(()=>{setGain(v.gain as number);setOffset(v.offset as number);setMode(v.mode as string);setTab('bench');setLoading(0);setSource(0)});
- return {gain:v.gain,offset:v.offset,mode:v.mode,outputForA1B0:evaluate(1,0,v.gain,v.offset,v.mode),scope:'Ideal DC; unloaded; progress unchanged'};
+ return {gain:v.gain,offset:v.offset,mode:v.mode,outputForA1B0:evaluate(1,0,v.gain,v.offset,String(v.mode)),scope:'Ideal DC; unloaded; progress unchanged'};
  }};
  try{Promise.resolve(context.registerTool(tool,{signal:lifecycle.signal})).catch(()=>{})}catch{}return ()=>lifecycle.abort();
  },[]);
