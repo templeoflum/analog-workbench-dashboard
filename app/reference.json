@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-09T00:51:36.638233+00:00",
+  "updatedAt": "2026-09-09T01:14:03.911983+00:00",
   "dcCases": 45,
   "dynamicRuns": 24,
-  "coreCompleted": 33,
+  "coreCompleted": 32,
   "coreAttempted": 36,
-  "corePoints": 495,
+  "corePoints": 480,
   "dcAt12V": [
     {
       "rails": 12,
@@ -9848,6 +9848,15 @@
       "load": 1000,
       "status": "failed",
       "reason": "core-dc-offset_input-g1-q0.5-r1000: failed analysis; inspect log"
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0.5,
+      "offset": 0.5,
+      "load": 100000,
+      "status": "failed",
+      "reason": "core-dc-offset_thru-g0.5-q0.5-r100000: failed analysis; inspect log"
     }
-  ]
+  ],
+  "correction": "The previous combined netlist accidentally joined two pot wipers. Those integrated results are withdrawn. This snapshot uses separate wiper nodes and a schematic-derived boundary check. Standalone stage results are retained."
 }

@@ -1,3 +1,43 @@
+# Corrected Cadet VII integration record
+
+## Correction and withdrawal
+
+The first combined generator used `wiper` for both gain and offset pots. That unintentionally joined R4 and R20. All combined f0 DC, frozen-shunt and early cross-simulator results are withdrawn as Cadet evidence. Historical dashboard version 5 reported 495 combined DC points from that erroneous topology. This corrected f1 uses `offset_wiper` for R20. Standalone reference-stage and earlier signal-path-only results do not contain the connection and are retained.
+
+A new schematic-derived boundary test verifies that the signal and reference stages share only ground, board rails and the offset-buffer output. It checks 18 control configurations and rejects a deliberate extra wiper bridge. The corrected fixtures are preserved separately from the erroneous ones.
+
+## Corrected results
+
+- ngspice combined DC: 32 of 36 sweeps complete, 480 points; four rejected sweeps retained. Each sweep requests input A=-0.2..1.2 V in 0.1 V steps, B=.25 V; both routes, gain/offset positions 0/.5/1, loads1k/100k. Separate seeded probes are not added to this headline count.
+- ngspice frozen-shunt diagnostic: 16 of 18 configurations complete at two timesteps (32 transients); two full-model DC anchors fail. The TL431 is replaced only for this diagnostic by its computed DC voltage. Initial-output differences from the corresponding full DC computation are at most 0.554 nV; this is a numerical observation, not hardware accuracy. Reference buffers and signal path remain active. This does not validate TL431 dynamics.
+- Corrected coupled Xyce core: all 18 runs complete (6 configurations × 3 maximum timesteps: .025, .0125, .00625 ns). All four LM6172 models, four TL074 amplifier sections and TL431 are present. Same signal case as the first transient bench: offset .6, 100k output load, 499Ω sources, A=0→.2V pulse, B=0, 500ns. Ideal ±12V board rails.
+- Xyce uses Gear with time integration and transient nonlinear RELTOL=1e-4, ABSTOL=1e-7, device GMIN=1e-16. All accepted traces are finite, strictly increasing and reach500ns; all have8 JFETs in the simulator's device count, guarding against missing TL074 sections. Device-topology warnings for unused internal TL431 nodes are retained.
+- Two successive timestep comparisons decrease in all six Xyce cases. Largest differences across cases:57.054847µV, then14.540248µV. Linear interpolation on the union of both sample grids over0–500ns. These are numerical sensitivity observations, not exact-error or hardware bounds.
+- One center-gain thru-offset case at.00625ns completes when tightening relative tolerance alone or absolute tolerance alone tenfold; tightening both aborts near306ns. Several earlier tighter settings also abort. Thus the dynamic reference remains experimental, with no acceptance threshold assigned.
+- Five nominal cases permit comparison of the Xyce coupled core with the ngspice frozen-shunt diagnostic; maximum output difference2.315µV. These are different circuits, so this supports a bounded diagnostic comparison, not identical-netlist cross-simulator validation.
+
+## Simulator and syntax compatibility
+
+[Xyce official executables](https://xyce.sandia.gov/downloads/executables/), XyceNF7.10.0 serial ARM64, extracted to a temporary folder without system installation. Runtime path, binary/package hashes and capability output retained. No Xyce executable is distributed in the fixture. See [Xyce7.10 reference guide](https://xyce.sandia.gov/download/2068/?tmstv=1754510749) for option semantics; Xyce and ngspice tolerance values do not have identical meanings.
+
+The original manufacturer files are retained unchanged. For Xyce, TL074 syntax needs normalization: remove the final DOS EOF byte, remove leading indentation from device lines, and rewrite the EGND POLY control-node pairs `(3,0) (4,0)` as `3 0 4 0`. No element values, connections or equations change. Removing only EOF resulted in a parsed circuit with zero TL074 JFETs, which is rejected. Normalization loads8 JFETs. The separate algebra diagnostic changed two LM6172 controlled-source forms but did not solve the problem and is NOT used in the accepted Xyce runs.
+
+ngspice still fails corrected full coupled transients. These failures remain documented; none of its partial traces is counted as complete.
+
+## Supply-current limitation
+
+The original TL074 macro draws14.194067mA at ±15V/25°C in an unloaded grounded-follower check. [TI's TL074 datasheet](https://www.ti.com/lit/ds/symlink/tl074.pdf), section5.8, gives1.4mA typical /2.5mA maximum per amplifier for the original family. The macro's2.143k rail-to-rail resistor alone accounts for about14mA at30V. Do not predict physical board current or diode/rail droop with this model. No undocumented parameter edit was made to force agreement.
+
+## Repeat
+
+Requires ngspice47 and, for coupled runs, XyceNF7.10.0 (or a separately qualified build). Run `python3 check_connections.py`, `python3 core_dc.py`, `python3 frozen_shunt_study.py`. For Xyce: run `python3 normalize_xyce_models.py`, then set `XYCE_EXECUTABLE` and, on this extracted macOS runtime, `XYCE_LIBRARY_DIRECTORY`, and run `python3 xyce_study.py`, then `python3 analyze_xyce.py`. Runtime file records this machine's temporary paths; supply overrides elsewhere. Logs/netlists are included; large raw waveforms can be regenerated. The Xyce binary itself remains an external prerequisite.
+
+## Remaining gates
+
+More tolerance and operating-domain checks, identical-circuit cross-simulator qualification, rail/load model qualification and physical-board measurements remain. Power-entry protection, ferrites, bypass-capacitor imperfections and layout parasitics remain omitted. Live image example is still ideal DC. No hardware-fidelity claim.
+
+## Retained standalone reference work
+
 # Cadet VII reference-stage milestone
 
 The TL431 shunt and four TL074 amplifier sections are now traced and simulated separately. This is a manufacturer-model study with ideal board rails, not a hardware measurement or completed full-module dynamic reference.
@@ -13,18 +53,3 @@ Models: [TI TL431 SLVM071](https://www.ti.com/lit/zip/SLVM071), 2017 unencrypted
 - 45 standalone DC cases: ideal symmetric rails ±11, ±12, ±15 V; offset positions 0, .25, .5, .75, 1; resistive buffer loads 1k, 10k, 1M. SPARSE solver. No warnings. Shunt voltage range 2.495507584–2.495761318 V. These are model outputs, not tolerance bounds.
 - 24 reference-stage transient runs: offset positions 0, .5, 1; loads 1k and 1M; three maximum timesteps (10, 5, 2.5 ns) plus tighter tolerances at 2.5 ns. SPARSE + Gear, ideal positive rail pulse 12→12.1 V at 10 µs, 1 µs edges, 30 µs width; negative rail fixed -12 V; duration 60 µs. All complete without warnings, finite and strictly increasing outputs. Initial operating point, not startup from zero. Default temperature 27°C.
 - Refinement comparison covers the union of adaptive sample grids using linear interpolation. Timestep differences do not decrease monotonically in every reference case. Tightening reltol/abstol/vntol tenfold changes the finest traces by at most 1.912227 µV. No numerical acceptance gate assigned.
-- Integrated core DC sweep: 36 configurations (both offset routes × 3 gain positions × 3 offset positions × loads 1k/100k), each requests 15 input-A voltages from -0.2 to 1.2 V, B=.25 V, sources499Ω. KLU. 33 sweeps complete (495 points); three fail and are not accepted. Warnings retained on completed runs. Differences from the ideal model are observations, not errors against hardware.
-
-## Failed attempts remain evidence
-
-KLU supports integrated DC but the selected TL431 reference fails transient analysis in the combined core. SPARSE handles the standalone reference but fails the combined core with LM6172. Gear stabilizes this standalone reference study but has not solved the combined core. Initial trapezoidal reference tests include a failed tightened run. Added shunts, alternate pivots and iteration probes did not establish a usable combined reference; none is silently incorporated. Failed logs and shortened output files must not be used as complete traces. A frozen TL431 voltage diagnostic runs, but does not validate TL431 dynamics in the combined module.
-
-## Supply-current limitation
-
-At ±15 V and 25°C, a single unloaded grounded-follower TL074 macro draws 14.194067 mA from its positive rail. TI's [current TL074 datasheet](https://www.ti.com/lit/ds/symlink/tl074.pdf), section 5.8, lists 1.4 mA typical / 2.5 mA maximum quiescent current per amplifier for the original family. The macro contains a 2.143k rail-to-rail resistor; its current alone is about 14 mA at 30 V. Do not use this macro to predict board supply current or diode/rail droop. No undocumented model edit was made to force agreement. Both amplifier model headers describe ±15 V operation; accuracy at ±12 V is not established by circuit operating limits.
-
-## Repeat and scope
-
-Run `python3 reference_study.py` for the 45 DC cases and original trapezoidal probes (expected failure recorded); `python3 reference_dynamics.py` for the 24 Gear runs; `python3 core_dc.py` for the 36 integrated DC attempts; `python3 component_checks.py` for the three idle-current checks. Requires ngspice 47 with KLU. Each script retains netlists/logs and raw output. The downloadable fixture omits large raw traces and datasheets; rerun to regenerate traces. See source URLs and hashes.
-
-Power-entry protection diodes/ferrites, bypass capacitor imperfections, board parasitics, tolerances and hardware measurement remain outside this model. Live image example remains ideal DC. Dynamic milestone stays in progress. Next: isolate the combined solver boundary and test the reference buffer's effect without silently substituting a different TL431 model.
