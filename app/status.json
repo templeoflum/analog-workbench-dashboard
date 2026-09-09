@@ -12,7 +12,7 @@
     "hardware_tests_run": 0,
     "model_scope": "Ideal linear DC, ideal 2.5V reference and op amps; no rail limiting."
   },
-  "updatedAt": "2026-09-09T00:34:26.834230+00:00",
+  "updatedAt": "2026-09-09T00:51:36.638233+00:00",
   "activity": [
     {
       "state": "In progress",
@@ -25,6 +25,10 @@
     {
       "state": "Observed",
       "text": "30 refinement runs: decreasing timestep sensitivity across all six cases; hardware and full-module gates remain open."
+    },
+    {
+      "state": "In progress",
+      "text": "Reference stage: 45 DC cases and 24 Gear runs complete. Integrated core: 33/36 DC sweeps complete; combined dynamics unresolved. TL074 macro supply current fails datasheet comparison."
     }
   ]
 }
