@@ -1,0 +1,379 @@
+{
+  "updatedAt": "2026-09-09T02:12:59.516049+00:00",
+  "cases": [
+    {
+      "rails": 12,
+      "kind": "gain1",
+      "xyce_nominal": {
+        "folder": "isolated-nominal-gain1-rails12",
+        "status": "completed",
+        "warnings": [],
+        "checks": {
+          "no_duplicate_options": true,
+          "exit_success": true,
+          "endpoint": true,
+          "finite": true,
+          "monotone": true
+        },
+        "rows": 80089,
+        "last_time_ns": 500.00000000000006,
+        "simulator": "Xyce",
+        "kind": "gain1",
+        "rails": 12
+      },
+      "xyce_tight": {
+        "folder": "isolated-gain1-rails12",
+        "status": "failed",
+        "checks": {
+          "exit_success": false,
+          "endpoint": false,
+          "finite": true,
+          "monotone": true
+        },
+        "rows": 17459,
+        "last_time_ns": 108.6109271538643,
+        "kind": "gain1",
+        "rails": 12
+      },
+      "ngspice": {
+        "folder": "ngspice-gain1-rails12",
+        "simulator": "ngspice",
+        "kind": "gain1",
+        "rails": 12,
+        "checks": {
+          "exit_success": true,
+          "no_error": true,
+          "endpoint": true,
+          "finite": true,
+          "monotone": true
+        },
+        "status": "completed",
+        "rows": 80157,
+        "last_time_ns": 500.00000000000006,
+        "solver": "default"
+      },
+      "difference_v": 4.52256364587289e-07
+    },
+    {
+      "rails": 12,
+      "kind": "gain2",
+      "xyce_nominal": {
+        "folder": "isolated-nominal-gain2-rails12",
+        "status": "completed",
+        "warnings": [],
+        "checks": {
+          "no_duplicate_options": true,
+          "exit_success": true,
+          "endpoint": true,
+          "finite": true,
+          "monotone": true
+        },
+        "rows": 80034,
+        "last_time_ns": 500.00000000000006,
+        "simulator": "Xyce",
+        "kind": "gain2",
+        "rails": 12
+      },
+      "xyce_tight": {
+        "folder": "isolated-gain2-rails12",
+        "status": "failed",
+        "checks": {
+          "exit_success": false,
+          "endpoint": false,
+          "finite": true,
+          "monotone": true
+        },
+        "rows": 48938,
+        "last_time_ns": 305.6820733740105,
+        "kind": "gain2",
+        "rails": 12
+      },
+      "ngspice": {
+        "folder": "ngspice-gain2-rails12",
+        "simulator": "ngspice",
+        "kind": "gain2",
+        "rails": 12,
+        "checks": {
+          "exit_success": true,
+          "no_error": true,
+          "endpoint": true,
+          "finite": true,
+          "monotone": true
+        },
+        "status": "completed",
+        "rows": 80150,
+        "last_time_ns": 500.00000000000006,
+        "solver": "default"
+      },
+      "difference_v": 6.202667473063223e-07
+    },
+    {
+      "rails": 12,
+      "kind": "inverting",
+      "xyce_nominal": {
+        "folder": "isolated-nominal-inverting-rails12",
+        "status": "completed",
+        "warnings": [],
+        "checks": {
+          "no_duplicate_options": true,
+          "exit_success": true,
+          "endpoint": true,
+          "finite": true,
+          "monotone": true
+        },
+        "rows": 80063,
+        "last_time_ns": 500.00000000000006,
+        "simulator": "Xyce",
+        "kind": "inverting",
+        "rails": 12
+      },
+      "xyce_tight": {
+        "folder": "isolated-inverting-rails12",
+        "status": "failed",
+        "checks": {
+          "exit_success": false,
+          "endpoint": false,
+          "finite": true,
+          "monotone": true
+        },
+        "rows": 16061,
+        "last_time_ns": 100.236891219821,
+        "kind": "inverting",
+        "rails": 12
+      },
+      "ngspice": {
+        "folder": "ngspice-inverting-rails12-klu",
+        "rails": 12,
+        "status": "completed",
+        "rows": 80071,
+        "last_time_ns": 500.00000000000006,
+        "simulator": "ngspice",
+        "solver": "KLU fallback",
+        "kind": "inverting",
+        "prior_attempt": {
+          "folder": "ngspice-inverting-rails12",
+          "simulator": "ngspice",
+          "kind": "inverting",
+          "rails": 12,
+          "status": "failed",
+          "reason": "timeout45s; initial runner did not retain partial process output",
+          "last_time_ns": null,
+          "solver": "default"
+        }
+      },
+      "difference_v": 4.235108647179797e-07
+    },
+    {
+      "rails": 15,
+      "kind": "gain1",
+      "xyce_nominal": {
+        "folder": "isolated-nominal-gain1-rails15",
+        "status": "completed",
+        "warnings": [],
+        "checks": {
+          "no_duplicate_options": true,
+          "exit_success": true,
+          "endpoint": true,
+          "finite": true,
+          "monotone": true
+        },
+        "rows": 80089,
+        "last_time_ns": 500.00000000000006,
+        "simulator": "Xyce",
+        "kind": "gain1",
+        "rails": 15
+      },
+      "xyce_tight": {
+        "folder": "isolated-gain1-rails15",
+        "status": "failed",
+        "checks": {
+          "exit_success": false,
+          "endpoint": false,
+          "finite": true,
+          "monotone": true
+        },
+        "rows": 16874,
+        "last_time_ns": 105.279010799351,
+        "kind": "gain1",
+        "rails": 15
+      },
+      "ngspice": {
+        "folder": "ngspice-gain1-rails15",
+        "simulator": "ngspice",
+        "kind": "gain1",
+        "rails": 15,
+        "checks": {
+          "exit_success": true,
+          "no_error": true,
+          "endpoint": true,
+          "finite": true,
+          "monotone": true
+        },
+        "status": "completed",
+        "rows": 80691,
+        "last_time_ns": 500.00000000000006,
+        "solver": "default"
+      },
+      "difference_v": 6.553165831347206e-07
+    },
+    {
+      "rails": 15,
+      "kind": "gain2",
+      "xyce_nominal": {
+        "folder": "isolated-nominal-gain2-rails15",
+        "status": "completed",
+        "warnings": [],
+        "checks": {
+          "no_duplicate_options": true,
+          "exit_success": true,
+          "endpoint": true,
+          "finite": true,
+          "monotone": true
+        },
+        "rows": 80036,
+        "last_time_ns": 500.00000000000006,
+        "simulator": "Xyce",
+        "kind": "gain2",
+        "rails": 15
+      },
+      "xyce_tight": {
+        "folder": "isolated-gain2-rails15",
+        "status": "completed",
+        "checks": {
+          "exit_success": true,
+          "endpoint": true,
+          "finite": true,
+          "monotone": true
+        },
+        "rows": 80141,
+        "last_time_ns": 500.00000000000006,
+        "kind": "gain2",
+        "rails": 15
+      },
+      "ngspice": {
+        "folder": "ngspice-gain2-rails15",
+        "simulator": "ngspice",
+        "kind": "gain2",
+        "rails": 15,
+        "checks": {
+          "exit_success": true,
+          "no_error": true,
+          "endpoint": true,
+          "finite": true,
+          "monotone": true
+        },
+        "status": "completed",
+        "rows": 80377,
+        "last_time_ns": 500.00000000000006,
+        "solver": "default"
+      },
+      "difference_v": 9.716267709847237e-07
+    },
+    {
+      "rails": 15,
+      "kind": "inverting",
+      "xyce_nominal": {
+        "folder": "isolated-nominal-inverting-rails15",
+        "status": "completed",
+        "warnings": [],
+        "checks": {
+          "no_duplicate_options": true,
+          "exit_success": true,
+          "endpoint": true,
+          "finite": true,
+          "monotone": true
+        },
+        "rows": 80063,
+        "last_time_ns": 500.00000000000006,
+        "simulator": "Xyce",
+        "kind": "inverting",
+        "rails": 15
+      },
+      "xyce_tight": {
+        "folder": "isolated-inverting-rails15",
+        "status": "failed",
+        "checks": {
+          "exit_success": false,
+          "endpoint": false,
+          "finite": true,
+          "monotone": true
+        },
+        "rows": 16066,
+        "last_time_ns": 100.2368912188982,
+        "kind": "inverting",
+        "rails": 15
+      },
+      "ngspice": {
+        "folder": "ngspice-inverting-rails15-klu",
+        "rails": 15,
+        "status": "completed",
+        "rows": 80071,
+        "last_time_ns": 500.00000000000006,
+        "simulator": "ngspice",
+        "solver": "KLU fallback",
+        "kind": "inverting",
+        "prior_attempt": {
+          "folder": "ngspice-inverting-rails15",
+          "simulator": "ngspice",
+          "kind": "inverting",
+          "rails": 15,
+          "status": "failed",
+          "reason": "timeout45s",
+          "last_time_ns": null,
+          "solver": "default"
+        }
+      },
+      "difference_v": 4.235210940414444e-07
+    }
+  ],
+  "replays": [
+    {
+      "folder": "replay-follower-tight-1",
+      "status": "failed",
+      "warnings": [],
+      "checks": {
+        "no_duplicate_options": true,
+        "exit_success": false,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 17459,
+      "last_time_ns": 108.6109271538643
+    },
+    {
+      "folder": "replay-follower-tight-2",
+      "status": "failed",
+      "warnings": [],
+      "checks": {
+        "no_duplicate_options": true,
+        "exit_success": false,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 17459,
+      "last_time_ns": 108.6109271538643
+    },
+    {
+      "folder": "control-follower-no-pulse",
+      "status": "completed",
+      "warnings": [],
+      "checks": {
+        "no_duplicate_options": true,
+        "exit_success": true,
+        "endpoint": true,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 80001,
+      "last_time_ns": 500.00000000000006
+    }
+  ],
+  "combinedCompleted": 6,
+  "combinedAttempted": 12,
+  "maxDifferenceV": 9.716267709847237e-07,
+  "failureTimeNs": 108.6109271538643,
+  "attempted": 50,
+  "scope": "Identical isolated-amplifier electrical circuits, differing solver settings; not full Cadet or hardware validation."
+}
