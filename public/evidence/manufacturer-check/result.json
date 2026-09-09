@@ -1,0 +1,12 @@
+{
+  "referenceSamples": 1009,
+  "runRows": 10028,
+  "peakV": 0.000660730961335787,
+  "rmsV": 0.0004034741276679907,
+  "peakLimitV": 0.01,
+  "rmsLimitV": 0.002,
+  "passed": true,
+  "initialReferenceV": 0.008371304109675829,
+  "initialRunV": 0.008371727443530664,
+  "maxErrorTimeNs": 50.79798485133086
+}

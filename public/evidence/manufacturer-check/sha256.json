@@ -1,0 +1,19 @@
+{
+  "README.md": "b5665959ebb1339da40c88468855e8703188d4d0c33f336fbbf1919add4f0c31",
+  "TransientAnalysis.dat": "f15456cc811fef4269e72278b7bb945bca1bc7ff7d3ebea2edb893790a24be4b",
+  "TransientAnalysis.out": "07ded2415cd84a2f035a757f36fa7275cfe3c7358e76f2527d0f903b1ed6f1dc",
+  "circuit.cir": "714130aa60fcaf187edb3cf4a3e79aa55b4efb71e3a437b3dc66ec913c08e705",
+  "compare.py": "24f7efe072a3352e905a83076e750d198b040e6bbad8279cf7d97d8b0b606fd5",
+  "comparison.csv": "c7e5644836068e15c5d0289c0ebaa95896f75388913d366f078e84e79b768c31",
+  "decode.py": "8111b727b7d0339b24fa86cd088c1b98a15ce5247343d08b92a7c65981b92939",
+  "decoder-validation.json": "fac2fb052702201d94f9e9f9356abc3b8eaf02e125fa3f713cf6ba7bcf6b7fab",
+  "frame.md": "3fd3dd4e54b8a11eddb6f1afc43393a58e954e8d9a45eb53bb254abc519f194a",
+  "lm6172.lib": "16b5a02e9ea470c9d06c7ced18dafbf2f83968cccf3d9e8bf031bc728dcb9c60",
+  "manufacturer.cir": "81cf08d286c43e2b38484ad50052695f09b446d213a9d94ca9886480ac39517f",
+  "manufacturer.csv": "9d81be70a7755b1f7b75b01bfa2e975e1e83879ad45f25eae7481aa2d800cbd2",
+  "manufacturer.net": "85e1699fcc596260920497f802aa8da9ff39c0a98ced0c25ef5401ea19f3f524",
+  "original-ti-package.zip": "db597eb6bb9a69dbe77d3637ec4b64cb1e7f216cf3e8e0a3e2be36cfa3815617",
+  "package-provenance.json": "ed4eaf59f8b3a7c8088f833fbbdcb36de6aac2425352a03151a3afbd77d4e68e",
+  "result.json": "1e3ac34323d545f52578763597825e1615a096fce81778acb9ba693033fda87c",
+  "run.log": "7cda6337c7d293343e0b61c77798584b8e3df3a7d6f25e06e52edce7b472efad"
+}

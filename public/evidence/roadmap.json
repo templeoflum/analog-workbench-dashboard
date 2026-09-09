@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-09T11:25:52.717907+00:00",
+  "updatedAt": "2026-09-09T12:00:44.091570+00:00",
   "destination": "A playable analog video instrument whose behavior can be traced to documented circuitry and repeated through a measurement bench.",
-  "current": "Overshoot audit complete; physical fidelity unresolved",
-  "next": "Obtain a named independent reference or physical measurement before treating the modeled response as faithful to hardware.",
-  "decision": "No signal-path transcription mismatch found. One tighter repeat preserves overshoot. This establishes bounded numerical persistence, not physical accuracy; no model tuning or further solver investigation was started.",
+  "current": "Manufacturer simulation example reproduced",
+  "next": "The single-amplifier \u00b115 V simulator check passes. Physical behavior of the four-amplifier \u00b112 V Cadet still requires independent evidence.",
+  "decision": "The full saved TI waveform provides more evidence than the former initial-voltage check. It supports one model/simulator configuration, without resolving hardware accuracy or justifying Cadet model changes.",
   "phases": [
     {
       "title": "Preserve the research and choose a tractable circuit",
