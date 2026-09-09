@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-09T12:00:44.091570+00:00",
+  "updatedAt": "2026-09-09T12:07:24.604640+00:00",
   "destination": "A playable analog video instrument whose behavior can be traced to documented circuitry and repeated through a measurement bench.",
-  "current": "Manufacturer simulation example reproduced",
-  "next": "The single-amplifier \u00b115 V simulator check passes. Physical behavior of the four-amplifier \u00b112 V Cadet still requires independent evidence.",
-  "decision": "The full saved TI waveform provides more evidence than the former initial-voltage check. It supports one model/simulator configuration, without resolving hardware accuracy or justifying Cadet model changes.",
+  "current": "Bounded cross-simulator attempt stopped without qualification",
+  "next": "Pause numerical qualification with this reference. Physical measurements or another documented reference are needed before promoting Cadet fidelity.",
+  "decision": "Xyce stopped during the rising edge at209.10 ns. No complete comparison is available. The agreed single attempt is finished; retain the provisional prototype without model tuning or an open-ended solver investigation.",
   "phases": [
     {
       "title": "Preserve the research and choose a tractable circuit",

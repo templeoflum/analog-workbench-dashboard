@@ -1,0 +1,186 @@
+
+*****
+***** Welcome to the Xyce(TM) Parallel Electronic Simulator
+*****
+***** This is version XyceNF Release 7.10.0
+***** Date: Wed Sep 09 07:05:33 CDT 2026
+
+
+***** Executing netlist circuit.cir
+
+***** Reading and parsing netlist...
+***** Setting up topology...
+
+***** Device Count Summary ...
+       B level 1 (Expression Based Voltage or Current Source)  40
+       C level 1 (Capacitor)                                   32
+       D level 1,2 (Diode)                                     80
+       E level 1 (Linear Voltage Controlled Voltage Source)    60
+       G level 1 (Linear Voltage Controlled Current Source)    32
+       I level 1 (Independent Current Source)                   4
+       Q level 1 (Bipolar Junction Transistor)                  8
+       R level 1 (Resistor)                                   158
+       V level 1 (Independent Voltage Source)                  49
+       ----------------------------------------------------------
+       Total Devices                                          463
+***** Setting up matrix structure...
+***** Number of Unknowns = 356
+***** Initializing...
+
+***** Beginning DC Operating Point Calculation...
+
+***** Beginning Transient Calculation...
+
+***** Percent complete: 1.00003 %
+***** Current system time: Wed Sep  9 07:05:33 2026
+***** Estimated time to completion: 22 sec.
+
+***** Percent complete: 2.00009 %
+***** Current system time: Wed Sep  9 07:05:33 2026
+***** Estimated time to completion: 20 sec.
+
+***** Percent complete: 3.00022 %
+***** Current system time: Wed Sep  9 07:05:34 2026
+***** Estimated time to completion: 19 sec.
+
+***** Percent complete: 4.00022 %
+***** Current system time: Wed Sep  9 07:05:34 2026
+***** Estimated time to completion: 18 sec.
+
+***** Percent complete: 5.00047 %
+***** Current system time: Wed Sep  9 07:05:34 2026
+***** Estimated time to completion: 18 sec.
+
+***** Percent complete: 6.00078 %
+***** Current system time: Wed Sep  9 07:05:34 2026
+***** Estimated time to completion: 18 sec.
+
+***** Percent complete: 7.00078 %
+***** Current system time: Wed Sep  9 07:05:34 2026
+***** Estimated time to completion: 18 sec.
+
+***** Percent complete: 8.00078 %
+***** Current system time: Wed Sep  9 07:05:34 2026
+***** Estimated time to completion: 17 sec.
+
+***** Percent complete: 9.00109 %
+***** Current system time: Wed Sep  9 07:05:35 2026
+***** Estimated time to completion: 17 sec.
+
+***** Percent complete: 10.0014 %
+***** Current system time: Wed Sep  9 07:05:35 2026
+***** Estimated time to completion: 17 sec.
+
+***** Percent complete: 11.0017 %
+***** Current system time: Wed Sep  9 07:05:35 2026
+***** Estimated time to completion: 17 sec.
+
+***** Percent complete: 12.0017 %
+***** Current system time: Wed Sep  9 07:05:35 2026
+***** Estimated time to completion: 16 sec.
+
+***** Percent complete: 13.0017 %
+***** Current system time: Wed Sep  9 07:05:35 2026
+***** Estimated time to completion: 16 sec.
+
+***** Percent complete: 14.002 %
+***** Current system time: Wed Sep  9 07:05:36 2026
+***** Estimated time to completion: 16 sec.
+
+***** Percent complete: 15.0023 %
+***** Current system time: Wed Sep  9 07:05:36 2026
+***** Estimated time to completion: 16 sec.
+
+***** Percent complete: 16.0027 %
+***** Current system time: Wed Sep  9 07:05:36 2026
+***** Estimated time to completion: 16 sec.
+
+***** Percent complete: 17.003 %
+***** Current system time: Wed Sep  9 07:05:36 2026
+***** Estimated time to completion: 15 sec.
+
+***** Percent complete: 18.0033 %
+***** Current system time: Wed Sep  9 07:05:36 2026
+***** Estimated time to completion: 15 sec.
+
+***** Percent complete: 19.0033 %
+***** Current system time: Wed Sep  9 07:05:37 2026
+***** Estimated time to completion: 15 sec.
+
+***** Percent complete: 20.0036 %
+***** Current system time: Wed Sep  9 07:05:37 2026
+***** Estimated time to completion: 15 sec.
+
+ *** Transient failure history: 
+Time        Time      Step   EstErr       Non-Linear Solver       node     node
+(sec)       Step     Status  OverTol    Status    Iters  ||F||    index    name
+ 2.091e-07  6.692e-15  pass  4.431e-02  P:normal   4  7.763e-12    253    XU22:10
+ 2.091e-07  1.338e-14  fail  4.431e-02  P:near     7  2.290e-08    258    XU32:42
+ 2.091e-07  1.673e-15  pass  1.415e-02  P:normal   3  1.512e-11    262    XU32:10
+ 2.091e-07  3.346e-15  pass  2.820e-02  P:normal   3  8.193e-06     41    XU22:43
+ 2.091e-07  6.692e-15  fail  1.396e+01  P:normal   5  4.580e-08    258    XU32:42
+ 2.091e-07  2.206e-15  pass  4.732e-02  P:normal   3  2.653e-06     41    XU22:43
+ 2.091e-07  4.412e-15  fail  4.732e-02  P:near    20  1.978e-06     67    XU32:43
+ 2.091e-07  5.515e-16  pass  1.632e-02  P:normal   3  4.724e-11    262    XU32:10
+ 2.091e-07  1.103e-15  pass  3.700e-02  P:normal   3  8.469e-06     41    XU22:43
+ 2.091e-07  2.206e-15  fail  1.225e+01  P:normal   5  8.330e-06     67    XU32:43
+ 2.091e-07  7.596e-16  pass  8.328e-02  P:normal   4  9.876e-07     41    XU22:43
+ 2.091e-07  7.596e-16  fail  4.253e+00  P:normal  20  7.607e-11    280    XU31:10
+ 2.091e-07  3.721e-16  pass  5.583e-02  P:normal   4  1.131e-05     41    XU22:43
+ 2.091e-07  7.442e-16  fail  7.246e+00  P:normal   4  1.255e-05     67    XU32:43
+ 2.091e-07  3.052e-16  pass  2.561e-01  P:normal   5  5.350e-05     41    XU22:43
+ 2.091e-07  3.052e-16  fail  4.574e+00  P:normal   4  4.440e-05     41    XU22:43
+ 2.091e-07  1.459e-16  fail  2.668e+00  P:normal   9  5.681e-05     41    XU22:43
+ 2.091e-07  3.649e-17  pass  6.556e-02  P:normal   4  7.089e-10    271    XU21:10
+ 2.091e-07  3.649e-17  pass  1.943e-01  P:normal   6  1.857e-04    258    XU32:42
+ 2.091e-07  3.649e-17  fail  2.146e+00  P:normal   5  1.857e-04    249    XU22:42
+ 2.091e-07  2.245e-17  fail  1.854e+00  P:normal   8  1.349e-04     67    XU32:43
+ 2.091e-07  5.612e-18  fail  1.854e+00  P:near    20  5.141e-09    280    XU31:10
+ 2.091e-07  7.016e-19  fail  1.854e+00  P:near    20  1.987e-08    222    XU32:57
+ 2.091e-07  8.769e-20  fail  1.854e+00  P:near    20  1.474e-07    271    XU21:10
+ 2.091e-07  1.096e-20  fail  1.854e+00  P:near    20  2.255e-06    253    XU22:10
+Time step too small near step number: 69462  Exiting transient loop.
+
+
+***** Solution Summary *****
+	Number Successful Steps Taken:		69463
+	Number Failed Steps Attempted:		29
+	Number Jacobians Evaluated:		70808
+	Number Linear Solves:			70808
+	Number Failed Linear Solves:		0
+	Number Residual Evaluations:		140318
+	Number Nonlinear Convergence Failures:	7
+	Total Residual Load Time:		1.007 seconds
+	Total Jacobian Load Time:		0.760 seconds
+	Total Linear Solution Time:		0.863 seconds
+
+
+***** Total Simulation Solvers Run Time: 4.044 seconds
+***** Total Elapsed Run Time:            4.064 seconds
+*****
+***** End of Xyce(TM) Simulation
+*****
+
+Timing summary of 1 processor
+                 Stats                   Count        CPU Time              Wall Time
+---------------------------------------- ------ --------------------- ---------------------
+Xyce                                          1        3.500 (100.0%)        4.066 (100.0%)
+  Analysis                                    1        3.493 (99.79%)        4.044 (99.47%)
+    Transient                                 1        3.493 (99.79%)        4.044 (99.47%)
+      Nonlinear Solve                     69492        2.957 (84.49%)        3.282 (80.72%)
+        Residual                         140318        1.001 (28.61%)        1.092 (26.86%)
+        Jacobian                          70808        0.753 (21.51%)        0.796 (19.56%)
+        Linear Solve                      70808        0.849 (24.26%)        0.898 (22.09%)
+      Successful DCOP Steps                   1        0.000 (<0.01%)        0.000 (<0.01%)
+      Successful Step                     69462        0.289 ( 8.27%)        0.455 (11.18%)
+      Failed Steps                           29        0.000 (<0.01%)        0.000 (<0.01%)
+        Nonlinear Failure                     7        0.000 (<0.01%)        0.000 (<0.01%)
+  Netlist Import                              1        0.006 ( 0.17%)        0.013 ( 0.32%)
+    Parse Context                             1        0.001 ( 0.01%)        0.002 ( 0.04%)
+    Distribute Devices                        1        0.004 ( 0.11%)        0.005 ( 0.12%)
+    Verify Devices                            1        0.000 (<0.01%)        0.000 (<0.01%)
+    Instantiate                               1        0.001 ( 0.03%)        0.001 ( 0.03%)
+  Late Initialization                         1        0.001 ( 0.03%)        0.004 ( 0.10%)
+    Global Indices                            1        0.000 ( 0.01%)        0.001 ( 0.02%)
+  Setup Matrix Structure                      1        0.000 (<0.01%)        0.002 ( 0.05%)
+

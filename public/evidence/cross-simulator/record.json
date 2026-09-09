@@ -1,0 +1,17 @@
+{
+  "attempts": 1,
+  "timeoutSeconds": 60,
+  "circuitBodyIdentical": true,
+  "status": "failed",
+  "exitCode": 1,
+  "checks": {
+    "exitSuccess": false,
+    "finite": true,
+    "endpoint": false,
+    "monotone": true,
+    "noFailureMarkers": false
+  },
+  "rows": 69463,
+  "lastTimeSeconds": 2.0910064826097973e-07,
+  "warnings": []
+}
