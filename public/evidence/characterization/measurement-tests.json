@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "Known linear gain and offset",
+      "passed": true
+    },
+    {
+      "name": "Unstable plateau suppresses fit",
+      "passed": true
+    },
+    {
+      "name": "Positive step overshoot and sampled settling",
+      "passed": true
+    },
+    {
+      "name": "Inverted step keeps signed overshoot meaningful",
+      "passed": true
+    },
+    {
+      "name": "Late excursion cannot establish settling",
+      "passed": true
+    },
+    {
+      "name": "Alternating residual excursion counter",
+      "passed": true
+    },
+    {
+      "name": "Low response suppresses normalized metrics",
+      "passed": true
+    },
+    {
+      "name": "Unstable final window suppresses edge metrics",
+      "passed": true
+    },
+    {
+      "name": "Known gain and one-sample delay transfer",
+      "passed": true
+    },
+    {
+      "name": "Phase difference wraps across 180 degrees",
+      "passed": true
+    },
+    {
+      "name": "Near-zero transfer withholds phase",
+      "passed": true
+    },
+    {
+      "name": "Invalid data rejected",
+      "passed": true
+    }
+  ]
+}

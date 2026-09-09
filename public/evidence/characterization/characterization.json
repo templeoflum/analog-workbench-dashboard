@@ -1,0 +1,1992 @@
+{
+  "version": 1,
+  "createdAt": "2026-09-09T11:12:59.202Z",
+  "cases": [
+    {
+      "mode": "offset_input",
+      "gain": 0,
+      "levels": {
+        "reference": {
+          "established": true,
+          "reason": null,
+          "rows": [
+            {
+              "input": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": 0,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": 0.2115595109863891,
+                "spanV": 3.9152903141825846e-11,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": 0.04999999999999987,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": 0.16205837894816857,
+                "spanV": 0.00007109934745191948,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": 0.09999999999999974,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": 0.11256047706535297,
+                "spanV": 0.00007110252131077577,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": 0.1499999999999997,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": 0.06306257501470225,
+                "spanV": 0.00007110253951578271,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.19999999999999948,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.013564672963813914,
+                "spanV": 0.0000711025501689902,
+                "samples": 161
+              }
+            }
+          ],
+          "gain": -0.9899709599572357,
+          "offsetV": 0.2115582189914087,
+          "maxResidualV": 0.0000012920453784648345
+        },
+        "runtime": {
+          "established": true,
+          "reason": null,
+          "rows": [
+            {
+              "input": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": 0,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": 0.21155951097908982,
+                "spanV": 8.326672684688674e-17,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": 0.04999999999999987,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": 0.16205837719339258,
+                "spanV": 0.0000711219789290285,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": 0.09999999999999974,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": 0.11256082133534175,
+                "spanV": 0.00007112197892905625,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": 0.1499999999999997,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": 0.06306326547729103,
+                "spanV": 0.00007112197892905625,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.19999999999999948,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.013565709619240267,
+                "spanV": 0.00007112197892911176,
+                "samples": 161
+              }
+            }
+          ],
+          "gain": -0.9899654288716037,
+          "offsetV": 0.2115580798080312,
+          "maxResidualV": 0.0000014311710586079052
+        }
+      },
+      "pulse": {
+        "reference": {
+          "baseline": {
+            "startNs": 100,
+            "endNs": 180,
+            "meanV": 0.21155951098529946,
+            "spanV": 4.062986058706031e-11,
+            "samples": 321
+          },
+          "target": {
+            "startNs": 540,
+            "endNs": 590,
+            "meanV": 0.05316622388677313,
+            "spanV": 2.804738372108595e-8,
+            "samples": 201
+          },
+          "deltaV": -0.15839328709852632,
+          "bandV": 0.0031678657419705264,
+          "established": true,
+          "reason": null,
+          "overshootPercent": 51.54497955886276,
+          "settlingNs": 71.75,
+          "alternatingExcursions": 6,
+          "observationEndNs": 599.75
+        },
+        "runtime": {
+          "baseline": {
+            "startNs": 100,
+            "endNs": 180,
+            "meanV": 0.21155951097909104,
+            "spanV": 8.326672684688674e-17,
+            "samples": 321
+          },
+          "target": {
+            "startNs": 540,
+            "endNs": 590,
+            "meanV": 0.0531673322333274,
+            "spanV": 1.3877787807814457e-16,
+            "samples": 201
+          },
+          "deltaV": -0.15839217874576364,
+          "bandV": 0.003167843574915273,
+          "established": true,
+          "reason": null,
+          "overshootPercent": 51.56828539597416,
+          "settlingNs": 71.75,
+          "alternatingExcursions": 6,
+          "observationEndNs": 599.75
+        }
+      },
+      "frequency": [
+        {
+          "hz": 1000000,
+          "runtime": {
+            "re": -0.9899349794367777,
+            "im": 0.03427685408395429,
+            "magnitude": 0.9905282258665757,
+            "phaseDegrees": 178.01690533094222
+          },
+          "reference": {
+            "re": -0.9899347194609593,
+            "im": 0.03428377656969395,
+            "magnitude": 0.9905282056206826,
+            "phaseDegrees": 178.01650462844907
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": 0.00040070249315249384,
+          "magnitudeDifference": 2.0245893184167585e-8,
+          "complexDifference": 0.000006927365750547237
+        },
+        {
+          "hz": 2000000,
+          "runtime": {
+            "re": -0.9898694695820067,
+            "im": 0.06867342890083995,
+            "magnitude": 0.9922487624822528,
+            "phaseDegrees": 176.031392745382
+          },
+          "reference": {
+            "re": -0.9898625513997416,
+            "im": 0.06867290837787624,
+            "magnitude": 0.9922418248636177,
+            "phaseDegrees": 176.0313950821665
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": -0.000002336784518774948,
+          "magnitudeDifference": 0.0000069376186351277624,
+          "complexDifference": 0.0000069377366633411436
+        },
+        {
+          "hz": 3000000,
+          "runtime": {
+            "re": -0.9897340912194794,
+            "im": 0.10328051876862945,
+            "magnitude": 0.995108253849382,
+            "phaseDegrees": 174.04264451823119
+          },
+          "reference": {
+            "re": -0.9897348734367366,
+            "im": 0.10327360781232418,
+            "magnitude": 0.9951083145906313,
+            "phaseDegrees": 174.04304495878293
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": -0.00040044055174348614,
+          "magnitudeDifference": -6.074124936361613e-8,
+          "complexDifference": 0.0000069550830973321205
+        },
+        {
+          "hz": 4000000,
+          "runtime": {
+            "re": -0.9895334978344812,
+            "im": 0.13819276800921085,
+            "magnitude": 0.9991365194339513,
+            "phaseDegrees": 172.04980783128488
+          },
+          "reference": {
+            "re": -0.989540398560771,
+            "im": 0.13819381365287822,
+            "magnitude": 0.9991434984604244,
+            "phaseDegrees": 172.04980317837567
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": 0.000004652909183278098,
+          "magnitudeDifference": -0.000006979026473064032,
+          "complexDifference": 0.000006979498119949676
+        },
+        {
+          "hz": 5000000,
+          "runtime": {
+            "re": -0.9892642489975988,
+            "im": 0.17353719729842862,
+            "magnitude": 1.0043699085451419,
+            "phaseDegrees": 170.05038099966518
+          },
+          "reference": {
+            "re": -0.9892629375964821,
+            "im": 0.17354408467397806,
+            "magnitude": 1.0043698069074707,
+            "phaseDegrees": 170.04998108223683
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": 0.0003999174283535467,
+          "magnitudeDifference": 1.0163767116821987e-7,
+          "complexDifference": 0.000007011113666732763
+        }
+      ]
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0.5,
+      "levels": {
+        "reference": {
+          "established": true,
+          "reason": null,
+          "rows": [
+            {
+              "input": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": 0,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": 0.01182143784446125,
+                "spanV": 3.4347871769035976e-13,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": 0.04999999999999987,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": 0.011826008147325213,
+                "spanV": 0.000043953026774075366,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": 0.09999999999999974,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": 0.011827709362421671,
+                "spanV": 0.00004395316815077391,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": 0.1499999999999997,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": 0.011829410480868366,
+                "spanV": 0.00004395316893865582,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.19999999999999948,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.011831111599310017,
+                "spanV": 0.00004395316964141485,
+                "samples": 161
+              }
+            }
+          ],
+          "gain": 0.00004549968648137278,
+          "offsetV": 0.011822585518229164,
+          "maxResidualV": 0.0000011476737679146781
+        },
+        "runtime": {
+          "established": true,
+          "reason": null,
+          "rows": [
+            {
+              "input": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": 0,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": 0.011821437844325483,
+                "spanV": 1.214306433183765e-17,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": 0.04999999999999987,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": 0.011826009119850604,
+                "spanV": 0.00004397107811120356,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": 0.09999999999999974,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": 0.011827637109366263,
+                "spanV": 0.00004397107811121223,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": 0.1499999999999997,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": 0.01182926509888192,
+                "spanV": 0.000043971078111194883,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.19999999999999948,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.011830893088397576,
+                "spanV": 0.0000439710781112157,
+                "samples": 161
+              }
+            }
+          ],
+          "gain": 0.00004433293435100402,
+          "offsetV": 0.01182261515872927,
+          "maxResidualV": 0.0000011773144037857675
+        }
+      },
+      "pulse": {
+        "reference": {
+          "baseline": {
+            "startNs": 100,
+            "endNs": 180,
+            "meanV": 0.011821437844449827,
+            "spanV": 3.525634645340503e-13,
+            "samples": 321
+          },
+          "target": {
+            "startNs": 540,
+            "endNs": 590,
+            "meanV": 0.01182688092685,
+            "spanV": 1.4678128689923908e-8,
+            "samples": 201
+          },
+          "deltaV": 0.000005443082400172564,
+          "bandV": 0.0001,
+          "established": false,
+          "reason": "Response below 1 mV; normalized edge measurements are not established.",
+          "overshootPercent": null,
+          "settlingNs": null,
+          "alternatingExcursions": null,
+          "observationEndNs": 599.75
+        },
+        "runtime": {
+          "baseline": {
+            "startNs": 100,
+            "endNs": 180,
+            "meanV": 0.011821437844325516,
+            "spanV": 2.2551405187698492e-17,
+            "samples": 321
+          },
+          "target": {
+            "startNs": 540,
+            "endNs": 590,
+            "meanV": 0.011826647410775545,
+            "spanV": 3.8163916471489756e-17,
+            "samples": 201
+          },
+          "deltaV": 0.000005209566450028319,
+          "bandV": 0.0001,
+          "established": false,
+          "reason": "Response below 1 mV; normalized edge measurements are not established.",
+          "overshootPercent": null,
+          "settlingNs": null,
+          "alternatingExcursions": null,
+          "observationEndNs": 599.75
+        }
+      },
+      "frequency": [
+        {
+          "hz": 1000000,
+          "runtime": {
+            "re": 0.0008269057636325443,
+            "im": 0.016055854956661893,
+            "magnitude": 0.016077134431586152,
+            "phaseDegrees": 87.05176786099288
+          },
+          "reference": {
+            "re": 0.00082694028997006,
+            "im": 0.01605438868821038,
+            "magnitude": 0.0160756718800588,
+            "phaseDegrees": 87.05137617674518
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": 0.00039168424768831756,
+          "magnitudeDifference": 0.0000014625515273522516,
+          "complexDifference": 0.0000014666748923618966
+        },
+        {
+          "hz": 2000000,
+          "runtime": {
+            "re": 0.003208299002622317,
+            "im": 0.032035202713784364,
+            "magnitude": 0.03219545612976286,
+            "phaseDegrees": 84.28094472707798
+          },
+          "reference": {
+            "re": 0.003206821647234746,
+            "im": 0.0320351340631332,
+            "magnitude": 0.03219524063460453,
+            "phaseDegrees": 84.28354861925857
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": -0.002603892180559342,
+          "magnitudeDifference": 2.1549515832886001e-7,
+          "complexDifference": 0.0000014789495776020478
+        },
+        {
+          "hz": 3000000,
+          "runtime": {
+            "re": 0.007177170333145642,
+            "im": 0.047866591119086525,
+            "magnitude": 0.048401676823771285,
+            "phaseDegrees": 81.47253370015724
+          },
+          "reference": {
+            "re": 0.007177068365985723,
+            "im": 0.047868086978393835,
+            "magnitude": 0.04840314102722168,
+            "phaseDegrees": 81.47291562888321
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": -0.00038192872602849093,
+          "magnitudeDifference": -0.0000014642034503950518,
+          "complexDifference": 0.0000014993306403085415
+        },
+        {
+          "hz": 4000000,
+          "runtime": {
+            "re": 0.012741892272542936,
+            "im": 0.06347793651969989,
+            "magnitude": 0.06474414447256321,
+            "phaseDegrees": 78.64988538288259
+          },
+          "reference": {
+            "re": 0.012743414089385618,
+            "im": 0.06347807058223727,
+            "magnitude": 0.06474457542912031,
+            "phaseDegrees": 78.64858833624679
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": 0.0012970466358410704,
+          "magnitudeDifference": -4.3095655709313174e-7,
+          "complexDifference": 0.0000015277104655664498
+        },
+        {
+          "hz": 5000000,
+          "runtime": {
+            "re": 0.019913854685496144,
+            "im": 0.07878988114632902,
+            "magnitude": 0.08126750260397886,
+            "phaseDegrees": 75.81575450025484
+          },
+          "reference": {
+            "re": 0.019914019196985735,
+            "im": 0.07878832586601027,
+            "magnitude": 0.08126603505368366,
+            "phaseDegrees": 75.81537335358989
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": 0.00038114666494948324,
+          "magnitudeDifference": 0.0000014675502952032904,
+          "complexDifference": 0.0000015639568089026102
+        }
+      ]
+    },
+    {
+      "mode": "offset_input",
+      "gain": 1,
+      "levels": {
+        "reference": {
+          "established": false,
+          "reason": "At least one plateau varies by more than 0.1 mV in its measurement window.",
+          "rows": [
+            {
+              "input": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": 0,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": -0.1818647504516874,
+                "spanV": 3.437725104582512e-11,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": 0.04999999999999987,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": -0.13234917598685006,
+                "spanV": 0.00020888481107392276,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": 0.09999999999999974,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": -0.08284477265672344,
+                "spanV": 0.00020888561990085874,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": 0.1499999999999997,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": -0.03334037000370734,
+                "spanV": 0.0002088856484805668,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.19999999999999948,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.016164032647660538,
+                "spanV": 0.00020888568309547148,
+                "samples": 161
+              }
+            }
+          ],
+          "gain": null,
+          "offsetV": null,
+          "maxResidualV": null
+        },
+        "runtime": {
+          "established": false,
+          "reason": "At least one plateau varies by more than 0.1 mV in its measurement window.",
+          "rows": [
+            {
+              "input": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": 0,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": -0.1818647504708792,
+                "spanV": 1.1102230246251565e-16,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": 0.04999999999999987,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": -0.13234917282439398,
+                "spanV": 0.00020897078452947193,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": 0.09999999999999974,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": -0.08284476950075413,
+                "spanV": 0.0002089715566097189,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": 0.1499999999999997,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": -0.03334036684780301,
+                "spanV": 0.000208971556609705,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.19999999999999948,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.016164035805148164,
+                "spanV": 0.000208971556609705,
+                "samples": 161
+              }
+            }
+          ],
+          "gain": null,
+          "offsetV": null,
+          "maxResidualV": null
+        }
+      },
+      "pulse": {
+        "reference": {
+          "baseline": {
+            "startNs": 100,
+            "endNs": 180,
+            "meanV": -0.18186475045282136,
+            "spanV": 3.46283279828441e-11,
+            "samples": 321
+          },
+          "target": {
+            "startNs": 540,
+            "endNs": 590,
+            "meanV": -0.023450665092213455,
+            "spanV": 6.231750259225177e-8,
+            "samples": 201
+          },
+          "deltaV": 0.15841408536060791,
+          "bandV": 0.0031682817072121584,
+          "established": true,
+          "reason": null,
+          "overshootPercent": 172.9262003180685,
+          "settlingNs": 99.25,
+          "alternatingExcursions": 9,
+          "observationEndNs": 599.75
+        },
+        "runtime": {
+          "baseline": {
+            "startNs": 100,
+            "endNs": 180,
+            "meanV": -0.1818647504708792,
+            "spanV": 1.6653345369377348e-16,
+            "samples": 321
+          },
+          "target": {
+            "startNs": 540,
+            "endNs": 590,
+            "meanV": -0.023450665103884803,
+            "spanV": 6.234418292727639e-8,
+            "samples": 201
+          },
+          "deltaV": 0.1584140853669944,
+          "bandV": 0.003168281707339888,
+          "established": true,
+          "reason": null,
+          "overshootPercent": 172.99131530030076,
+          "settlingNs": 99.25,
+          "alternatingExcursions": 9,
+          "observationEndNs": 599.75
+        }
+      },
+      "frequency": [
+        {
+          "hz": 1000000,
+          "runtime": {
+            "re": 0.9922246912506947,
+            "im": 0.028973072290983212,
+            "magnitude": 0.9926476096004639,
+            "phaseDegrees": 1.6725679274266845
+          },
+          "reference": {
+            "re": 0.9922246914174998,
+            "im": 0.02897307228329575,
+            "magnitude": 0.9926476097669735,
+            "phaseDegrees": 1.6725679267021325
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": 7.24526216799859e-10,
+          "magnitudeDifference": -1.6650958389874404e-10,
+          "complexDifference": 1.669821753488431e-10
+        },
+        {
+          "hz": 2000000,
+          "runtime": {
+            "re": 0.9986459475267163,
+            "im": 0.0578389594146922,
+            "magnitude": 1.0003194858332547,
+            "phaseDegrees": 3.314718569419203
+          },
+          "reference": {
+            "re": 0.9986459475019355,
+            "im": 0.05783895943019453,
+            "magnitude": 1.0003194858094118,
+            "phaseDegrees": 3.314718570387721
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": -9.68498170550447e-10,
+          "magnitudeDifference": 2.3842927632244937e-11,
+          "complexDifference": 2.923033395533226e-11
+        },
+        {
+          "hz": 3000000,
+          "runtime": {
+            "re": 1.0093859579385371,
+            "im": 0.08648826863462729,
+            "magnitude": 1.0130845140929328,
+            "phaseDegrees": 4.897372240253082
+          },
+          "reference": {
+            "re": 1.0093859581032496,
+            "im": 0.08648826861182232,
+            "magnitude": 1.0130845142550968,
+            "phaseDegrees": 4.897372238172767
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": 2.0803554434678517e-9,
+          "magnitudeDifference": -1.6216405995805871e-10,
+          "complexDifference": 1.6628368201591386e-10
+        },
+        {
+          "hz": 4000000,
+          "runtime": {
+            "re": 1.0245019993433373,
+            "im": 0.11480713184020144,
+            "magnitude": 1.0309146541687477,
+            "phaseDegrees": 6.393969862121385
+          },
+          "reference": {
+            "re": 1.024501999321696,
+            "im": 0.11480713187101624,
+            "magnitude": 1.0309146541506728,
+            "phaseDegrees": 6.393969863957291
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": -1.8359287423663773e-9,
+          "magnitudeDifference": 1.80748749301074e-11,
+          "complexDifference": 3.76550111299066e-11
+        },
+        {
+          "hz": 5000000,
+          "runtime": {
+            "re": 1.0440750631185072,
+            "im": 0.1426748168666623,
+            "magnitude": 1.0537783641704979,
+            "phaseDegrees": 7.781378861171026
+          },
+          "reference": {
+            "re": 1.0440750632790308,
+            "im": 0.1426748168289695,
+            "magnitude": 1.05377836432444,
+            "phaseDegrees": 7.781378857958766
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": 3.212221599824261e-9,
+          "magnitudeDifference": -1.5394219232689466e-10,
+          "complexDifference": 1.6488957858511392e-10
+        }
+      ]
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0,
+      "levels": {
+        "reference": {
+          "established": true,
+          "reason": null,
+          "rows": [
+            {
+              "input": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": 0,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": -0.1865714052841871,
+                "spanV": 5.899725152858082e-13,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": 0.04999999999999987,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": -0.23607253730993338,
+                "spanV": 0.00007109938111929393,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": 0.09999999999999974,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": -0.28557043919214997,
+                "spanV": 0.00007110254479225642,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": 0.1499999999999997,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": -0.33506834124242946,
+                "spanV": 0.00007110255612358118,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.19999999999999948,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": -0.3845662432941611,
+                "spanV": 0.0000711025619280492,
+                "samples": 161
+              }
+            }
+          ],
+          "gain": -0.9899709599048906,
+          "offsetV": -0.18657269727408343,
+          "maxResidualV": 0.0000012920406055605405
+        },
+        "runtime": {
+          "established": true,
+          "reason": null,
+          "rows": [
+            {
+              "input": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": 0,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": -0.18657140528422908,
+                "spanV": 1.1102230246251565e-16,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": 0.04999999999999987,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": -0.23607253906308046,
+                "spanV": 0.00007112200812137148,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": 0.09999999999999974,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": -0.2855700949188128,
+                "spanV": 0.00007112200812131597,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": 0.1499999999999997,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": -0.33506765077454553,
+                "spanV": 0.00007112200812131597,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.19999999999999948,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": -0.38456520663027816,
+                "spanV": 0.00007112200812137148,
+                "samples": 161
+              }
+            }
+          ],
+          "gain": -0.9899654288071288,
+          "offsetV": -0.1865728364534766,
+          "maxResidualV": 0.0000014311692475288407
+        }
+      },
+      "pulse": {
+        "reference": {
+          "baseline": {
+            "startNs": 100,
+            "endNs": 180,
+            "meanV": -0.186571405284198,
+            "spanV": 5.899725152858082e-13,
+            "samples": 321
+          },
+          "target": {
+            "startNs": 540,
+            "endNs": 590,
+            "meanV": -0.34496469236955996,
+            "spanV": 2.8046582611906956e-8,
+            "samples": 201
+          },
+          "deltaV": -0.15839328708536196,
+          "bandV": 0.003167865741707239,
+          "established": true,
+          "reason": null,
+          "overshootPercent": 51.54498536770286,
+          "settlingNs": 71.75,
+          "alternatingExcursions": 6,
+          "observationEndNs": 599.75
+        },
+        "runtime": {
+          "baseline": {
+            "startNs": 100,
+            "endNs": 180,
+            "meanV": -0.1865714052842279,
+            "spanV": 1.1102230246251565e-16,
+            "samples": 321
+          },
+          "target": {
+            "startNs": 540,
+            "endNs": 590,
+            "meanV": -0.34496358402257304,
+            "spanV": 1.6653345369377348e-16,
+            "samples": 201
+          },
+          "deltaV": -0.15839217873834516,
+          "bandV": 0.0031678435747669034,
+          "established": true,
+          "reason": null,
+          "overshootPercent": 51.56827528983812,
+          "settlingNs": 71.75,
+          "alternatingExcursions": 6,
+          "observationEndNs": 599.75
+        }
+      },
+      "frequency": [
+        {
+          "hz": 1000000,
+          "runtime": {
+            "re": -0.9899349789536143,
+            "im": 0.03427686557614692,
+            "magnitude": 0.9905282257813848,
+            "phaseDegrees": 178.01690466562272
+          },
+          "reference": {
+            "re": -0.989934718977525,
+            "im": 0.03428378806191306,
+            "magnitude": 0.9905282055353022,
+            "phaseDegrees": 178.01650396312746
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": 0.0004007024951988569,
+          "magnitudeDifference": 2.0246082588215586e-8,
+          "complexDifference": 0.0000069273657871806895
+        },
+        {
+          "hz": 2000000,
+          "runtime": {
+            "re": -0.9898694677842702,
+            "im": 0.06867345188191097,
+            "magnitude": 0.9922487622793447,
+            "phaseDegrees": 176.03139141437518
+          },
+          "reference": {
+            "re": -0.9898625496020151,
+            "im": 0.06867293135840351,
+            "magnitude": 0.992241824660681,
+            "phaseDegrees": 176.03139375118178
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": -0.000002336806574021466,
+          "magnitudeDifference": 0.000006937618663660494,
+          "complexDifference": 0.000006937736694062636
+        },
+        {
+          "hz": 3000000,
+          "runtime": {
+            "re": -0.9897340872205291,
+            "im": 0.10328055322919684,
+            "magnitude": 0.99510825344863,
+            "phaseDegrees": 174.04264252089857
+          },
+          "reference": {
+            "re": -0.9897348694385978,
+            "im": 0.10327364227296201,
+            "magnitude": 0.9951083141904512,
+            "phaseDegrees": 174.04304296145136
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": -0.0004004405527666677,
+          "magnitudeDifference": -6.074182123949612e-8,
+          "complexDifference": 0.0000069550831185981404
+        },
+        {
+          "hz": 4000000,
+          "runtime": {
+            "re": -0.9895334907349557,
+            "im": 0.13819281393562932,
+            "magnitude": 0.9991365187548467,
+            "phaseDegrees": 172.04980516662354
+          },
+          "reference": {
+            "re": -0.9895403914610912,
+            "im": 0.13819385958037855,
+            "magnitude": 0.9991434977813202,
+            "phaseDegrees": 172.04980051367025
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": 0.000004652953293771134,
+          "magnitudeDifference": -0.000006979026473508121,
+          "complexDifference": 0.000006979498129450408
+        },
+        {
+          "hz": 5000000,
+          "runtime": {
+            "re": -0.9892642378753378,
+            "im": 0.1735372546735752,
+            "magnitude": 1.0043699075035621,
+            "phaseDegrees": 170.05037766621297
+          },
+          "reference": {
+            "re": -0.9892629264728722,
+            "im": 0.1735441420488631,
+            "magnitude": 1.004369805864925,
+            "phaseDegrees": 170.0499777487853
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": 0.0003999174276714257,
+          "magnitudeDifference": 1.0163863706225129e-7,
+          "complexDifference": 0.000007011113662118345
+        }
+      ]
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0.5,
+      "levels": {
+        "reference": {
+          "established": true,
+          "reason": null,
+          "rows": [
+            {
+              "input": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": 0,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": -0.18724290177441466,
+                "spanV": 1.429412144204889e-13,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": 0.04999999999999987,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": -0.18723833147229874,
+                "spanV": 0.000043953058803697376,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": 0.09999999999999974,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": -0.18723663025746246,
+                "spanV": 0.00004395319683750398,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": 0.1499999999999997,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": -0.18723492913930034,
+                "spanV": 0.00004395319432670686,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.19999999999999948,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": -0.18723322802115294,
+                "spanV": 0.000043953191800394364,
+                "samples": 161
+              }
+            }
+          ],
+          "gain": 0.00004549967904365914,
+          "offsetV": -0.1872417541008302,
+          "maxResidualV": 0.0000011476735844728747
+        },
+        "runtime": {
+          "established": true,
+          "reason": null,
+          "rows": [
+            {
+              "input": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": 0,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": -0.18724290177461375,
+                "spanV": 0,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": 0.04999999999999987,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": -0.18723833049964636,
+                "spanV": 0.00004397111255330377,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": 0.09999999999999974,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": -0.18723670250950383,
+                "spanV": 0.00004397111255330377,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": 0.1499999999999997,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": -0.18723507451936153,
+                "spanV": 0.000043971112553276015,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.19999999999999948,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": -0.1872334465292191,
+                "spanV": 0.00004397111255330377,
+                "samples": 161
+              }
+            }
+          ],
+          "gain": 0.00004433294214822869,
+          "offsetV": -0.18724172446068374,
+          "maxResidualV": 0.0000011773139300119695
+        }
+      },
+      "pulse": {
+        "reference": {
+          "baseline": {
+            "startNs": 100,
+            "endNs": 180,
+            "meanV": -0.18724290177441716,
+            "spanV": 1.429412144204889e-13,
+            "samples": 321
+          },
+          "target": {
+            "startNs": 540,
+            "endNs": 590,
+            "meanV": -0.18723745869208852,
+            "spanV": 1.4678024268244272e-8,
+            "samples": 201
+          },
+          "deltaV": 0.000005443082328637772,
+          "bandV": 0.0001,
+          "established": false,
+          "reason": "Response below 1 mV; normalized edge measurements are not established.",
+          "overshootPercent": null,
+          "settlingNs": null,
+          "alternatingExcursions": null,
+          "observationEndNs": 599.75
+        },
+        "runtime": {
+          "baseline": {
+            "startNs": 100,
+            "endNs": 180,
+            "meanV": -0.1872429017746153,
+            "spanV": 2.7755575615628914e-17,
+            "samples": 321
+          },
+          "target": {
+            "startNs": 540,
+            "endNs": 590,
+            "meanV": -0.1872376922061582,
+            "spanV": 2.7755575615628914e-17,
+            "samples": 201
+          },
+          "deltaV": 0.000005209568457092972,
+          "bandV": 0.0001,
+          "established": false,
+          "reason": "Response below 1 mV; normalized edge measurements are not established.",
+          "overshootPercent": null,
+          "settlingNs": null,
+          "alternatingExcursions": null,
+          "observationEndNs": 599.75
+        }
+      },
+      "frequency": [
+        {
+          "hz": 1000000,
+          "runtime": {
+            "re": 0.0008269059016994723,
+            "im": 0.01605585479526905,
+            "magnitude": 0.016077134277508214,
+            "phaseDegrees": 87.05176734001725
+          },
+          "reference": {
+            "re": 0.000826940428864125,
+            "im": 0.01605438853980323,
+            "magnitude": 0.016075671738992908,
+            "phaseDegrees": 87.05137565515506
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": 0.00039168486216567544,
+          "magnitudeDifference": 0.00000146253851530595,
+          "complexDifference": 0.0000014666619297397714
+        },
+        {
+          "hz": 2000000,
+          "runtime": {
+            "re": 0.003208299544056057,
+            "im": 0.032035202367821446,
+            "magnitude": 0.032195455839476216,
+            "phaseDegrees": 84.28094370697274
+          },
+          "reference": {
+            "re": 0.003206822201431303,
+            "im": 0.03203513371574364,
+            "magnitude": 0.03219524034414354,
+            "phaseDegrees": 84.28354757631686
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": -0.002603869344170562,
+          "magnitudeDifference": 2.1549533267550824e-7,
+          "complexDifference": 0.0000014789368947669953
+        },
+        {
+          "hz": 3000000,
+          "runtime": {
+            "re": 0.007177171575129945,
+            "im": 0.047866590484376845,
+            "magnitude": 0.048401676380244195,
+            "phaseDegrees": 81.4725321347925
+          },
+          "reference": {
+            "re": 0.007177069605889426,
+            "im": 0.047868086330802716,
+            "magnitude": 0.04840314057063822,
+            "phaseDegrees": 81.47291406374401
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": -0.00038192895146949013,
+          "magnitudeDifference": -0.0000014641903940265655,
+          "complexDifference": 0.0000014993179301946567
+        },
+        {
+          "hz": 4000000,
+          "runtime": {
+            "re": 0.012741894469533634,
+            "im": 0.0634779354171756,
+            "magnitude": 0.06474414382397722,
+            "phaseDegrees": 78.64988328464537
+          },
+          "reference": {
+            "re": 0.012743416273517567,
+            "im": 0.06347806948261528,
+            "magnitude": 0.06474457478090258,
+            "phaseDegrees": 78.64858624967283
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": 0.0012970349725947017,
+          "magnitudeDifference": -4.30956925354109e-7,
+          "complexDifference": 0.0000015276979111162988
+        },
+        {
+          "hz": 5000000,
+          "runtime": {
+            "re": 0.019913858053875483,
+            "im": 0.07878987937937502,
+            "magnitude": 0.0812675017162849,
+            "phaseDegrees": 75.81575189259799
+          },
+          "reference": {
+            "re": 0.019914022568987208,
+            "im": 0.07878832411171131,
+            "magnitude": 0.08126603417917108,
+            "phaseDegrees": 75.81537074559229
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": 0.0003811470056689359,
+          "magnitudeDifference": 0.0000014675371138167526,
+          "complexDifference": 0.0000015639446050837727
+        }
+      ]
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 1,
+      "levels": {
+        "reference": {
+          "established": false,
+          "reason": "At least one plateau varies by more than 0.1 mV in its measurement window.",
+          "rows": [
+            {
+              "input": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": 0,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": -0.18185005304197585,
+                "spanV": 1.5687451337953462e-13,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": 0.04999999999999987,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": -0.13233447857510883,
+                "spanV": 0.00020888515381639605,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": 0.09999999999999974,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": -0.08283007525896792,
+                "spanV": 0.00020888598908599953,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": 0.1499999999999997,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": -0.03332567261983071,
+                "spanV": 0.00020888605881131533,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.19999999999999948,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.016178730017910724,
+                "spanV": 0.00020888613364115904,
+                "samples": 161
+              }
+            }
+          ],
+          "gain": null,
+          "offsetV": null,
+          "maxResidualV": null
+        },
+        "runtime": {
+          "established": false,
+          "reason": "At least one plateau varies by more than 0.1 mV in its measurement window.",
+          "rows": [
+            {
+              "input": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": 0,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 140,
+                "endNs": 180,
+                "meanV": -0.18185005304209506,
+                "spanV": 1.1102230246251565e-16,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": 0.04999999999999987,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 340,
+                "endNs": 380,
+                "meanV": -0.1323344754005998,
+                "spanV": 0.0002089710624578467,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": 0.09999999999999974,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 540,
+                "endNs": 580,
+                "meanV": -0.08283007207839109,
+                "spanV": 0.0002089718346085928,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": 0.1499999999999997,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 740,
+                "endNs": 780,
+                "meanV": -0.03332566942687539,
+                "spanV": 0.00020897183460857893,
+                "samples": 161
+              }
+            },
+            {
+              "input": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.19999999999999948,
+                "spanV": 0,
+                "samples": 161
+              },
+              "output": {
+                "startNs": 940,
+                "endNs": 980,
+                "meanV": 0.016178733224640324,
+                "spanV": 0.00020897183460863444,
+                "samples": 161
+              }
+            }
+          ],
+          "gain": null,
+          "offsetV": null,
+          "maxResidualV": null
+        }
+      },
+      "pulse": {
+        "reference": {
+          "baseline": {
+            "startNs": 100,
+            "endNs": 180,
+            "meanV": -0.1818500530419722,
+            "spanV": 1.9240165016753963e-13,
+            "samples": 321
+          },
+          "target": {
+            "startNs": 540,
+            "endNs": 590,
+            "meanV": -0.02343596766712554,
+            "spanV": 6.231859816380192e-8,
+            "samples": 201
+          },
+          "deltaV": 0.15841408537484664,
+          "bandV": 0.003168281707496933,
+          "established": true,
+          "reason": null,
+          "overshootPercent": 172.9262105064556,
+          "settlingNs": 99.25,
+          "alternatingExcursions": 9,
+          "observationEndNs": 599.75
+        },
+        "runtime": {
+          "baseline": {
+            "startNs": 100,
+            "endNs": 180,
+            "meanV": -0.1818500530420962,
+            "spanV": 1.942890293094024e-16,
+            "samples": 321
+          },
+          "target": {
+            "startNs": 540,
+            "endNs": 590,
+            "meanV": -0.023435967679711987,
+            "spanV": 6.234437649466074e-8,
+            "samples": 201
+          },
+          "deltaV": 0.15841408536238422,
+          "bandV": 0.0031682817072476843,
+          "established": true,
+          "reason": null,
+          "overshootPercent": 172.99131561059195,
+          "settlingNs": 99.25,
+          "alternatingExcursions": 9,
+          "observationEndNs": 599.75
+        }
+      },
+      "frequency": [
+        {
+          "hz": 1000000,
+          "runtime": {
+            "re": 0.9922246913804592,
+            "im": 0.028973065150755182,
+            "magnitude": 0.9926476095217666,
+            "phaseDegrees": 1.6725675152485495
+          },
+          "reference": {
+            "re": 0.9922246915472669,
+            "im": 0.028973065143117618,
+            "magnitude": 0.9926476096882803,
+            "phaseDegrees": 1.672567514526872
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": 7.216840458568186e-10,
+          "magnitudeDifference": -1.6651369172393515e-10,
+          "complexDifference": 1.6698243646278234e-10
+        },
+        {
+          "hz": 2000000,
+          "runtime": {
+            "re": 0.9986459481288986,
+            "im": 0.05783894503863289,
+            "magnitude": 1.000319485603199,
+            "phaseDegrees": 3.3147177453780285
+          },
+          "reference": {
+            "re": 0.9986459481041114,
+            "im": 0.057838945054141125,
+            "magnitude": 1.0003194855793502,
+            "phaseDegrees": 3.314717746346905
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": -9.688392310636118e-10,
+          "magnitudeDifference": 2.3848700791972988e-11,
+          "complexDifference": 2.923883069348554e-11
+        },
+        {
+          "hz": 3000000,
+          "runtime": {
+            "re": 1.0093859593179049,
+            "im": 0.086488246830959,
+            "magnitude": 1.013084513605859,
+            "phaseDegrees": 4.8973710049716885
+          },
+          "reference": {
+            "re": 1.009385959482622,
+            "im": 0.0864882468081465,
+            "magnitude": 1.0130845137680273,
+            "phaseDegrees": 4.897371002890926
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": 2.080810190818738e-9,
+          "magnitudeDifference": -1.621682788055523e-10,
+          "complexDifference": 1.6628933450729743e-10
+        },
+        {
+          "hz": 4000000,
+          "runtime": {
+            "re": 1.0245020017891722,
+            "im": 0.11480710231983832,
+            "magnitude": 1.0309146533118534,
+            "phaseDegrees": 6.393968216517351
+          },
+          "reference": {
+            "re": 1.0245020017675348,
+            "im": 0.11480710235065505,
+            "magnitude": 1.0309146532937825,
+            "phaseDegrees": 6.393968218353339
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": -1.8360424292040989e-9,
+          "magnitudeDifference": 1.8070878127218748e-11,
+          "complexDifference": 3.7654304269393904e-11
+        },
+        {
+          "hz": 5000000,
+          "runtime": {
+            "re": 1.044075066897793,
+            "im": 0.1426747792415264,
+            "magnitude": 1.0537783628207826,
+            "phaseDegrees": 7.781376806442229
+          },
+          "reference": {
+            "re": 1.0440750670583157,
+            "im": 0.14267477920384017,
+            "magnitude": 1.0537783629747248,
+            "phaseDegrees": 7.781376803230328
+          },
+          "phaseEstablished": true,
+          "phaseDifferenceDegrees": 3.211880539311096e-9,
+          "magnitudeDifference": -1.5394219232689466e-10,
+          "complexDifference": 1.6488721033092042e-10
+        }
+      ]
+    }
+  ]
+}

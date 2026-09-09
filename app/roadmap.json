@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-09T11:00:23.462685+00:00",
+  "updatedAt": "2026-09-09T11:16:51.431752+00:00",
   "destination": "A playable analog video instrument whose behavior can be traced to documented circuitry and repeated through a measurement bench.",
-  "current": "Diagnostic source and comparison bench delivered",
-  "next": "Use the six-source bench to inspect level, transition and frequency response at the six fixed settings. Broader operating ranges and physical calibration remain future gates.",
-  "decision": "The diagnostic acquisition passes all 36 named comparisons without changing the runtime model. Any broader control or input range requires its own defined reference and acceptance limits.",
+  "current": "Channel behavior characterized within the fixed scope",
+  "next": "Inspect the modeled overshoot and withheld plateau estimates before choosing a broader scope. Hardware fidelity and full-module qualification remain open.",
+  "decision": "Runtime agreement reproduces strong reference-model ringing. Characterization now distinguishes usable measurements from insufficient acquisitions; this does not justify silently expanding or retuning the model.",
   "phases": [
     {
       "title": "Preserve the research and choose a tractable circuit",
@@ -15,7 +15,7 @@
     {
       "title": "Build a repeatable bench",
       "state": "Working foundation",
-      "result": "Repeatable diagnostic acquisition now provides deterministic sources, reference overlay, all-sample residual metrics, sample inspection and CSV export, alongside retained simulation evidence.",
+      "result": "Deterministic diagnostics plus explicit gain/offset, pulse and five-point small-signal frequency measurements. Sample-level evidence, methods and unestablished results remain visible.",
       "gate": "Timing fault detection and a general calibration acceptance policy are still open; a working runner is not the whole bench contract.",
       "href": "/evidence/verification.json"
     },
@@ -36,9 +36,9 @@
     {
       "title": "Turn the validated model into a playable module",
       "state": "Bounded prototype working",
-      "result": "Playable partial signal path plus six intentional diagnostic sources. All 36 diagnostic cases pass predeclared error limits; runtime output is recomputed for each selection.",
+      "result": "Playable partial channel, diagnostic comparisons and recorded characterization at six settings. Positive-gain staircase windows do not support the declared plateau fit; large modeled pulse overshoot is exposed.",
       "gate": "Browser performance qualification, broader controls and inputs, saved patches and media IO remain open. This partial prototype does not clear full-module qualification.",
-      "href": "/evidence/diagnostics/report.md"
+      "href": "/evidence/characterization/report.md"
     },
     {
       "title": "Expand the selected instrument",

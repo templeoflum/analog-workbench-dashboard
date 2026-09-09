@@ -57,3 +57,9 @@
 .response-chart{width:100%;height:auto;display:block}.curve-tabs{height:auto!important;flex-wrap:wrap;width:100%!important;justify-content:flex-start!important;margin:15px 0}.curve-tabs [role=tab]{padding:8px 12px!important;font-size:14px}.navtabs{flex-wrap:wrap;height:auto!important}.navtabs [role=tab]{white-space:normal}@media(max-width:650px){.response-chart{min-width:600px}.view:has(.response-chart){overflow-x:auto}}
 
 .roadmap-strip{display:flex;align-items:center;justify-content:space-between;gap:1.25rem;padding:1.25rem 0;border-top:1px solid #35424c}.roadmap-strip>div{display:grid;gap:.4rem}.roadmap-strip strong{font-size:1rem}.roadmap-link{background:#202a32;border:1px solid #677681;color:#f3b84b;padding:.75rem 1rem;border-radius:.4rem;cursor:pointer;font:inherit}.roadmap-link:focus-visible{outline:2px solid #f3b84b;outline-offset:3px}.roadmap-focus{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.5rem;margin:1.5rem 0}.roadmap-focus>div{border-top:1px solid #35424c;padding-top:1rem}.roadmap-focus h3{font-size:1.1rem}.roadmap-focus p{font-size:1rem;line-height:1.6}.overall-stages{margin:1.5rem 0}@media(max-width:800px){.roadmap-focus{grid-template-columns:1fr}.roadmap-strip{align-items:flex-start;flex-direction:column}.overall-stages summary{flex-wrap:wrap}.overall-stages summary h3{min-width:50%}}
+
+.measurement-scroll{overflow-x:auto; margin:1rem 0;}
+.measurement-table{width:100%;border-collapse:collapse;font-size:1rem;font-variant-numeric:tabular-nums;}
+.measurement-table th,.measurement-table td{padding:.7rem .8rem;border-bottom:1px solid #35424c;text-align:right;}
+.measurement-table th:first-child{text-align:left;}
+.measurement-table thead th{color:#b6c2cc;font-weight:500;font-size:.875rem;}
