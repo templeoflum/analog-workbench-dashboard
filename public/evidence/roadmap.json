@@ -1,0 +1,55 @@
+{
+  "updatedAt": "2026-09-09T01:47:26.850868+00:00",
+  "destination": "A playable analog video instrument whose behavior can be traced to documented circuitry and repeated through a measurement bench.",
+  "current": "Qualify the Cadet VII coupled model",
+  "next": "Run controlled component-substitution diagnostics to locate the tighter-tolerance failure.",
+  "decision": "Use the findings to choose a justified solver/model approach. If the source model cannot support the needed behavior, narrow the claim or change the reference\u2014not the pass criteria after the fact.",
+  "phases": [
+    {
+      "title": "Preserve the research and choose a tractable circuit",
+      "state": "Established for Cadet",
+      "result": "Original Phosphlux material retained. Cadet VII v1.1 is the current bounded target; the Paik\u2013Abe channel remains parked.",
+      "gate": "Revisit source selection when expanding beyond Cadet; missing wiring cannot be filled by guesswork.",
+      "href": "/evidence/README.md"
+    },
+    {
+      "title": "Build a repeatable bench",
+      "state": "Working foundation",
+      "result": "Ideal DC comparisons, simulation fixtures, provenance, failure records and downloadable evidence are working.",
+      "gate": "Timing fault detection and a general calibration acceptance policy are still open; a working runner is not the whole bench contract.",
+      "href": "/evidence/verification.json"
+    },
+    {
+      "title": "Qualify the component and coupled models",
+      "state": "Current stage",
+      "result": "Partial and coupled transients run. The expanded tolerance study completes 9 of 18 runs; both tighter settings fail in all six configurations.",
+      "gate": "Locate the sensitivity, justify usable numerical limits and qualify the model under the intended rails and loads.",
+      "href": "/evidence/tolerance/report.md"
+    },
+    {
+      "title": "Validate one complete Cadet module",
+      "state": "Not yet",
+      "result": "The ideal browser example is usable, but it does not run the coupled dynamic model. Physical-board measurements: zero.",
+      "gate": "Cover the controls and operating range, account for the modeled power/output path, and compare with named references and physical measurements.",
+      "href": "/evidence/reference/report.md"
+    },
+    {
+      "title": "Turn the validated model into a playable module",
+      "state": "Later",
+      "result": "Connect the qualified dynamic behavior to interactive controls, saved patches and media input/output.",
+      "gate": "Demonstrate repeatable patches and measured performance; optimization must stay inside established error limits."
+    },
+    {
+      "title": "Expand the selected instrument",
+      "state": "Later / scope open",
+      "result": "Add documented channels and processing only after the first module has a credible reference. Cadet progress does not settle the Paik\u2013Abe design.",
+      "gate": "Select each new circuit boundary, then verify mixing, isolation and interactions before adding it to the instrument."
+    },
+    {
+      "title": "Add evidenced display and feedback behavior",
+      "state": "Later / scope open",
+      "result": "CRT, phosphor, deflection and feedback remain part of the wider aspiration, with no implementation claim here.",
+      "gate": "Choose the hardware scope and validate the electrical and optical paths separately. No decorative effect counts as analog emulation."
+    }
+  ]
+}
