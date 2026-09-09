@@ -12,7 +12,7 @@
     "hardware_tests_run": 0,
     "model_scope": "Ideal linear DC, ideal 2.5V reference and op amps; no rail limiting."
   },
-  "updatedAt": "2026-09-09T02:23:35.205870+00:00",
+  "updatedAt": "2026-09-09T02:33:03.224613+00:00",
   "activity": [
     {
       "state": "In progress",
@@ -53,6 +53,10 @@
     {
       "state": "Working component candidate / full gate open",
       "text": "42 load/timestep runs:24/24 ngspice/KLU and12/18 Xyce complete. ngspice successive differences decrease6/6;36 comparisons independently reproduced. Last-halving maximum1.179\u00b5V, tolerance-only0.099\u00b5V. Scoped component reference selected for next signal-path work."
+    },
+    {
+      "state": "Partial signal path working / coupled gate open",
+      "text": "48/48 signal-path runs complete; refinement decreases12/12;36 comparisons independently reproduced. Ideal offset/rails remain. Restored reference:one operating-point and five very early transient failures."
     }
   ]
 }
