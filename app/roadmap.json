@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-09T03:48:39.609689+00:00",
+  "updatedAt": "2026-09-09T04:04:31.308826+00:00",
   "destination": "A playable analog video instrument whose behavior can be traced to documented circuitry and repeated through a measurement bench.",
   "current": "Qualify the Cadet VII coupled model",
-  "next": "Investigate the two-diode reproduction at the charge-storage implementation level, retaining both original charge terms. Voltage-reference shifts and charge ablations change the outcome but do not qualify a fix.",
+  "next": "Capture linear-solve residuals and diode convergence decisions in the untouched local ngspice baseline at the failing step. The separately tested and combined arithmetic rewrites did not recover the two-diode failure.",
   "decision": "Use the findings to choose a justified solver/model approach. If the source model cannot support the needed behavior, narrow the claim or change the reference\u2014not the pass criteria after the fact.",
   "phases": [
     {
@@ -22,9 +22,9 @@
     {
       "title": "Qualify the component and coupled models",
       "state": "Current stage",
-      "result": "Failure reduced to a self-contained two-diode clamp and replayed twice. Coordinate-equivalent controls expose reference sensitivity; refinement and tighter tolerances still reject the workaround. Linear benchmark and partial signal path retained.",
+      "result": "Untouched local source build reproduces the small failure. Two source-arithmetic candidates, separately and combined, do not fix it; no patch adopted. Original models, analytical benchmark and working partial signal path retained.",
       "gate": "Locate the sensitivity, justify usable numerical limits and qualify the model under the intended rails and loads.",
-      "href": "/evidence/clamp-feedback/report.md"
+      "href": "/evidence/charge-integration/report.md"
     },
     {
       "title": "Validate one complete Cadet module",

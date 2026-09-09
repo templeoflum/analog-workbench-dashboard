@@ -1,0 +1,28 @@
+{
+  "rows": [
+    {
+      "name": "Original release",
+      "complete": 4,
+      "endpointPs": 2.22022643632954,
+      "pulse": "Complete"
+    },
+    {
+      "name": "Charge differences",
+      "complete": 4,
+      "endpointPs": 2.2202263437211514,
+      "pulse": "Complete"
+    },
+    {
+      "name": "Stable depletion expression",
+      "complete": 3,
+      "endpointPs": 2.220280878918887,
+      "pulse": "Failed"
+    },
+    {
+      "name": "Both candidates",
+      "complete": 3,
+      "endpointPs": 2.220280878918887,
+      "pulse": "Failed"
+    }
+  ]
+}

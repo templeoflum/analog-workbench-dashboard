@@ -1,0 +1,675 @@
+{
+  "baseline": [
+    {
+      "tag": "baseline",
+      "source": "clamp-klu-2.5-constant",
+      "folder": "baseline-clamp-klu-2.5-constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_s": 5.000000000000001e-07
+    },
+    {
+      "tag": "baseline",
+      "source": "clamp-klu-0.003125-constant",
+      "folder": "baseline-clamp-klu-0.003125-constant",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 26,
+      "last_time_s": 2.22022643632954e-12
+    },
+    {
+      "tag": "baseline",
+      "source": "clamp-klu-0.003125-pulse",
+      "folder": "baseline-clamp-klu-0.003125-pulse",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 26,
+      "last_time_s": 2.22022643632954e-12
+    },
+    {
+      "tag": "baseline",
+      "source": "clamp-sparse-2.5-constant",
+      "folder": "baseline-clamp-sparse-2.5-constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_s": 5.000000000000001e-07
+    },
+    {
+      "tag": "baseline",
+      "source": "clamp-sparse-0.003125-constant",
+      "folder": "baseline-clamp-sparse-0.003125-constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 557808,
+      "last_time_s": 5.000000000000001e-07
+    },
+    {
+      "tag": "baseline",
+      "source": "clamp-sparse-0.003125-pulse",
+      "folder": "baseline-clamp-sparse-0.003125-pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 228619,
+      "last_time_s": 5.000000000000001e-07
+    }
+  ],
+  "anchored": [
+    {
+      "tag": "anchored",
+      "source": "clamp-klu-2.5-constant",
+      "folder": "anchored-clamp-klu-2.5-constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_s": 5.000000000000001e-07
+    },
+    {
+      "tag": "anchored",
+      "source": "clamp-klu-0.003125-constant",
+      "folder": "anchored-clamp-klu-0.003125-constant",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 19,
+      "last_time_s": 2.2202263437211515e-12
+    },
+    {
+      "tag": "anchored",
+      "source": "clamp-klu-0.003125-pulse",
+      "folder": "anchored-clamp-klu-0.003125-pulse",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 19,
+      "last_time_s": 2.2202263437211515e-12
+    },
+    {
+      "tag": "anchored",
+      "source": "clamp-sparse-2.5-constant",
+      "folder": "anchored-clamp-sparse-2.5-constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_s": 5.000000000000001e-07
+    },
+    {
+      "tag": "anchored",
+      "source": "clamp-sparse-0.003125-constant",
+      "folder": "anchored-clamp-sparse-0.003125-constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 346250,
+      "last_time_s": 5.000000000000001e-07
+    },
+    {
+      "tag": "anchored",
+      "source": "clamp-sparse-0.003125-pulse",
+      "folder": "anchored-clamp-sparse-0.003125-pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 231353,
+      "last_time_s": 5.000000000000001e-07
+    }
+  ],
+  "depletion": [
+    {
+      "tag": "depletion",
+      "source": "clamp-klu-2.5-constant",
+      "folder": "depletion-clamp-klu-2.5-constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_s": 5.000000000000001e-07
+    },
+    {
+      "tag": "depletion",
+      "source": "clamp-klu-0.003125-constant",
+      "folder": "depletion-clamp-klu-0.003125-constant",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 47,
+      "last_time_s": 2.220280878918887e-12
+    },
+    {
+      "tag": "depletion",
+      "source": "clamp-klu-0.003125-pulse",
+      "folder": "depletion-clamp-klu-0.003125-pulse",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 47,
+      "last_time_s": 2.220280878918887e-12
+    },
+    {
+      "tag": "depletion",
+      "source": "clamp-sparse-2.5-constant",
+      "folder": "depletion-clamp-sparse-2.5-constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_s": 5.000000000000001e-07
+    },
+    {
+      "tag": "depletion",
+      "source": "clamp-sparse-0.003125-constant",
+      "folder": "depletion-clamp-sparse-0.003125-constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 291749,
+      "last_time_s": 5.000000000000001e-07
+    },
+    {
+      "tag": "depletion",
+      "source": "clamp-sparse-0.003125-pulse",
+      "folder": "depletion-clamp-sparse-0.003125-pulse",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": false
+      },
+      "rows": 228751,
+      "last_time_s": 4.843706249253509e-07
+    }
+  ],
+  "combined": [
+    {
+      "tag": "combined",
+      "source": "clamp-klu-2.5-constant",
+      "folder": "combined-clamp-klu-2.5-constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_s": 5.000000000000001e-07
+    },
+    {
+      "tag": "combined",
+      "source": "clamp-klu-0.003125-constant",
+      "folder": "combined-clamp-klu-0.003125-constant",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 47,
+      "last_time_s": 2.220280878918887e-12
+    },
+    {
+      "tag": "combined",
+      "source": "clamp-klu-0.003125-pulse",
+      "folder": "combined-clamp-klu-0.003125-pulse",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 47,
+      "last_time_s": 2.220280878918887e-12
+    },
+    {
+      "tag": "combined",
+      "source": "clamp-sparse-2.5-constant",
+      "folder": "combined-clamp-sparse-2.5-constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_s": 5.000000000000001e-07
+    },
+    {
+      "tag": "combined",
+      "source": "clamp-sparse-0.003125-constant",
+      "folder": "combined-clamp-sparse-0.003125-constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 291749,
+      "last_time_s": 5.000000000000001e-07
+    },
+    {
+      "tag": "combined",
+      "source": "clamp-sparse-0.003125-pulse",
+      "folder": "combined-clamp-sparse-0.003125-pulse",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": false
+      },
+      "rows": 228751,
+      "last_time_s": 4.843706249253509e-07
+    }
+  ],
+  "build": {
+    "baseline_executable": "/tmp/ngspice47-release-baseline",
+    "sha256": "e6f92cb03d5c0b92cffe602c5ca281485712e789abb47afc568957151cb021f2",
+    "configure": [
+      "--without-x",
+      "--with-readline=no",
+      "--enable-xspice",
+      "--disable-cider",
+      "--disable-openmp"
+    ],
+    "initial_build_failure": "--disable-xspice failed on undeclared OPT_ENH_RSHUNT; original logs preserved; no source change needed after enabling standard XSPICE.",
+    "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)\nTarget: arm64-apple-darwin25.5.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+    "executables": {
+      "baseline": {
+        "path": "/tmp/ngspice47-release-baseline",
+        "sha256": "e6f92cb03d5c0b92cffe602c5ca281485712e789abb47afc568957151cb021f2"
+      },
+      "anchored": {
+        "path": "/tmp/ngspice47-charge-differences",
+        "sha256": "9addf3d99a425435d998e9e7d7df3e896e696b55b1a7da31b29770cca2202ae4"
+      },
+      "depletion": {
+        "path": "/tmp/ngspice47-stable-depletion",
+        "sha256": "9c5da5b3e0e7c1c9722ce8badc44045ac5b88d97ab93fb74fed96bb0b8a05fab"
+      },
+      "combined": {
+        "path": "/tmp/ngspice47-charge-combined",
+        "sha256": "9c5da5b3e0e7c1c9722ce8badc44045ac5b88d97ab93fb74fed96bb0b8a05fab"
+      }
+    }
+  },
+  "provenance": {
+    "url": "https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/47/ngspice-47.tar.gz",
+    "sha256": "894e649651f1838a14095e5a5439e7d3aa63e87ede14d283173fda4fcdef675f",
+    "verified_against": "installed Homebrew ngspice 47 formula",
+    "local_archive": "/tmp/ngspice-47-source.tar.gz"
+  },
+  "deck-checks": [
+    {
+      "tag": "baseline",
+      "source": "clamp-klu-2.5-constant",
+      "identical_circuit": true
+    },
+    {
+      "tag": "baseline",
+      "source": "clamp-klu-0.003125-constant",
+      "identical_circuit": true
+    },
+    {
+      "tag": "baseline",
+      "source": "clamp-klu-0.003125-pulse",
+      "identical_circuit": true
+    },
+    {
+      "tag": "baseline",
+      "source": "clamp-sparse-2.5-constant",
+      "identical_circuit": true
+    },
+    {
+      "tag": "baseline",
+      "source": "clamp-sparse-0.003125-constant",
+      "identical_circuit": true
+    },
+    {
+      "tag": "baseline",
+      "source": "clamp-sparse-0.003125-pulse",
+      "identical_circuit": true
+    },
+    {
+      "tag": "anchored",
+      "source": "clamp-klu-2.5-constant",
+      "identical_circuit": true
+    },
+    {
+      "tag": "anchored",
+      "source": "clamp-klu-0.003125-constant",
+      "identical_circuit": true
+    },
+    {
+      "tag": "anchored",
+      "source": "clamp-klu-0.003125-pulse",
+      "identical_circuit": true
+    },
+    {
+      "tag": "anchored",
+      "source": "clamp-sparse-2.5-constant",
+      "identical_circuit": true
+    },
+    {
+      "tag": "anchored",
+      "source": "clamp-sparse-0.003125-constant",
+      "identical_circuit": true
+    },
+    {
+      "tag": "anchored",
+      "source": "clamp-sparse-0.003125-pulse",
+      "identical_circuit": true
+    },
+    {
+      "tag": "depletion",
+      "source": "clamp-klu-2.5-constant",
+      "identical_circuit": true
+    },
+    {
+      "tag": "depletion",
+      "source": "clamp-klu-0.003125-constant",
+      "identical_circuit": true
+    },
+    {
+      "tag": "depletion",
+      "source": "clamp-klu-0.003125-pulse",
+      "identical_circuit": true
+    },
+    {
+      "tag": "depletion",
+      "source": "clamp-sparse-2.5-constant",
+      "identical_circuit": true
+    },
+    {
+      "tag": "depletion",
+      "source": "clamp-sparse-0.003125-constant",
+      "identical_circuit": true
+    },
+    {
+      "tag": "depletion",
+      "source": "clamp-sparse-0.003125-pulse",
+      "identical_circuit": true
+    },
+    {
+      "tag": "combined",
+      "source": "clamp-klu-2.5-constant",
+      "identical_circuit": true
+    },
+    {
+      "tag": "combined",
+      "source": "clamp-klu-0.003125-constant",
+      "identical_circuit": true
+    },
+    {
+      "tag": "combined",
+      "source": "clamp-klu-0.003125-pulse",
+      "identical_circuit": true
+    },
+    {
+      "tag": "combined",
+      "source": "clamp-sparse-2.5-constant",
+      "identical_circuit": true
+    },
+    {
+      "tag": "combined",
+      "source": "clamp-sparse-0.003125-constant",
+      "identical_circuit": true
+    },
+    {
+      "tag": "combined",
+      "source": "clamp-sparse-0.003125-pulse",
+      "identical_circuit": true
+    }
+  ],
+  "depletion-check": [
+    {
+      "voltage_V": -0.495,
+      "reference_charge_C": "-2.052132559326130187771217823865692520497214487322915016613180691146043E-11",
+      "legacy_C": -2.0521325593261305e-11,
+      "stable_C": -2.05213255932613e-11,
+      "legacy_error_C": "3.455106655631397817576641288E-27",
+      "stable_error_C": "3.007241879939130892356239119E-27"
+    },
+    {
+      "voltage_V": -0.1,
+      "reference_charge_C": "-4.414272774844658749728739967741433825392870187040453996414339056539699E-12",
+      "legacy_C": -4.41427277484466e-12,
+      "stable_C": -4.414272774844658e-12,
+      "legacy_error_C": "1.252446947830604128834746304E-27",
+      "stable_error_C": "3.631401860620280486484737977E-28"
+    },
+    {
+      "voltage_V": -0.001,
+      "reference_charge_C": "-4.499094523870062511334475303696322236032479321414601431948151642440186E-14",
+      "legacy_C": -4.499094523870958e-14,
+      "stable_C": -4.4990945238700626e-14,
+      "legacy_error_C": "8.955819601883534462242706297E-27",
+      "stable_error_C": "6.706058146084472087636242485E-31"
+    },
+    {
+      "voltage_V": -1e-06,
+      "reference_charge_C": "-4.499999094000524271597708972897298998911522687192762627957371429620344E-17",
+      "legacy_C": -4.4999990936267337e-17,
+      "stable_C": -4.4999990940005237e-17,
+      "legacy_error_C": "3.737906214689876300832104653E-27",
+      "stable_error_C": "5.911840730604828494649519946E-33"
+    },
+    {
+      "voltage_V": -1e-09,
+      "reference_charge_C": "-4.499999999094000000524271999597708619020897637304732969866041189111748E-20",
+      "legacy_C": -4.499999942875772e-20,
+      "stable_C": -4.499999999094e-20,
+      "legacy_error_C": "5.621822795001868399949550772E-28",
+      "stable_error_C": "4.858675502959565533994498998E-37"
+    },
+    {
+      "voltage_V": -1e-12,
+      "reference_charge_C": "-4.499999999999094000000000524271999999597708618667020897634491404011461E-23",
+      "legacy_C": -4.4996241689652165e-23,
+      "stable_C": -4.499999999999093e-23,
+      "legacy_error_C": "3.758310338775313026197673426E-27",
+      "stable_error_C": "1.145403915778430475478928355E-38"
+    },
+    {
+      "voltage_V": 0,
+      "reference_charge_C": "0E-11",
+      "legacy_C": 0.0,
+      "stable_C": -0.0,
+      "legacy_error_C": "0E-11",
+      "stable_error_C": "0E-11"
+    },
+    {
+      "voltage_V": 1e-12,
+      "reference_charge_C": "4.500000000000906000000000524272000000402291381333687564304333810888252E-23",
+      "legacy_C": 4.4996241689652165e-23,
+      "stable_C": 4.5000000000009066e-23,
+      "legacy_error_C": "3.758310356895313026197673426E-27",
+      "stable_error_C": "6.423794030111943202807439961E-39"
+    },
+    {
+      "voltage_V": 1e-09,
+      "reference_charge_C": "4.500000000906000000524272000402291381687564304648689253040179011461318E-20",
+      "legacy_C": 4.500000479695644e-20,
+      "stable_C": 4.5000000009060003e-20,
+      "legacy_error_C": "4.787896439325634772858629736E-27",
+      "stable_error_C": "3.062340386437458053047934452E-36"
+    },
+    {
+      "voltage_V": 1e-06,
+      "reference_charge_C": "4.500000906000524272402291735564642955194697543929782420751546188180516E-17",
+      "legacy_C": 4.5000009059306225e-17,
+      "stable_C": 4.5000009060005236e-17,
+      "legacy_error_C": "6.990176963628365379041503550E-28",
+      "stable_error_C": "6.815651333569297871717486016E-33"
+    },
+    {
+      "voltage_V": 0.000484,
+      "reference_charge_C": "2.178212295399994533557319063725273992774594376533024276813506012628097E-14",
+      "legacy_C": 2.1782122954003432e-14,
+      "stable_C": 2.1782122953999945e-14,
+      "legacy_error_C": "3.486773306177105482241287607E-27",
+      "stable_error_C": "8.105100233302321447348768288E-33"
+    },
+    {
+      "voltage_V": 0.001,
+      "reference_charge_C": "4.500906524674645951291476904603598609990568271189603304173168422635404E-14",
+      "legacy_C": 4.500906524674838e-14,
+      "stable_C": 4.500906524674646e-14,
+      "legacy_error_C": "1.917348034575964541713740046E-27",
+      "stable_error_C": "1.161686921536169047583824697E-30"
+    },
+    {
+      "voltage_V": 0.1,
+      "reference_charge_C": "4.596284203217620704044743350505213329575738014797727514417545394239835E-12",
+      "legacy_C": 4.596284203217617e-12,
+      "stable_C": 4.5962842032176206e-12,
+      "legacy_error_C": "3.351762583090821534034039253E-27",
+      "stable_error_C": "1.205883153055571790675990499E-28"
+    },
+    {
+      "voltage_V": 0.3,
+      "reference_charge_C": "1.450171421981339678254727538605852885214538814989705596738611308239146E-11",
+      "legacy_C": 1.4501714219813392e-11,
+      "stable_C": 1.4501714219813393e-11,
+      "legacy_error_C": "4.989149505272758791195763816E-27",
+      "stable_error_C": "3.373562371380126613712543715E-27"
+    }
+  ],
+  "micro": {
+    "evaluations_per_build": 45,
+    "constant_histories": 15,
+    "baseline_nonzero_constant_currents": 15,
+    "baseline_max_constant_current_A": 0.0036774045221081783,
+    "candidate_max_constant_current_A": 0.0,
+    "note": "Other histories are ramp/quadratic probes; at extreme steps double-stored charge samples lose their small increments. These arithmetic probes do not establish a circuit root cause."
+  }
+}
