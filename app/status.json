@@ -12,7 +12,7 @@
     "hardware_tests_run": 0,
     "model_scope": "Ideal linear DC, ideal 2.5V reference and op amps; no rail limiting."
   },
-  "updatedAt": "2026-09-09T00:15:42.188389+00:00",
+  "updatedAt": "2026-09-09T00:34:26.834230+00:00",
   "activity": [
     {
       "state": "In progress",
@@ -21,6 +21,10 @@
     {
       "state": "In progress",
       "text": "Six partial signal-path configurations, twelve runs. Component initial-condition check reproduced; full module and hardware gates open."
+    },
+    {
+      "state": "Observed",
+      "text": "30 refinement runs: decreasing timestep sensitivity across all six cases; hardware and full-module gates remain open."
     }
   ]
 }
