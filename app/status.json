@@ -11,5 +11,12 @@
     "dynamic_tests_run": 0,
     "hardware_tests_run": 0,
     "model_scope": "Ideal linear DC, ideal 2.5V reference and op amps; no rail limiting."
-  }
+  },
+  "updatedAt": "2026-09-09T00:08:38.241259+00:00",
+  "activity": [
+    {
+      "state": "In progress",
+      "text": "LM6172 compatibility checks; simulator installed and official model acquired."
+    }
+  ]
 }
