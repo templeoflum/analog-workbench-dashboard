@@ -1,0 +1,351 @@
+{
+  "completed": 6,
+  "attempted": 12,
+  "cases": [
+    {
+      "mode": "offset_input",
+      "gain": 0,
+      "runs": [
+        {
+          "mode": "offset_input",
+          "gain": 0,
+          "setting": "nominal",
+          "reltol": 0.0001,
+          "abstol": 1e-07,
+          "folder": "offset_input-g0-nominal",
+          "status": "completed",
+          "diagnostic_open_loop_gain": 1000000.0,
+          "substitution_lines": 4,
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_removed": true
+          },
+          "rows": 80093,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "full_model_difference_v": 0.024023717291974278,
+          "initial_output_difference_v": 1.9296813134062063e-06
+        },
+        {
+          "mode": "offset_input",
+          "gain": 0,
+          "setting": "both",
+          "reltol": 1e-05,
+          "abstol": 1e-08,
+          "folder": "offset_input-g0-both",
+          "status": "failed",
+          "diagnostic_open_loop_gain": 1000000.0,
+          "substitution_lines": 4,
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_removed": true
+          },
+          "rows": 17711,
+          "last_time_ns": 110.3760190203963,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ]
+        }
+      ],
+      "buffer_tolerance_difference_v": null
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0.5,
+      "runs": [
+        {
+          "mode": "offset_input",
+          "gain": 0.5,
+          "setting": "nominal",
+          "reltol": 0.0001,
+          "abstol": 1e-07,
+          "folder": "offset_input-g0.5-nominal",
+          "status": "completed",
+          "diagnostic_open_loop_gain": 1000000.0,
+          "substitution_lines": 4,
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_removed": true
+          },
+          "rows": 80127,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "full_model_difference_v": 0.007762342720617432,
+          "initial_output_difference_v": 6.633016878809794e-11
+        },
+        {
+          "mode": "offset_input",
+          "gain": 0.5,
+          "setting": "both",
+          "reltol": 1e-05,
+          "abstol": 1e-08,
+          "folder": "offset_input-g0.5-both",
+          "status": "failed",
+          "diagnostic_open_loop_gain": 1000000.0,
+          "substitution_lines": 4,
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_removed": true
+          },
+          "rows": 18306,
+          "last_time_ns": 114.0644186106651,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ]
+        }
+      ],
+      "buffer_tolerance_difference_v": null
+    },
+    {
+      "mode": "offset_input",
+      "gain": 1,
+      "runs": [
+        {
+          "mode": "offset_input",
+          "gain": 1,
+          "setting": "nominal",
+          "reltol": 0.0001,
+          "abstol": 1e-07,
+          "folder": "offset_input-g1-nominal",
+          "status": "completed",
+          "diagnostic_open_loop_gain": 1000000.0,
+          "substitution_lines": 4,
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_removed": true
+          },
+          "rows": 80150,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "full_model_difference_v": 0.05245310759819882,
+          "initial_output_difference_v": 1.929936691902334e-06
+        },
+        {
+          "mode": "offset_input",
+          "gain": 1,
+          "setting": "both",
+          "reltol": 1e-05,
+          "abstol": 1e-08,
+          "folder": "offset_input-g1-both",
+          "status": "failed",
+          "diagnostic_open_loop_gain": 1000000.0,
+          "substitution_lines": 4,
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_removed": true
+          },
+          "rows": 16861,
+          "last_time_ns": 105.009808294583,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ]
+        }
+      ],
+      "buffer_tolerance_difference_v": null
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0,
+      "runs": [
+        {
+          "mode": "offset_thru",
+          "gain": 0,
+          "setting": "nominal",
+          "reltol": 0.0001,
+          "abstol": 1e-07,
+          "folder": "offset_thru-g0-nominal",
+          "status": "completed",
+          "diagnostic_open_loop_gain": 1000000.0,
+          "substitution_lines": 4,
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_removed": true
+          },
+          "rows": 80081,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "full_model_difference_v": 7.723853001759956e-05,
+          "initial_output_difference_v": 1.9297923309069542e-06
+        },
+        {
+          "mode": "offset_thru",
+          "gain": 0,
+          "setting": "both",
+          "reltol": 1e-05,
+          "abstol": 1e-08,
+          "folder": "offset_thru-g0-both",
+          "status": "failed",
+          "diagnostic_open_loop_gain": 1000000.0,
+          "substitution_lines": 4,
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_removed": true
+          },
+          "rows": 18853,
+          "last_time_ns": 117.40320349739339,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ]
+        }
+      ],
+      "buffer_tolerance_difference_v": null
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0.5,
+      "runs": [
+        {
+          "mode": "offset_thru",
+          "gain": 0.5,
+          "setting": "nominal",
+          "reltol": 0.0001,
+          "abstol": 1e-07,
+          "folder": "offset_thru-g0.5-nominal",
+          "status": "completed",
+          "diagnostic_open_loop_gain": 1000000.0,
+          "substitution_lines": 4,
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_removed": true
+          },
+          "rows": 80048,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "full_model_difference_v": 5.174044431635605e-05,
+          "initial_output_difference_v": 1.9297922267125234e-06
+        },
+        {
+          "mode": "offset_thru",
+          "gain": 0.5,
+          "setting": "both",
+          "reltol": 1e-05,
+          "abstol": 1e-08,
+          "folder": "offset_thru-g0.5-both",
+          "status": "failed",
+          "diagnostic_open_loop_gain": 1000000.0,
+          "substitution_lines": 4,
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_removed": true
+          },
+          "rows": 18262,
+          "last_time_ns": 113.8858027945995,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ]
+        }
+      ],
+      "buffer_tolerance_difference_v": null
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 1,
+      "runs": [
+        {
+          "mode": "offset_thru",
+          "gain": 1,
+          "setting": "nominal",
+          "reltol": 0.0001,
+          "abstol": 1e-07,
+          "folder": "offset_thru-g1-nominal",
+          "status": "completed",
+          "diagnostic_open_loop_gain": 1000000.0,
+          "substitution_lines": 4,
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_removed": true
+          },
+          "rows": 80095,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "full_model_difference_v": 0.00026937111486838305,
+          "initial_output_difference_v": 1.929792407900921e-06
+        },
+        {
+          "mode": "offset_thru",
+          "gain": 1,
+          "setting": "both",
+          "reltol": 1e-05,
+          "abstol": 1e-08,
+          "folder": "offset_thru-g1-both",
+          "status": "failed",
+          "diagnostic_open_loop_gain": 1000000.0,
+          "substitution_lines": 4,
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_removed": true
+          },
+          "rows": 18155,
+          "last_time_ns": 113.0335026826141,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ]
+        }
+      ],
+      "buffer_tolerance_difference_v": null
+    }
+  ],
+  "updatedAt": "2026-09-09T02:00:09.443862+00:00",
+  "maxDifferentCircuitDeltaV": 0.05245310759819882,
+  "finding": "No, in these six cases. All six nominal runs complete; all six jointly tighter runs still stop. Simplifying the TL074 family alone is insufficient under these conditions."
+}

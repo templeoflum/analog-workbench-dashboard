@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-09T01:53:32.859497+00:00",
+  "updatedAt": "2026-09-09T02:00:09.443862+00:00",
   "destination": "A playable analog video instrument whose behavior can be traced to documented circuitry and repeated through a measurement bench.",
   "current": "Qualify the Cadet VII coupled model",
-  "next": "Isolate the TL074 buffer family with a clearly labeled diagnostic replacement, retaining the original coupled model as the baseline.",
+  "next": "Build a smaller failure reproducer: remove both reference-model dynamics together, then isolate the LM6172 signal path if failure persists.",
   "decision": "Use the findings to choose a justified solver/model approach. If the source model cannot support the needed behavior, narrow the claim or change the reference\u2014not the pass criteria after the fact.",
   "phases": [
     {
@@ -22,7 +22,7 @@
     {
       "title": "Qualify the component and coupled models",
       "state": "Current stage",
-      "result": "The tighter-setting map completes 9/18 runs. New shunt substitution: all six nominal runs complete, all six tighter runs still stop. Freezing the TL431 alone is insufficient.",
+      "result": "Both individual diagnostics retain the failure: fixed shunt and simplified buffers each complete6/6 nominal runs and0/6 jointly tighter runs. Neither intervention alone is sufficient.",
       "gate": "Locate the sensitivity, justify usable numerical limits and qualify the model under the intended rails and loads.",
       "href": "/evidence/tolerance/report.md"
     },
