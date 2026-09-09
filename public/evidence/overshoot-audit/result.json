@@ -1,0 +1,57 @@
+{
+  "rows": 652525,
+  "peakDifferenceV": 2.6062333291498874e-7,
+  "rmsDifferenceV": 4.5535347185401164e-8,
+  "sampleCount": 4001,
+  "baseline": {
+    "baseline": {
+      "startNs": 100,
+      "endNs": 180,
+      "meanV": -0.18186475045282136,
+      "spanV": 3.46283279828441e-11,
+      "samples": 321
+    },
+    "target": {
+      "startNs": 540,
+      "endNs": 590,
+      "meanV": -0.023450665092213455,
+      "spanV": 6.231750259225177e-8,
+      "samples": 201
+    },
+    "deltaV": 0.15841408536060791,
+    "bandV": 0.0031682817072121584,
+    "established": true,
+    "reason": null,
+    "overshootPercent": 172.9262003180685,
+    "settlingNs": 99.25,
+    "alternatingExcursions": 9,
+    "observationEndNs": 599.75
+  },
+  "tight": {
+    "baseline": {
+      "startNs": 100,
+      "endNs": 180,
+      "meanV": -0.18186475046992256,
+      "spanV": 2.0684287616035135e-12,
+      "samples": 321
+    },
+    "target": {
+      "startNs": 540,
+      "endNs": 590,
+      "meanV": -0.023450665092261666,
+      "spanV": 6.231822407415377e-8,
+      "samples": 201
+    },
+    "deltaV": 0.15841408537766088,
+    "bandV": 0.0031682817075532176,
+    "established": true,
+    "reason": null,
+    "overshootPercent": 172.92624661787076,
+    "settlingNs": 99.25,
+    "alternatingExcursions": 9,
+    "observationEndNs": 599.75
+  },
+  "overshootDifferencePercentagePoints": 0.00004629980224990504,
+  "settlingDifferenceNs": 0,
+  "persistenceScreenPassed": true
+}

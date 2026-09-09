@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-09T11:16:51.431752+00:00",
+  "updatedAt": "2026-09-09T11:25:52.717907+00:00",
   "destination": "A playable analog video instrument whose behavior can be traced to documented circuitry and repeated through a measurement bench.",
-  "current": "Channel behavior characterized within the fixed scope",
-  "next": "Inspect the modeled overshoot and withheld plateau estimates before choosing a broader scope. Hardware fidelity and full-module qualification remain open.",
-  "decision": "Runtime agreement reproduces strong reference-model ringing. Characterization now distinguishes usable measurements from insufficient acquisitions; this does not justify silently expanding or retuning the model.",
+  "current": "Overshoot audit complete; physical fidelity unresolved",
+  "next": "Obtain a named independent reference or physical measurement before treating the modeled response as faithful to hardware.",
+  "decision": "No signal-path transcription mismatch found. One tighter repeat preserves overshoot. This establishes bounded numerical persistence, not physical accuracy; no model tuning or further solver investigation was started.",
   "phases": [
     {
       "title": "Preserve the research and choose a tractable circuit",
