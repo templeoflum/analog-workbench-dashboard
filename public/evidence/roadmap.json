@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-09T03:35:05.686771+00:00",
+  "updatedAt": "2026-09-09T03:48:39.609689+00:00",
   "destination": "A playable analog video instrument whose behavior can be traced to documented circuitry and repeated through a measurement bench.",
   "current": "Qualify the Cadet VII coupled model",
-  "next": "Isolate the diode clamp and nonlinear feedback separately, using the analytically checked linear storage network as a control. The isolated capacitor network did not reproduce the shunt failure.",
+  "next": "Investigate the two-diode reproduction at the charge-storage implementation level, retaining both original charge terms. Voltage-reference shifts and charge ablations change the outcome but do not qualify a fix.",
   "decision": "Use the findings to choose a justified solver/model approach. If the source model cannot support the needed behavior, narrow the claim or change the reference\u2014not the pass criteria after the fact.",
   "phases": [
     {
@@ -22,9 +22,9 @@
     {
       "title": "Qualify the component and coupled models",
       "state": "Current stage",
-      "result": "Reusable linear benchmark added: 36 isolated runs compared with solved equations. Nonlinear grounded-state candidate still fails refinement and tolerance checks; no candidate accepted. Working partial signal path retained.",
+      "result": "Failure reduced to a self-contained two-diode clamp and replayed twice. Coordinate-equivalent controls expose reference sensitivity; refinement and tighter tolerances still reject the workaround. Linear benchmark and partial signal path retained.",
       "gate": "Locate the sensitivity, justify usable numerical limits and qualify the model under the intended rails and loads.",
-      "href": "/evidence/floating-capacitor/report.md"
+      "href": "/evidence/clamp-feedback/report.md"
     },
     {
       "title": "Validate one complete Cadet module",

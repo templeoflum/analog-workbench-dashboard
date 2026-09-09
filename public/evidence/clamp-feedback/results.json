@@ -1,0 +1,1553 @@
+{
+  "results": [
+    {
+      "folder": "clamp-klu-2.5-constant",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 2.5,
+      "stimulus": "constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 7.253889044989137e-08
+    },
+    {
+      "folder": "clamp-klu-2.5-pulse",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 2.5,
+      "stimulus": "pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 225,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.059711000088412014
+    },
+    {
+      "folder": "clamp-klu-0.003125-constant",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 0.003125,
+      "stimulus": "constant",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 26,
+      "last_time_s": 2.22022643632954e-12,
+      "errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 2.22023e-12, timestep = 3.90625e-24: trouble with node \"ref\"",
+        "tran simulation(s) aborted"
+      ],
+      "max_ref_drift_V": 0.02151398565111684
+    },
+    {
+      "folder": "clamp-klu-0.003125-pulse",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 0.003125,
+      "stimulus": "pulse",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 26,
+      "last_time_s": 2.22022643632954e-12,
+      "errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 2.22023e-12, timestep = 3.90625e-24: trouble with node \"ref\"",
+        "tran simulation(s) aborted"
+      ],
+      "max_ref_drift_V": 0.02151398565111684
+    },
+    {
+      "folder": "clamp-sparse-2.5-constant",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 2.5,
+      "stimulus": "constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 7.253323053291183e-08
+    },
+    {
+      "folder": "clamp-sparse-2.5-pulse",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 2.5,
+      "stimulus": "pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 225,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.05971099996869356
+    },
+    {
+      "folder": "clamp-sparse-0.003125-constant",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 0.003125,
+      "stimulus": "constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 557808,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.04098850839025481
+    },
+    {
+      "folder": "clamp-sparse-0.003125-pulse",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 0.003125,
+      "stimulus": "pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 228619,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.059766182419676905
+    }
+  ],
+  "single-diode": [
+    {
+      "folder": "single-0-klu-2.5",
+      "shift_V": 0,
+      "solver": "klu",
+      "step_ns": 2.5,
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_s": 5.000000000000001e-07,
+      "initial_diode_V": 0.0004929837594390045,
+      "max_diode_drift_V": 4.2847669856627135e-16
+    },
+    {
+      "folder": "single-0-klu-0.003125",
+      "shift_V": 0,
+      "solver": "klu",
+      "step_ns": 0.003125,
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 160008,
+      "last_time_s": 5.000000000000001e-07,
+      "initial_diode_V": 0.0004929837594390045,
+      "max_diode_drift_V": 4.336808689942018e-19
+    },
+    {
+      "folder": "single-0-sparse-2.5",
+      "shift_V": 0,
+      "solver": "sparse",
+      "step_ns": 2.5,
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_s": 5.000000000000001e-07,
+      "initial_diode_V": 0.0004929837594390045,
+      "max_diode_drift_V": 4.2847669856627135e-16
+    },
+    {
+      "folder": "single-0-sparse-0.003125",
+      "shift_V": 0,
+      "solver": "sparse",
+      "step_ns": 0.003125,
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 160008,
+      "last_time_s": 5.000000000000001e-07,
+      "initial_diode_V": 0.0004929837594390045,
+      "max_diode_drift_V": 4.336808689942018e-19
+    },
+    {
+      "folder": "single-2.49507803358587-klu-2.5",
+      "shift_V": 2.49507803358587,
+      "solver": "klu",
+      "step_ns": 2.5,
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_s": 5.000000000000001e-07,
+      "initial_diode_V": 0.0004930716175124417,
+      "max_diode_drift_V": 8.785378291520374e-08
+    },
+    {
+      "folder": "single-2.49507803358587-klu-0.003125",
+      "shift_V": 2.49507803358587,
+      "solver": "klu",
+      "step_ns": 0.003125,
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 160011,
+      "last_time_s": 5.000000000000001e-07,
+      "initial_diode_V": 0.0004930716175124417,
+      "max_diode_drift_V": 8.785265315225388e-08
+    },
+    {
+      "folder": "single-2.49507803358587-sparse-2.5",
+      "shift_V": 2.49507803358587,
+      "solver": "sparse",
+      "step_ns": 2.5,
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_s": 5.000000000000001e-07,
+      "initial_diode_V": 0.0004930716175119976,
+      "max_diode_drift_V": 8.785378291520374e-08
+    },
+    {
+      "folder": "single-2.49507803358587-sparse-0.003125",
+      "shift_V": 2.49507803358587,
+      "solver": "sparse",
+      "step_ns": 0.003125,
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 160008,
+      "last_time_s": 5.000000000000001e-07,
+      "initial_diode_V": 0.0004930716175119976,
+      "max_diode_drift_V": 8.785628224927677e-08
+    }
+  ],
+  "translated": [
+    {
+      "folder": "translated-clamp-klu-2.5-constant",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 2.5,
+      "stimulus": "constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 1.4699352846037073e-13
+    },
+    {
+      "folder": "translated-clamp-klu-2.5-pulse",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 2.5,
+      "stimulus": "pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 225,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.05971102712774101
+    },
+    {
+      "folder": "translated-clamp-klu-0.003125-constant",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 0.003125,
+      "stimulus": "constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 160008,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 8.570921750106208e-14
+    },
+    {
+      "folder": "translated-clamp-klu-0.003125-pulse",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 0.003125,
+      "stimulus": "pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 202353,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.06279522681508665
+    },
+    {
+      "folder": "translated-clamp-sparse-2.5-constant",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 2.5,
+      "stimulus": "constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 3.375077994860476e-14
+    },
+    {
+      "folder": "translated-clamp-sparse-2.5-pulse",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 2.5,
+      "stimulus": "pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 225,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.05971102712199672
+    },
+    {
+      "folder": "translated-clamp-sparse-0.003125-constant",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 0.003125,
+      "stimulus": "constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 160008,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 5.46229728115577e-14
+    },
+    {
+      "folder": "translated-clamp-sparse-0.003125-pulse",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 0.003125,
+      "stimulus": "pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 161152,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.05971160078165472
+    }
+  ],
+  "refinement": [
+    {
+      "folder": "translated-clamp-klu-0.0125-pulse",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 0.0125,
+      "stimulus": "pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 40123,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.059711595127792894
+    },
+    {
+      "folder": "translated-clamp-klu-0.00625-pulse",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 0.00625,
+      "stimulus": "pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 103652,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.05971159497468381
+    },
+    {
+      "folder": "translated-clamp-klu-0.003125-pulse-tight",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 0.003125,
+      "stimulus": "pulse",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 61583,
+      "last_time_s": 1.665393186897536e-07,
+      "errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 1.66539e-07, timestep = 3.90625e-24: trouble with node \"vlocal#branch\"",
+        "tran simulation(s) aborted"
+      ],
+      "max_ref_drift_V": 0.0283518040805264
+    },
+    {
+      "folder": "translated-clamp-sparse-0.0125-pulse",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 0.0125,
+      "stimulus": "pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 40115,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.059711598844290226
+    },
+    {
+      "folder": "translated-clamp-sparse-0.00625-pulse",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 0.00625,
+      "stimulus": "pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 80349,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.059711600230799355
+    },
+    {
+      "folder": "translated-clamp-sparse-0.003125-pulse-tight",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 0.003125,
+      "stimulus": "pulse",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 43675,
+      "last_time_s": 1.0000024231223903e-07,
+      "errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 1e-07, timestep = 3.90625e-24: trouble with node \"ref\"",
+        "tran simulation(s) aborted"
+      ],
+      "max_ref_drift_V": 3.858547259394385e-05
+    }
+  ],
+  "zero-shift": [
+    {
+      "folder": "zero-shift-clamp-klu-0.003125-constant",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 0.003125,
+      "stimulus": "constant",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 26,
+      "last_time_s": 2.22022643632954e-12,
+      "errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 2.22023e-12, timestep = 3.90625e-24: trouble with node \"ref\"",
+        "tran simulation(s) aborted"
+      ],
+      "max_ref_drift_V": 0.02151398565111684
+    },
+    {
+      "folder": "zero-shift-clamp-klu-0.003125-pulse",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 0.003125,
+      "stimulus": "pulse",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 26,
+      "last_time_s": 2.22022643632954e-12,
+      "errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 2.22023e-12, timestep = 3.90625e-24: trouble with node \"ref\"",
+        "tran simulation(s) aborted"
+      ],
+      "max_ref_drift_V": 0.02151398565111684
+    },
+    {
+      "folder": "zero-shift-clamp-sparse-0.003125-constant",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 0.003125,
+      "stimulus": "constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 557808,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.04098850839025481
+    },
+    {
+      "folder": "zero-shift-clamp-sparse-0.003125-pulse",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 0.003125,
+      "stimulus": "pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 250632,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.15352375413060004
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "klu-0.0125-to-0.00625",
+      "left": "translated-clamp-klu-0.0125-pulse",
+      "right": "translated-clamp-klu-0.00625-pulse",
+      "max_ref_difference_V": 1.8098013772060995e-05
+    },
+    {
+      "name": "klu-0.00625-to-0.003125",
+      "left": "translated-clamp-klu-0.00625-pulse",
+      "right": "translated-clamp-klu-0.003125-pulse",
+      "max_ref_difference_V": 0.003600125364326967
+    },
+    {
+      "name": "sparse-0.0125-to-0.00625",
+      "left": "translated-clamp-sparse-0.0125-pulse",
+      "right": "translated-clamp-sparse-0.00625-pulse",
+      "max_ref_difference_V": 8.611733992580639e-09
+    },
+    {
+      "name": "sparse-0.00625-to-0.003125",
+      "left": "translated-clamp-sparse-0.00625-pulse",
+      "right": "translated-clamp-sparse-0.003125-pulse",
+      "max_ref_difference_V": 2.2328405790972283e-09
+    },
+    {
+      "name": "cross-solver-fine",
+      "left": "translated-clamp-klu-0.003125-pulse",
+      "right": "translated-clamp-sparse-0.003125-pulse",
+      "max_ref_difference_V": 0.00360012329250603
+    },
+    {
+      "name": "reference-shift-sparse-fine",
+      "left": "clamp-sparse-0.003125-pulse",
+      "right": "translated-clamp-sparse-0.003125-pulse",
+      "max_ref_difference_V": 0.01655024315566056
+    }
+  ],
+  "coordinate-checks": [
+    {
+      "left": "clamp-klu-2.5-constant/circuit.cir",
+      "right": "translated-clamp-klu-2.5-constant/circuit.cir",
+      "equivalent_component_cards": true
+    },
+    {
+      "left": "clamp-klu-2.5-pulse/circuit.cir",
+      "right": "translated-clamp-klu-2.5-pulse/circuit.cir",
+      "equivalent_component_cards": true
+    },
+    {
+      "left": "clamp-klu-0.003125-constant/circuit.cir",
+      "right": "translated-clamp-klu-0.003125-constant/circuit.cir",
+      "equivalent_component_cards": true
+    },
+    {
+      "left": "clamp-klu-0.003125-pulse/circuit.cir",
+      "right": "translated-clamp-klu-0.003125-pulse/circuit.cir",
+      "equivalent_component_cards": true
+    },
+    {
+      "left": "clamp-sparse-2.5-constant/circuit.cir",
+      "right": "translated-clamp-sparse-2.5-constant/circuit.cir",
+      "equivalent_component_cards": true
+    },
+    {
+      "left": "clamp-sparse-2.5-pulse/circuit.cir",
+      "right": "translated-clamp-sparse-2.5-pulse/circuit.cir",
+      "equivalent_component_cards": true
+    },
+    {
+      "left": "clamp-sparse-0.003125-constant/circuit.cir",
+      "right": "translated-clamp-sparse-0.003125-constant/circuit.cir",
+      "equivalent_component_cards": true
+    },
+    {
+      "left": "clamp-sparse-0.003125-pulse/circuit.cir",
+      "right": "translated-clamp-sparse-0.003125-pulse/circuit.cir",
+      "equivalent_component_cards": true
+    }
+  ],
+  "independent-comparisons": [
+    {
+      "name": "klu-0.0125-to-0.00625",
+      "decimal_max_V": "0.000018098013771895469674609097339349218",
+      "difference_from_numpy_V": 1.6552379042064636e-16,
+      "passed": true
+    },
+    {
+      "name": "klu-0.00625-to-0.003125",
+      "decimal_max_V": "0.003600125364326974463279165423602254669",
+      "difference_from_numpy_V": 7.37257477290143e-18,
+      "passed": true
+    },
+    {
+      "name": "sparse-0.0125-to-0.00625",
+      "decimal_max_V": "8.611733885203949436229983684045E-9",
+      "difference_from_numpy_V": 1.073766892011454e-16,
+      "passed": true
+    },
+    {
+      "name": "sparse-0.00625-to-0.003125",
+      "decimal_max_V": "2.232840796913514674472513727129E-9",
+      "difference_from_numpy_V": 2.178162863490996e-16,
+      "passed": true
+    },
+    {
+      "name": "cross-solver-fine",
+      "decimal_max_V": "0.003600123292506088759171840098779455078",
+      "difference_from_numpy_V": 5.854691731421724e-17,
+      "passed": true
+    },
+    {
+      "name": "reference-shift-sparse-fine",
+      "decimal_max_V": "0.016550243155660718309619628560586452032",
+      "difference_from_numpy_V": 1.5959455978986625e-16,
+      "passed": true
+    }
+  ],
+  "charge-ablation": [
+    {
+      "folder": "no-tt-clamp-klu-0.003125-constant",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 0.003125,
+      "stimulus": "constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 160009,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 1.272006469044129e-07,
+      "ablation": "no-tt"
+    },
+    {
+      "folder": "no-tt-clamp-klu-0.003125-pulse",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 0.003125,
+      "stimulus": "pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 160021,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.059711467565155996,
+      "ablation": "no-tt"
+    },
+    {
+      "folder": "no-tt-clamp-sparse-0.003125-constant",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 0.003125,
+      "stimulus": "constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 160009,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 1.2720064423987765e-07,
+      "ablation": "no-tt"
+    },
+    {
+      "folder": "no-tt-clamp-sparse-0.003125-pulse",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 0.003125,
+      "stimulus": "pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 160021,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.059711467498234416,
+      "ablation": "no-tt"
+    },
+    {
+      "folder": "no-cjo-clamp-klu-0.003125-constant",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 0.003125,
+      "stimulus": "constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 160008,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 5.773506802730921e-05,
+      "ablation": "no-cjo"
+    },
+    {
+      "folder": "no-cjo-clamp-klu-0.003125-pulse",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 0.003125,
+      "stimulus": "pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 160020,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.08335660254448829,
+      "ablation": "no-cjo"
+    },
+    {
+      "folder": "no-cjo-clamp-sparse-0.003125-constant",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 0.003125,
+      "stimulus": "constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 160008,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.00012864449144123213,
+      "ablation": "no-cjo"
+    },
+    {
+      "folder": "no-cjo-clamp-sparse-0.003125-pulse",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 0.003125,
+      "stimulus": "pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 160029,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.08336102314188887,
+      "ablation": "no-cjo"
+    }
+  ],
+  "ablation-checks": [
+    {
+      "folder": "no-tt-clamp-klu-0.003125-constant",
+      "only_requested_parameter_changed": true,
+      "initial_ref_difference_V": "0E-17"
+    },
+    {
+      "folder": "no-tt-clamp-klu-0.003125-pulse",
+      "only_requested_parameter_changed": true,
+      "initial_ref_difference_V": "0E-17"
+    },
+    {
+      "folder": "no-tt-clamp-sparse-0.003125-constant",
+      "only_requested_parameter_changed": true,
+      "initial_ref_difference_V": "0E-17"
+    },
+    {
+      "folder": "no-tt-clamp-sparse-0.003125-pulse",
+      "only_requested_parameter_changed": true,
+      "initial_ref_difference_V": "0E-17"
+    },
+    {
+      "folder": "no-cjo-clamp-klu-0.003125-constant",
+      "only_requested_parameter_changed": true,
+      "initial_ref_difference_V": "0E-17"
+    },
+    {
+      "folder": "no-cjo-clamp-klu-0.003125-pulse",
+      "only_requested_parameter_changed": true,
+      "initial_ref_difference_V": "0E-17"
+    },
+    {
+      "folder": "no-cjo-clamp-sparse-0.003125-constant",
+      "only_requested_parameter_changed": true,
+      "initial_ref_difference_V": "0E-17"
+    },
+    {
+      "folder": "no-cjo-clamp-sparse-0.003125-pulse",
+      "only_requested_parameter_changed": true,
+      "initial_ref_difference_V": "0E-17"
+    }
+  ],
+  "replays": [
+    {
+      "folder": "replay-1",
+      "returncode": 0,
+      "failed": true,
+      "last_time_s": 2.22022643632954e-12,
+      "rows": 26,
+      "circuit_sha256": "4218155b08b0e6df2b3d0b8977915db7b635cbb9c1413759f323e537c460b6f1"
+    },
+    {
+      "folder": "replay-2",
+      "returncode": 0,
+      "failed": true,
+      "last_time_s": 2.22022643632954e-12,
+      "rows": 26,
+      "circuit_sha256": "4218155b08b0e6df2b3d0b8977915db7b635cbb9c1413759f323e537c460b6f1"
+    }
+  ],
+  "initial-boundaries": [
+    {
+      "folder": "closed-feedback-klu-2.5-constant",
+      "boundary": "closed-feedback",
+      "solver": "klu",
+      "step_ns": 2.5,
+      "stimulus": "constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 3.2198110844205985e-10
+    },
+    {
+      "folder": "closed-feedback-klu-2.5-pulse",
+      "boundary": "closed-feedback",
+      "solver": "klu",
+      "step_ns": 2.5,
+      "stimulus": "pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 225,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.11626116055610858
+    },
+    {
+      "folder": "closed-feedback-klu-0.003125-constant",
+      "boundary": "closed-feedback",
+      "solver": "klu",
+      "step_ns": 0.003125,
+      "stimulus": "constant",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 14,
+      "last_time_s": 4.397341632284224e-15,
+      "errors": [
+        "Warning: singular matrix:  check node d.xu4.d_d12#internal",
+        "doAnalyses: TRAN:  Timestep too small; time = 4.39734e-15, timestep = 3.90625e-24: trouble with node \"ref\"",
+        "tran simulation(s) aborted"
+      ],
+      "max_ref_drift_V": 0.030608028664501852
+    },
+    {
+      "folder": "closed-feedback-klu-0.003125-pulse",
+      "boundary": "closed-feedback",
+      "solver": "klu",
+      "step_ns": 0.003125,
+      "stimulus": "pulse",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 14,
+      "last_time_s": 4.397341632284224e-15,
+      "errors": [
+        "Warning: singular matrix:  check node d.xu4.d_d12#internal",
+        "doAnalyses: TRAN:  Timestep too small; time = 4.39734e-15, timestep = 3.90625e-24: trouble with node \"ref\"",
+        "tran simulation(s) aborted"
+      ],
+      "max_ref_drift_V": 0.030608028664501852
+    },
+    {
+      "folder": "closed-feedback-sparse-2.5-constant",
+      "boundary": "closed-feedback",
+      "solver": "sparse",
+      "step_ns": 2.5,
+      "stimulus": "constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 1.8724000128145235e-10
+    },
+    {
+      "folder": "closed-feedback-sparse-2.5-pulse",
+      "boundary": "closed-feedback",
+      "solver": "sparse",
+      "step_ns": 2.5,
+      "stimulus": "pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 225,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.11626115353212896
+    },
+    {
+      "folder": "closed-feedback-sparse-0.003125-constant",
+      "boundary": "closed-feedback",
+      "solver": "sparse",
+      "step_ns": 0.003125,
+      "stimulus": "constant",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 4462,
+      "last_time_s": 1.6440154656444823e-09,
+      "errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 1.64402e-09, timestep = 3.90625e-24: trouble with node \"ref\"",
+        "tran simulation(s) aborted"
+      ],
+      "max_ref_drift_V": 0.04799244207914022
+    },
+    {
+      "folder": "closed-feedback-sparse-0.003125-pulse",
+      "boundary": "closed-feedback",
+      "solver": "sparse",
+      "step_ns": 0.003125,
+      "stimulus": "pulse",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 4462,
+      "last_time_s": 1.6440154656444823e-09,
+      "errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 1.64402e-09, timestep = 3.90625e-24: trouble with node \"ref\"",
+        "tran simulation(s) aborted"
+      ],
+      "max_ref_drift_V": 0.04799244207914022
+    },
+    {
+      "folder": "open-feedback-klu-2.5-constant",
+      "boundary": "open-feedback",
+      "solver": "klu",
+      "step_ns": 2.5,
+      "stimulus": "constant",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 9,
+      "last_time_s": 3.9072054243164065e-13,
+      "errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 3.90721e-13, timestep = 3.125e-21: trouble with node \"ref\"",
+        "tran simulation(s) aborted"
+      ],
+      "max_ref_drift_V": 8.621185554424926e-05
+    },
+    {
+      "folder": "open-feedback-klu-2.5-pulse",
+      "boundary": "open-feedback",
+      "solver": "klu",
+      "step_ns": 2.5,
+      "stimulus": "pulse",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 9,
+      "last_time_s": 3.9072054243164065e-13,
+      "errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 3.90721e-13, timestep = 3.125e-21: trouble with node \"ref\"",
+        "tran simulation(s) aborted"
+      ],
+      "max_ref_drift_V": 8.621185554424926e-05
+    },
+    {
+      "folder": "open-feedback-klu-0.003125-constant",
+      "boundary": "open-feedback",
+      "solver": "klu",
+      "step_ns": 0.003125,
+      "stimulus": "constant",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 29,
+      "last_time_s": 3.0815076315775513e-15,
+      "errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 3.08151e-15, timestep = 3.90625e-24: trouble with node \"ref\"",
+        "tran simulation(s) aborted"
+      ],
+      "max_ref_drift_V": 0.012111449496143845
+    },
+    {
+      "folder": "open-feedback-klu-0.003125-pulse",
+      "boundary": "open-feedback",
+      "solver": "klu",
+      "step_ns": 0.003125,
+      "stimulus": "pulse",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 29,
+      "last_time_s": 3.0815076315775513e-15,
+      "errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 3.08151e-15, timestep = 3.90625e-24: trouble with node \"ref\"",
+        "tran simulation(s) aborted"
+      ],
+      "max_ref_drift_V": 0.012111449496143845
+    },
+    {
+      "folder": "open-feedback-sparse-2.5-constant",
+      "boundary": "open-feedback",
+      "solver": "sparse",
+      "step_ns": 2.5,
+      "stimulus": "constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 3.414429139425579e-08
+    },
+    {
+      "folder": "open-feedback-sparse-2.5-pulse",
+      "boundary": "open-feedback",
+      "solver": "sparse",
+      "step_ns": 2.5,
+      "stimulus": "pulse",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 225,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.05971101391950917
+    },
+    {
+      "folder": "open-feedback-sparse-0.003125-constant",
+      "boundary": "open-feedback",
+      "solver": "sparse",
+      "step_ns": 0.003125,
+      "stimulus": "constant",
+      "completed": true,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": true,
+        "finite": true,
+        "endpoint": true,
+        "monotone": true
+      },
+      "rows": 277675,
+      "last_time_s": 5.000000000000001e-07,
+      "errors": [],
+      "max_ref_drift_V": 0.050115521202573454
+    },
+    {
+      "folder": "open-feedback-sparse-0.003125-pulse",
+      "boundary": "open-feedback",
+      "solver": "sparse",
+      "step_ns": 0.003125,
+      "stimulus": "pulse",
+      "completed": false,
+      "checks": {
+        "exit_success": true,
+        "solver": true,
+        "no_error": false,
+        "finite": true,
+        "endpoint": false,
+        "monotone": true
+      },
+      "rows": 117385,
+      "last_time_s": 2.381662306060311e-07,
+      "errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 2.38166e-07, timestep = 3.90625e-24: trouble with node \"ref\"",
+        "tran simulation(s) aborted"
+      ],
+      "max_ref_drift_V": 0.050115521202573454
+    },
+    {
+      "folder": "clamp-klu-2.5-constant",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 2.5,
+      "stimulus": "constant",
+      "completed": false,
+      "checks": {
+        "exit_success": false,
+        "solver": false,
+        "no_error": false,
+        "finite": false,
+        "endpoint": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_s": null,
+      "errors": []
+    },
+    {
+      "folder": "clamp-klu-2.5-pulse",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 2.5,
+      "stimulus": "pulse",
+      "completed": false,
+      "checks": {
+        "exit_success": false,
+        "solver": false,
+        "no_error": false,
+        "finite": false,
+        "endpoint": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_s": null,
+      "errors": []
+    },
+    {
+      "folder": "clamp-klu-0.003125-constant",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 0.003125,
+      "stimulus": "constant",
+      "completed": false,
+      "checks": {
+        "exit_success": false,
+        "solver": false,
+        "no_error": false,
+        "finite": false,
+        "endpoint": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_s": null,
+      "errors": []
+    },
+    {
+      "folder": "clamp-klu-0.003125-pulse",
+      "boundary": "clamp",
+      "solver": "klu",
+      "step_ns": 0.003125,
+      "stimulus": "pulse",
+      "completed": false,
+      "checks": {
+        "exit_success": false,
+        "solver": false,
+        "no_error": false,
+        "finite": false,
+        "endpoint": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_s": null,
+      "errors": []
+    },
+    {
+      "folder": "clamp-sparse-2.5-constant",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 2.5,
+      "stimulus": "constant",
+      "completed": false,
+      "checks": {
+        "exit_success": false,
+        "solver": false,
+        "no_error": false,
+        "finite": false,
+        "endpoint": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_s": null,
+      "errors": []
+    },
+    {
+      "folder": "clamp-sparse-2.5-pulse",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 2.5,
+      "stimulus": "pulse",
+      "completed": false,
+      "checks": {
+        "exit_success": false,
+        "solver": false,
+        "no_error": false,
+        "finite": false,
+        "endpoint": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_s": null,
+      "errors": []
+    },
+    {
+      "folder": "clamp-sparse-0.003125-constant",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 0.003125,
+      "stimulus": "constant",
+      "completed": false,
+      "checks": {
+        "exit_success": false,
+        "solver": false,
+        "no_error": false,
+        "finite": false,
+        "endpoint": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_s": null,
+      "errors": []
+    },
+    {
+      "folder": "clamp-sparse-0.003125-pulse",
+      "boundary": "clamp",
+      "solver": "sparse",
+      "step_ns": 0.003125,
+      "stimulus": "pulse",
+      "completed": false,
+      "checks": {
+        "exit_success": false,
+        "solver": false,
+        "no_error": false,
+        "finite": false,
+        "endpoint": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_s": null,
+      "errors": []
+    }
+  ]
+}

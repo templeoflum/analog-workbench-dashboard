@@ -1,0 +1,21 @@
+{
+  "primary": 58,
+  "complete": 43,
+  "harnessRejected": 8,
+  "replays": 2,
+  "failureTimePs": 2.22022643632954,
+  "refinement": [
+    {
+      "solver": "KLU",
+      "firstMv": 0.018098013772060995,
+      "secondMv": 3.600125364326967,
+      "tighter": "Failed"
+    },
+    {
+      "solver": "SPARSE",
+      "firstMv": 8.611733992580639e-06,
+      "secondMv": 2.2328405790972283e-06,
+      "tighter": "Failed"
+    }
+  ]
+}
