@@ -1,0 +1,887 @@
+{
+  "updatedAt": "2026-09-09T02:53:47.955072+00:00",
+  "attempted": 44,
+  "completed": 7,
+  "groups": [
+    {
+      "name": "results.json",
+      "attempted": 7,
+      "completed": 0
+    },
+    {
+      "name": "sequence.json",
+      "attempted": 10,
+      "completed": 2
+    },
+    {
+      "name": "boundary.json",
+      "attempted": 7,
+      "completed": 5
+    },
+    {
+      "name": "ccvs-trial.json",
+      "attempted": 6,
+      "completed": 0
+    },
+    {
+      "name": "poly-trial.json",
+      "attempted": 7,
+      "completed": 0
+    },
+    {
+      "name": "combined-native.json",
+      "attempted": 7,
+      "completed": 0
+    }
+  ],
+  "records": [
+    {
+      "folder": "reference-load1000-step2.5",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 1,
+      "last_time_ns": 0.0,
+      "warnings": [],
+      "load_ohms": 1000,
+      "max_step_ns": 2.5,
+      "scope": "standalone"
+    },
+    {
+      "folder": "reference-load1000-step0.0125",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 5,
+      "last_time_ns": 0.0001269531697034836,
+      "warnings": [],
+      "load_ohms": 1000,
+      "max_step_ns": 0.0125,
+      "scope": "standalone"
+    },
+    {
+      "folder": "reference-load1000-step0.003125",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 4,
+      "last_time_ns": 4.396438598632813e-06,
+      "warnings": [
+        "Warning: singular matrix:  check node xu52.10"
+      ],
+      "load_ohms": 1000,
+      "max_step_ns": 0.003125,
+      "scope": "standalone"
+    },
+    {
+      "folder": "reference-load100000-step2.5",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 1,
+      "last_time_ns": 0.0,
+      "warnings": [],
+      "load_ohms": 100000,
+      "max_step_ns": 2.5,
+      "scope": "standalone"
+    },
+    {
+      "folder": "reference-load100000-step0.0125",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 13,
+      "last_time_ns": 0.0005001225486496583,
+      "warnings": [],
+      "load_ohms": 100000,
+      "max_step_ns": 0.0125,
+      "scope": "standalone"
+    },
+    {
+      "folder": "reference-load100000-step0.003125",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 4,
+      "last_time_ns": 4.396438598632813e-06,
+      "warnings": [
+        "Warning: singular matrix:  check node xu52.10"
+      ],
+      "load_ohms": 100000,
+      "max_step_ns": 0.003125,
+      "scope": "standalone"
+    },
+    {
+      "folder": "coupled-no-pulse",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 35,
+      "last_time_ns": 4.470923717599364e-05,
+      "warnings": [
+        "Warning: singular matrix:  check node xu31.72"
+      ],
+      "scope": "coupled no pulse"
+    },
+    {
+      "folder": "sequence-reference-klu-opFalse",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 1,
+      "last_time_ns": 0.0,
+      "warnings": [],
+      "scope": "reference",
+      "solver": "klu",
+      "preop": false
+    },
+    {
+      "folder": "sequence-reference-klu-opTrue",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 1,
+      "last_time_ns": 0.0,
+      "warnings": [],
+      "scope": "reference",
+      "solver": "klu",
+      "preop": true
+    },
+    {
+      "folder": "sequence-reference-sparse-opFalse",
+      "status": "completed",
+      "checks": {
+        "exit_success": true,
+        "no_error": true,
+        "selected_solver": true,
+        "endpoint": true,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_ns": 500.00000000000006,
+      "warnings": [],
+      "scope": "reference",
+      "solver": "sparse",
+      "preop": false
+    },
+    {
+      "folder": "sequence-reference-sparse-opTrue",
+      "status": "completed",
+      "checks": {
+        "exit_success": true,
+        "no_error": true,
+        "selected_solver": true,
+        "endpoint": true,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_ns": 500.00000000000006,
+      "warnings": [],
+      "scope": "reference",
+      "solver": "sparse",
+      "preop": true
+    },
+    {
+      "folder": "sequence-coupled-offset_input-g0",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_ns": null,
+      "warnings": [
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed",
+        "Warning: singular matrix:  check node xu4.3",
+        "Warning: singular matrix:  check node xu4.3",
+        "Warning: singular matrix:  check node xu4.3",
+        "Warning: singular matrix:  check node xu4.3",
+        "Warning: singular matrix:  check node xu4.3",
+        "Warning: singular matrix:  check node xu4.3",
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed",
+        "Warning: singular matrix:  check node xu4.3",
+        "Warning: singular matrix:  check node xu4.3"
+      ],
+      "scope": "coupled",
+      "mode": "offset_input",
+      "gain": 0,
+      "preop": true
+    },
+    {
+      "folder": "sequence-coupled-offset_input-g0.5",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 54,
+      "last_time_ns": 0.0003125991821289063,
+      "warnings": [
+        "Warning: singular matrix:  check node xu31.710",
+        "Warning: singular matrix:  check node xu31.710"
+      ],
+      "scope": "coupled",
+      "mode": "offset_input",
+      "gain": 0.5,
+      "preop": true
+    },
+    {
+      "folder": "sequence-coupled-offset_input-g1",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 15,
+      "last_time_ns": 1.394653506577015e-05,
+      "warnings": [
+        "Warning: singular matrix:  check node xu31.710",
+        "Warning: singular matrix:  check node xu31.710"
+      ],
+      "scope": "coupled",
+      "mode": "offset_input",
+      "gain": 1,
+      "preop": true
+    },
+    {
+      "folder": "sequence-coupled-offset_thru-g0",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 35,
+      "last_time_ns": 4.470923717599364e-05,
+      "warnings": [
+        "Warning: singular matrix:  check node xu31.72"
+      ],
+      "scope": "coupled",
+      "mode": "offset_thru",
+      "gain": 0,
+      "preop": true
+    },
+    {
+      "folder": "sequence-coupled-offset_thru-g0.5",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 35,
+      "last_time_ns": 4.470923717599364e-05,
+      "warnings": [
+        "Warning: singular matrix:  check node xu31.72"
+      ],
+      "scope": "coupled",
+      "mode": "offset_thru",
+      "gain": 0.5,
+      "preop": true
+    },
+    {
+      "folder": "sequence-coupled-offset_thru-g1",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 15,
+      "last_time_ns": 7.787942886352542e-07,
+      "warnings": [
+        "Warning: singular matrix:  check node xu31.72",
+        "Warning: singular matrix:  check node xu31.72"
+      ],
+      "scope": "coupled",
+      "mode": "offset_thru",
+      "gain": 1,
+      "preop": true
+    },
+    {
+      "folder": "sparse-reference-step2.5",
+      "status": "completed",
+      "checks": {
+        "exit_success": true,
+        "no_error": true,
+        "selected_solver": true,
+        "endpoint": true,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_ns": 500.00000000000006,
+      "warnings": [],
+      "scope": "reference",
+      "step": 2.5
+    },
+    {
+      "folder": "sparse-reference-step0.0125",
+      "status": "completed",
+      "checks": {
+        "exit_success": true,
+        "no_error": true,
+        "selected_solver": true,
+        "endpoint": true,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 40008,
+      "last_time_ns": 500.00000000000006,
+      "warnings": [],
+      "scope": "reference",
+      "step": 0.0125
+    },
+    {
+      "folder": "sparse-reference-step0.003125",
+      "status": "completed",
+      "checks": {
+        "exit_success": true,
+        "no_error": true,
+        "selected_solver": true,
+        "endpoint": true,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 187098,
+      "last_time_ns": 500.00000000000006,
+      "warnings": [],
+      "scope": "reference",
+      "step": 0.003125
+    },
+    {
+      "folder": "shunt-only-klu-step2.5",
+      "status": "completed",
+      "checks": {
+        "exit_success": true,
+        "no_error": true,
+        "selected_solver": true,
+        "endpoint": true,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 208,
+      "last_time_ns": 500.00000000000006,
+      "warnings": [],
+      "scope": "shunt-only",
+      "solver": "klu",
+      "step": 2.5
+    },
+    {
+      "folder": "shunt-only-klu-step0.003125",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 14,
+      "last_time_ns": 4.397341632284224e-06,
+      "warnings": [
+        "Warning: singular matrix:  check node d.xu4.d_d12#internal"
+      ],
+      "scope": "shunt-only",
+      "solver": "klu",
+      "step": 0.003125
+    },
+    {
+      "folder": "shunt-only-sparse-step2.5",
+      "status": "completed",
+      "checks": {
+        "exit_success": true,
+        "no_error": true,
+        "selected_solver": true,
+        "endpoint": true,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 210,
+      "last_time_ns": 500.00000000000006,
+      "warnings": [],
+      "scope": "shunt-only",
+      "solver": "sparse",
+      "step": 2.5
+    },
+    {
+      "folder": "shunt-only-sparse-step0.003125",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 5213,
+      "last_time_ns": 2.048482496455325,
+      "warnings": [],
+      "scope": "shunt-only",
+      "solver": "sparse",
+      "step": 0.003125
+    },
+    {
+      "folder": "ccvs-coupled-offset_input-g0",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_ns": null,
+      "warnings": [
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed"
+      ],
+      "mode": "offset_input",
+      "gain": 0
+    },
+    {
+      "folder": "ccvs-coupled-offset_input-g0.5",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 23,
+      "last_time_ns": 2.2918701171875e-05,
+      "warnings": [],
+      "mode": "offset_input",
+      "gain": 0.5
+    },
+    {
+      "folder": "ccvs-coupled-offset_input-g1",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 9,
+      "last_time_ns": 6.103515625000001e-06,
+      "warnings": [],
+      "mode": "offset_input",
+      "gain": 1
+    },
+    {
+      "folder": "ccvs-coupled-offset_thru-g0",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 20,
+      "last_time_ns": 9.643564175348727e-06,
+      "warnings": [],
+      "mode": "offset_thru",
+      "gain": 0
+    },
+    {
+      "folder": "ccvs-coupled-offset_thru-g0.5",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 35,
+      "last_time_ns": 6.831307901659012e-07,
+      "warnings": [],
+      "mode": "offset_thru",
+      "gain": 0.5
+    },
+    {
+      "folder": "ccvs-coupled-offset_thru-g1",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 32,
+      "last_time_ns": 1.3949451385997241e-05,
+      "warnings": [],
+      "mode": "offset_thru",
+      "gain": 1
+    },
+    {
+      "folder": "poly-reference-klu",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 22,
+      "last_time_ns": 3.906830912455917e-06,
+      "warnings": [
+        "Warning: singular matrix:  check node xu52.10"
+      ],
+      "scope": "reference"
+    },
+    {
+      "folder": "poly-coupled-offset_input-g0",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 33,
+      "last_time_ns": 4.608525894582272e-06,
+      "warnings": [
+        "Warning: singular matrix:  check node xu31.72",
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: singular matrix:  check node xu31.72",
+        "Warning: singular matrix:  check node xu31.72"
+      ],
+      "scope": "coupled",
+      "mode": "offset_input",
+      "gain": 0
+    },
+    {
+      "folder": "poly-coupled-offset_input-g0.5",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 16,
+      "last_time_ns": 6.286665657535197e-05,
+      "warnings": [
+        "Warning: singular matrix:  check node xu31.72"
+      ],
+      "scope": "coupled",
+      "mode": "offset_input",
+      "gain": 0.5
+    },
+    {
+      "folder": "poly-coupled-offset_input-g1",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 33,
+      "last_time_ns": 4.608525894582272e-06,
+      "warnings": [
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: singular matrix:  check node xu31.72",
+        "Warning: singular matrix:  check node xu31.72"
+      ],
+      "scope": "coupled",
+      "mode": "offset_input",
+      "gain": 1
+    },
+    {
+      "folder": "poly-coupled-offset_thru-g0",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 33,
+      "last_time_ns": 4.608525894582272e-06,
+      "warnings": [
+        "Warning: singular matrix:  check node xu31.72",
+        "Warning: singular matrix:  check node xu31.72"
+      ],
+      "scope": "coupled",
+      "mode": "offset_thru",
+      "gain": 0
+    },
+    {
+      "folder": "poly-coupled-offset_thru-g0.5",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 35,
+      "last_time_ns": 2.13931092293933e-05,
+      "warnings": [
+        "Warning: singular matrix:  check node xu31.72"
+      ],
+      "scope": "coupled",
+      "mode": "offset_thru",
+      "gain": 0.5
+    },
+    {
+      "folder": "poly-coupled-offset_thru-g1",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 45,
+      "last_time_ns": 1.396954152733088e-05,
+      "warnings": [
+        "Warning: singular matrix:  check node xu31.72",
+        "Warning: singular matrix:  check node xu31.72"
+      ],
+      "scope": "coupled",
+      "mode": "offset_thru",
+      "gain": 1
+    },
+    {
+      "folder": "native-both-reference",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 57,
+      "last_time_ns": 1.948688819538802e-05,
+      "warnings": [],
+      "scope": "reference"
+    },
+    {
+      "folder": "native-both-offset_input-g0",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 10,
+      "last_time_ns": 4.909092094749213e-07,
+      "warnings": [
+        "Warning: Dynamic gmin stepping failed"
+      ],
+      "scope": "coupled",
+      "mode": "offset_input",
+      "gain": 0
+    },
+    {
+      "folder": "native-both-offset_input-g0.5",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 14,
+      "last_time_ns": 3.906686790287496e-06,
+      "warnings": [],
+      "scope": "coupled",
+      "mode": "offset_input",
+      "gain": 0.5
+    },
+    {
+      "folder": "native-both-offset_input-g1",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 4,
+      "last_time_ns": 1.073349267244339e-09,
+      "warnings": [],
+      "scope": "coupled",
+      "mode": "offset_input",
+      "gain": 1
+    },
+    {
+      "folder": "native-both-offset_thru-g0",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 4,
+      "last_time_ns": 4.892647266387941e-07,
+      "warnings": [
+        "Warning: Dynamic gmin stepping failed"
+      ],
+      "scope": "coupled",
+      "mode": "offset_thru",
+      "gain": 0
+    },
+    {
+      "folder": "native-both-offset_thru-g0.5",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 8,
+      "last_time_ns": 3.12729534925893e-05,
+      "warnings": [],
+      "scope": "coupled",
+      "mode": "offset_thru",
+      "gain": 0.5
+    },
+    {
+      "folder": "native-both-offset_thru-g1",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 7,
+      "last_time_ns": 1.074571628123522e-09,
+      "warnings": [],
+      "scope": "coupled",
+      "mode": "offset_thru",
+      "gain": 1
+    }
+  ]
+}
