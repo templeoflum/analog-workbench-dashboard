@@ -1,0 +1,42 @@
+{
+  "rows": [
+    {
+      "topology": "original",
+      "solver": "klu",
+      "coarseNV": 0.17457312288457483,
+      "finePV": 0.0037081882703349223
+    },
+    {
+      "topology": "original",
+      "solver": "sparse",
+      "coarseNV": 0.17457525117343942,
+      "finePV": 47.35945511626094
+    },
+    {
+      "topology": "floating",
+      "solver": "klu",
+      "coarseNV": 0.1745731630000552,
+      "finePV": 3.3636721880059284
+    },
+    {
+      "topology": "floating",
+      "solver": "sparse",
+      "coarseNV": 0.17457310120053138,
+      "finePV": 2.815820927121182
+    },
+    {
+      "topology": "grounded",
+      "solver": "klu",
+      "coarseNV": 0.17457312093301092,
+      "finePV": 0.010714736389805246
+    },
+    {
+      "topology": "grounded",
+      "solver": "sparse",
+      "coarseNV": 0.17457312440245787,
+      "finePV": 0.008266824724767474
+    }
+  ],
+  "maxErrorNV": 1.2707659041797519,
+  "maxFineErrorPV": 47.35945511626094
+}
