@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-09T01:47:26.850868+00:00",
+  "updatedAt": "2026-09-09T01:53:32.859497+00:00",
   "destination": "A playable analog video instrument whose behavior can be traced to documented circuitry and repeated through a measurement bench.",
   "current": "Qualify the Cadet VII coupled model",
-  "next": "Run controlled component-substitution diagnostics to locate the tighter-tolerance failure.",
+  "next": "Isolate the TL074 buffer family with a clearly labeled diagnostic replacement, retaining the original coupled model as the baseline.",
   "decision": "Use the findings to choose a justified solver/model approach. If the source model cannot support the needed behavior, narrow the claim or change the reference\u2014not the pass criteria after the fact.",
   "phases": [
     {
@@ -22,7 +22,7 @@
     {
       "title": "Qualify the component and coupled models",
       "state": "Current stage",
-      "result": "Partial and coupled transients run. The expanded tolerance study completes 9 of 18 runs; both tighter settings fail in all six configurations.",
+      "result": "The tighter-setting map completes 9/18 runs. New shunt substitution: all six nominal runs complete, all six tighter runs still stop. Freezing the TL431 alone is insufficient.",
       "gate": "Locate the sensitivity, justify usable numerical limits and qualify the model under the intended rails and loads.",
       "href": "/evidence/tolerance/report.md"
     },

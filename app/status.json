@@ -12,7 +12,7 @@
     "hardware_tests_run": 0,
     "model_scope": "Ideal linear DC, ideal 2.5V reference and op amps; no rail limiting."
   },
-  "updatedAt": "2026-09-09T01:41:01.561154+00:00",
+  "updatedAt": "2026-09-09T01:53:32.859497+00:00",
   "activity": [
     {
       "state": "In progress",
@@ -37,6 +37,10 @@
     {
       "state": "Observed / unresolved",
       "text": "Tolerance map: 9/18 complete; relative tighter 3/6, absolute tighter 6/6, both tighter 0/6. Nine trace comparisons independently reproduced. Coupled reference remains experimental."
+    },
+    {
+      "state": "Diagnostic / gate open",
+      "text": "TL431 held at its initial voltage:6/6 nominal runs complete,0/6 jointly tighter runs complete. Six nominal different-circuit comparisons independently reproduced. Freezing the shunt alone is insufficient."
     }
   ]
 }

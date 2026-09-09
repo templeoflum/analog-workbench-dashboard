@@ -1,0 +1,313 @@
+{
+  "completed": 6,
+  "attempted": 12,
+  "cases": [
+    {
+      "mode": "offset_input",
+      "gain": 0,
+      "runs": [
+        {
+          "mode": "offset_input",
+          "gain": 0,
+          "setting": "nominal",
+          "reltol": 0.0001,
+          "abstol": 1e-07,
+          "folder": "offset_input-g0-nominal",
+          "status": "completed",
+          "frozen_reference_v": 2.495571017342176,
+          "substitution_lines": 1,
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 80074,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "full_model_difference_v": 1.0347788743925168e-07,
+          "initial_output_difference_v": 3.319566843629218e-14
+        },
+        {
+          "mode": "offset_input",
+          "gain": 0,
+          "setting": "both",
+          "reltol": 1e-05,
+          "abstol": 1e-08,
+          "folder": "offset_input-g0-both",
+          "status": "failed",
+          "frozen_reference_v": 2.495571017342176,
+          "substitution_lines": 1,
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 18813,
+          "last_time_ns": 116.8609882571085,
+          "warnings": []
+        }
+      ],
+      "frozen_tolerance_difference_v": null
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0.5,
+      "runs": [
+        {
+          "mode": "offset_input",
+          "gain": 0.5,
+          "setting": "nominal",
+          "reltol": 0.0001,
+          "abstol": 1e-07,
+          "folder": "offset_input-g0.5-nominal",
+          "status": "completed",
+          "frozen_reference_v": 2.495571017342176,
+          "substitution_lines": 1,
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 80111,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "full_model_difference_v": 2.1257507752149574e-07,
+          "initial_output_difference_v": 1.1188966420050406e-15
+        },
+        {
+          "mode": "offset_input",
+          "gain": 0.5,
+          "setting": "both",
+          "reltol": 1e-05,
+          "abstol": 1e-08,
+          "folder": "offset_input-g0.5-both",
+          "status": "failed",
+          "frozen_reference_v": 2.495571017342176,
+          "substitution_lines": 1,
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 18286,
+          "last_time_ns": 113.9351487694874,
+          "warnings": []
+        }
+      ],
+      "frozen_tolerance_difference_v": null
+    },
+    {
+      "mode": "offset_input",
+      "gain": 1,
+      "runs": [
+        {
+          "mode": "offset_input",
+          "gain": 1,
+          "setting": "nominal",
+          "reltol": 0.0001,
+          "abstol": 1e-07,
+          "folder": "offset_input-g1-nominal",
+          "status": "completed",
+          "frozen_reference_v": 2.495571017342176,
+          "substitution_lines": 1,
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 80134,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "full_model_difference_v": 3.828787675796974e-07,
+          "initial_output_difference_v": 2.033900825537671e-12
+        },
+        {
+          "mode": "offset_input",
+          "gain": 1,
+          "setting": "both",
+          "reltol": 1e-05,
+          "abstol": 1e-08,
+          "folder": "offset_input-g1-both",
+          "status": "failed",
+          "frozen_reference_v": 2.495571017342176,
+          "substitution_lines": 1,
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 16857,
+          "last_time_ns": 105.017697402157,
+          "warnings": []
+        }
+      ],
+      "frozen_tolerance_difference_v": null
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0,
+      "runs": [
+        {
+          "mode": "offset_thru",
+          "gain": 0,
+          "setting": "nominal",
+          "reltol": 0.0001,
+          "abstol": 1e-07,
+          "folder": "offset_thru-g0-nominal",
+          "status": "completed",
+          "frozen_reference_v": 2.495571017342176,
+          "substitution_lines": 1,
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 80063,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "full_model_difference_v": 5.172575891915221e-08,
+          "initial_output_difference_v": 7.271960811294775e-14
+        },
+        {
+          "mode": "offset_thru",
+          "gain": 0,
+          "setting": "both",
+          "reltol": 1e-05,
+          "abstol": 1e-08,
+          "folder": "offset_thru-g0-both",
+          "status": "failed",
+          "frozen_reference_v": 2.495571017342176,
+          "substitution_lines": 1,
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 18844,
+          "last_time_ns": 117.4032348925846,
+          "warnings": []
+        }
+      ],
+      "frozen_tolerance_difference_v": null
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0.5,
+      "runs": [
+        {
+          "mode": "offset_thru",
+          "gain": 0.5,
+          "setting": "nominal",
+          "reltol": 0.0001,
+          "abstol": 1e-07,
+          "folder": "offset_thru-g0.5-nominal",
+          "status": "completed",
+          "frozen_reference_v": 2.495571017342176,
+          "substitution_lines": 1,
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 80047,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "full_model_difference_v": 4.4345125960187914e-08,
+          "initial_output_difference_v": 0.0
+        },
+        {
+          "mode": "offset_thru",
+          "gain": 0.5,
+          "setting": "both",
+          "reltol": 1e-05,
+          "abstol": 1e-08,
+          "folder": "offset_thru-g0.5-both",
+          "status": "failed",
+          "frozen_reference_v": 2.495571017342176,
+          "substitution_lines": 1,
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 49259,
+          "last_time_ns": 305.8399923004676,
+          "warnings": []
+        }
+      ],
+      "frozen_tolerance_difference_v": null
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 1,
+      "runs": [
+        {
+          "mode": "offset_thru",
+          "gain": 1,
+          "setting": "nominal",
+          "reltol": 0.0001,
+          "abstol": 1e-07,
+          "folder": "offset_thru-g1-nominal",
+          "status": "completed",
+          "frozen_reference_v": 2.495571017342176,
+          "substitution_lines": 1,
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 80083,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "full_model_difference_v": 3.805531887390856e-07,
+          "initial_output_difference_v": 1.3281042932078435e-13
+        },
+        {
+          "mode": "offset_thru",
+          "gain": 1,
+          "setting": "both",
+          "reltol": 1e-05,
+          "abstol": 1e-08,
+          "folder": "offset_thru-g1-both",
+          "status": "failed",
+          "frozen_reference_v": 2.495571017342176,
+          "substitution_lines": 1,
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 18145,
+          "last_time_ns": 113.0329482912544,
+          "warnings": []
+        }
+      ],
+      "frozen_tolerance_difference_v": null
+    }
+  ],
+  "updatedAt": "2026-09-09T01:53:32.859497+00:00"
+}
