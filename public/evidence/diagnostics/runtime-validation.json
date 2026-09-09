@@ -1,0 +1,584 @@
+{
+  "sourceChecks": 20,
+  "comparisonGuardChecks": 6,
+  "runtimeChecks": 72,
+  "passed": true,
+  "results": [
+    {
+      "key": "offset_input-0-flat",
+      "chunk": 257,
+      "peakV": 6.923985684803569e-7,
+      "rmsV": 6.923852101263584e-7,
+      "directDifferenceV": 2.0816681711721685e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0-flat",
+      "chunk": 4096,
+      "peakV": 6.923985685081124e-7,
+      "rmsV": 6.92385210135865e-7,
+      "directDifferenceV": 2.3592239273284576e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0-staircase",
+      "chunk": 257,
+      "peakV": 0.000011187752987487642,
+      "rmsV": 0.000002290969803139314,
+      "directDifferenceV": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0-staircase",
+      "chunk": 4096,
+      "peakV": 0.000011187752987487642,
+      "rmsV": 0.000002290969803137772,
+      "directDifferenceV": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0-ramp",
+      "chunk": 257,
+      "peakV": 0.0000018027774851825384,
+      "rmsV": 6.921414433104892e-7,
+      "directDifferenceV": 1.3877787807814457e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0-ramp",
+      "chunk": 4096,
+      "peakV": 0.0000018027774851547829,
+      "rmsV": 6.921414433127335e-7,
+      "directDifferenceV": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0-pulse",
+      "chunk": 257,
+      "peakV": 0.00003688491975001318,
+      "rmsV": 0.000005094766146924326,
+      "directDifferenceV": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0-pulse",
+      "chunk": 4096,
+      "peakV": 0.00003688491975001318,
+      "rmsV": 0.000005094766146923,
+      "directDifferenceV": 1.3877787807814457e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0-sine1",
+      "chunk": 257,
+      "peakV": 0.0000014243378877593083,
+      "rmsV": 8.518874009950818e-7,
+      "directDifferenceV": 2.3592239273284576e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0-sine1",
+      "chunk": 4096,
+      "peakV": 0.0000014243378878009416,
+      "rmsV": 8.518874009939201e-7,
+      "directDifferenceV": 2.498001805406602e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0-sine5",
+      "chunk": 257,
+      "peakV": 0.000004328273008460948,
+      "rmsV": 9.089113572287822e-7,
+      "directDifferenceV": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0-sine5",
+      "chunk": 4096,
+      "peakV": 0.000004328273008488703,
+      "rmsV": 9.08911357239039e-7,
+      "directDifferenceV": 2.498001805406602e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0.5-flat",
+      "chunk": 257,
+      "peakV": 1.46258145065567e-7,
+      "rmsV": 1.462575788183539e-7,
+      "directDifferenceV": 2.2551405187698492e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0.5-flat",
+      "chunk": 4096,
+      "peakV": 1.4625814506903645e-7,
+      "rmsV": 1.462575788192194e-7,
+      "directDifferenceV": 2.42861286636753e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0.5-staircase",
+      "chunk": 257,
+      "peakV": 0.000005964242387992286,
+      "rmsV": 0.000001331899676684295,
+      "directDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0.5-staircase",
+      "chunk": 4096,
+      "peakV": 0.000005964242387992286,
+      "rmsV": 0.000001331899676683668,
+      "directDifferenceV": 3.469446951953614e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0.5-ramp",
+      "chunk": 257,
+      "peakV": 9.841860263669344e-7,
+      "rmsV": 1.7461491954459213e-7,
+      "directDifferenceV": 2.42861286636753e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0.5-ramp",
+      "chunk": 4096,
+      "peakV": 9.841860263530566e-7,
+      "rmsV": 1.7461491954533908e-7,
+      "directDifferenceV": 2.2551405187698492e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0.5-pulse",
+      "chunk": 257,
+      "peakV": 0.000019314343622754693,
+      "rmsV": 0.000003007650371278786,
+      "directDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0.5-pulse",
+      "chunk": 4096,
+      "peakV": 0.00001931434362276163,
+      "rmsV": 0.00000300765037127866,
+      "directDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0.5-sine1",
+      "chunk": 257,
+      "peakV": 4.5765924766918986e-7,
+      "rmsV": 1.824580867701038e-7,
+      "directDifferenceV": 2.6020852139652106e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0.5-sine1",
+      "chunk": 4096,
+      "peakV": 4.576592476553121e-7,
+      "rmsV": 1.824580867713003e-7,
+      "directDifferenceV": 3.2959746043559335e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0.5-sine5",
+      "chunk": 257,
+      "peakV": 0.0000018471600398833887,
+      "rmsV": 2.5774202776238463e-7,
+      "directDifferenceV": 2.688821387764051e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_input-0.5-sine5",
+      "chunk": 4096,
+      "peakV": 0.000001847160039893797,
+      "rmsV": 2.5774202776295373e-7,
+      "directDifferenceV": 2.949029909160572e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_input-1-flat",
+      "chunk": 257,
+      "peakV": 1.317554398916343e-11,
+      "rmsV": 7.535812071957243e-12,
+      "directDifferenceV": 2.0816681711721685e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-1-flat",
+      "chunk": 4096,
+      "peakV": 1.3175571744739045e-11,
+      "rmsV": 7.535813871442187e-12,
+      "directDifferenceV": 2.3592239273284576e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-1-staircase",
+      "chunk": 257,
+      "peakV": 0.000032750572604441086,
+      "rmsV": 0.000006956605809017387,
+      "directDifferenceV": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-1-staircase",
+      "chunk": 4096,
+      "peakV": 0.00003275057260446884,
+      "rmsV": 0.000006956605809017292,
+      "directDifferenceV": 2.498001805406602e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-1-ramp",
+      "chunk": 257,
+      "peakV": 0.000004834440529843942,
+      "rmsV": 5.531443300824006e-7,
+      "directDifferenceV": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-1-ramp",
+      "chunk": 4096,
+      "peakV": 0.000004834440529843942,
+      "rmsV": 5.531443300844428e-7,
+      "directDifferenceV": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-1-pulse",
+      "chunk": 257,
+      "peakV": 0.00010478061590615817,
+      "rmsV": 0.000015738775302873396,
+      "directDifferenceV": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-1-pulse",
+      "chunk": 4096,
+      "peakV": 0.00010478061590604715,
+      "rmsV": 0.000015738775302872738,
+      "directDifferenceV": 1.942890293094024e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-1-sine1",
+      "chunk": 257,
+      "peakV": 0.000002125994237711648,
+      "rmsV": 1.990628594041622e-7,
+      "directDifferenceV": 2.7755575615628914e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-1-sine1",
+      "chunk": 4096,
+      "peakV": 0.0000021259942376838925,
+      "rmsV": 1.990628594040919e-7,
+      "directDifferenceV": 2.3592239273284576e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-1-sine5",
+      "chunk": 257,
+      "peakV": 0.000010583253899104639,
+      "rmsV": 0.000001050234592495314,
+      "directDifferenceV": 2.498001805406602e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_input-1-sine5",
+      "chunk": 4096,
+      "peakV": 0.000010583253899104639,
+      "rmsV": 0.0000010502345924964164,
+      "directDifferenceV": 2.7755575615628914e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0-flat",
+      "chunk": 257,
+      "peakV": 6.923930083169161e-7,
+      "rmsV": 6.923923438824047e-7,
+      "directDifferenceV": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0-flat",
+      "chunk": 4096,
+      "peakV": 6.923930083169161e-7,
+      "rmsV": 6.923923438849299e-7,
+      "directDifferenceV": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0-staircase",
+      "chunk": 257,
+      "peakV": 0.000011183772744005616,
+      "rmsV": 0.0000022902553122236176,
+      "directDifferenceV": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0-staircase",
+      "chunk": 4096,
+      "peakV": 0.000011183772744005616,
+      "rmsV": 0.0000022902553122229615,
+      "directDifferenceV": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0-ramp",
+      "chunk": 257,
+      "peakV": 0.00000180278531408673,
+      "rmsV": 6.919268719706233e-7,
+      "directDifferenceV": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0-ramp",
+      "chunk": 4096,
+      "peakV": 0.0000018027853140589745,
+      "rmsV": 6.919268719681093e-7,
+      "directDifferenceV": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0-pulse",
+      "chunk": 257,
+      "peakV": 0.000036896434217531526,
+      "rmsV": 0.000005093884157774663,
+      "directDifferenceV": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0-pulse",
+      "chunk": 4096,
+      "peakV": 0.00003689643421748989,
+      "rmsV": 0.000005093884157773675,
+      "directDifferenceV": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0-sine1",
+      "chunk": 257,
+      "peakV": 0.0000014246693327835125,
+      "rmsV": 8.517835961093577e-7,
+      "directDifferenceV": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0-sine1",
+      "chunk": 4096,
+      "peakV": 0.0000014246693327835125,
+      "rmsV": 8.517835961116685e-7,
+      "directDifferenceV": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0-sine5",
+      "chunk": 257,
+      "peakV": 0.000004329954973625316,
+      "rmsV": 9.08331029948182e-7,
+      "directDifferenceV": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0-sine5",
+      "chunk": 4096,
+      "peakV": 0.000004329954973625316,
+      "rmsV": 9.08331029957647e-7,
+      "directDifferenceV": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0.5-flat",
+      "chunk": 257,
+      "peakV": 1.4625753103070238e-7,
+      "rmsV": 1.4625643213466682e-7,
+      "directDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0.5-flat",
+      "chunk": 4096,
+      "peakV": 1.4625753103070238e-7,
+      "rmsV": 1.462564321353814e-7,
+      "directDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0.5-staircase",
+      "chunk": 257,
+      "peakV": 0.000005964109568573628,
+      "rmsV": 0.0000013317911901019045,
+      "directDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0.5-staircase",
+      "chunk": 4096,
+      "peakV": 0.000005964109568545872,
+      "rmsV": 0.0000013317911901009745,
+      "directDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0.5-ramp",
+      "chunk": 257,
+      "peakV": 9.83760907180553e-7,
+      "rmsV": 1.7461137529079963e-7,
+      "directDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0.5-ramp",
+      "chunk": 4096,
+      "peakV": 9.83760907180553e-7,
+      "rmsV": 1.7461137529184794e-7,
+      "directDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0.5-pulse",
+      "chunk": 257,
+      "peakV": 0.000019319799906380997,
+      "rmsV": 0.000003007599314994644,
+      "directDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0.5-pulse",
+      "chunk": 4096,
+      "peakV": 0.000019319799906380997,
+      "rmsV": 0.0000030075993149944176,
+      "directDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0.5-sine1",
+      "chunk": 257,
+      "peakV": 4.577341611022856e-7,
+      "rmsV": 1.8245651600583483e-7,
+      "directDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0.5-sine1",
+      "chunk": 4096,
+      "peakV": 4.577341611022856e-7,
+      "rmsV": 1.824565160075936e-7,
+      "directDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0.5-sine5",
+      "chunk": 257,
+      "peakV": 0.0000018465746555174078,
+      "rmsV": 2.577260261800736e-7,
+      "directDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-0.5-sine5",
+      "chunk": 4096,
+      "peakV": 0.0000018465746555174078,
+      "rmsV": 2.57726026180858e-7,
+      "directDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-1-flat",
+      "chunk": 257,
+      "peakV": 3.2318175913204072e-12,
+      "rmsV": 2.7080317902258513e-12,
+      "directDifferenceV": 1.249000902703301e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-1-flat",
+      "chunk": 4096,
+      "peakV": 3.2317898357447916e-12,
+      "rmsV": 2.708030233750255e-12,
+      "directDifferenceV": 1.3877787807814457e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-1-staircase",
+      "chunk": 257,
+      "peakV": 0.00003275214510738145,
+      "rmsV": 0.00000695574555389725,
+      "directDifferenceV": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-1-staircase",
+      "chunk": 4096,
+      "peakV": 0.00003275214510743696,
+      "rmsV": 0.000006955745553896985,
+      "directDifferenceV": 1.942890293094024e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-1-ramp",
+      "chunk": 257,
+      "peakV": 0.00000483734720696169,
+      "rmsV": 5.531706103402292e-7,
+      "directDifferenceV": 1.5265566588595902e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-1-ramp",
+      "chunk": 4096,
+      "peakV": 0.0000048373472069061785,
+      "rmsV": 5.53170610341396e-7,
+      "directDifferenceV": 1.3877787807814457e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-1-pulse",
+      "chunk": 257,
+      "peakV": 0.00010480378992694384,
+      "rmsV": 0.000015738834835600275,
+      "directDifferenceV": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-1-pulse",
+      "chunk": 4096,
+      "peakV": 0.00010480378992694384,
+      "rmsV": 0.00001573883483559911,
+      "directDifferenceV": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-1-sine1",
+      "chunk": 257,
+      "peakV": 0.0000021266841771228062,
+      "rmsV": 1.990670245505387e-7,
+      "directDifferenceV": 1.8041124150158794e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-1-sine1",
+      "chunk": 4096,
+      "peakV": 0.0000021266841770950506,
+      "rmsV": 1.9906702455106074e-7,
+      "directDifferenceV": 1.3877787807814457e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-1-sine5",
+      "chunk": 257,
+      "peakV": 0.000010586852452781903,
+      "rmsV": 0.0000010502357896484404,
+      "directDifferenceV": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "key": "offset_thru-1-sine5",
+      "chunk": 4096,
+      "peakV": 0.00001058685245279578,
+      "rmsV": 0.000001050235789650184,
+      "directDifferenceV": 1.6653345369377348e-16,
+      "passed": true
+    }
+  ]
+}

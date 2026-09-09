@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-09T04:47:44.991455+00:00",
+  "updatedAt": "2026-09-09T11:00:23.462685+00:00",
   "destination": "A playable analog video instrument whose behavior can be traced to documented circuitry and repeated through a measurement bench.",
-  "current": "Playable partial signal path delivered",
-  "next": "Review the playable six-setting demonstration. Browser draw rate is visible live; physical hardware and full-module qualification remain open.",
-  "decision": "The bounded runtime passed its fixed numerical gate. Further expansion needs a named operating range and reference; the paused solver investigation does not restart automatically.",
+  "current": "Diagnostic source and comparison bench delivered",
+  "next": "Use the six-source bench to inspect level, transition and frequency response at the six fixed settings. Broader operating ranges and physical calibration remain future gates.",
+  "decision": "The diagnostic acquisition passes all 36 named comparisons without changing the runtime model. Any broader control or input range requires its own defined reference and acceptance limits.",
   "phases": [
     {
       "title": "Preserve the research and choose a tractable circuit",
@@ -15,7 +15,7 @@
     {
       "title": "Build a repeatable bench",
       "state": "Working foundation",
-      "result": "Ideal DC comparisons, simulation fixtures, provenance, failure records and downloadable evidence are working.",
+      "result": "Repeatable diagnostic acquisition now provides deterministic sources, reference overlay, all-sample residual metrics, sample inspection and CSV export, alongside retained simulation evidence.",
       "gate": "Timing fault detection and a general calibration acceptance policy are still open; a working runner is not the whole bench contract.",
       "href": "/evidence/verification.json"
     },
@@ -36,9 +36,9 @@
     {
       "title": "Turn the validated model into a playable module",
       "state": "Bounded prototype working",
-      "result": "Moving pattern, three gain settings, two offset routes, retained signal history and live draw-rate readout. 18 held-out waveform cases plus 6 pattern cases pass the fixed error limits.",
+      "result": "Playable partial signal path plus six intentional diagnostic sources. All 36 diagnostic cases pass predeclared error limits; runtime output is recomputed for each selection.",
       "gate": "Browser performance qualification, broader controls and inputs, saved patches and media IO remain open. This partial prototype does not clear full-module qualification.",
-      "href": "/evidence/playable/report.md"
+      "href": "/evidence/diagnostics/report.md"
     },
     {
       "title": "Expand the selected instrument",

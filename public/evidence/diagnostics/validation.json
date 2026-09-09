@@ -1,0 +1,362 @@
+[
+  {
+    "key": "offset_input-0-flat",
+    "source": "flat",
+    "mode": "offset_input",
+    "gain": 0,
+    "peakV": 6.923985683277012e-07,
+    "rmsV": 6.923852099683332e-07,
+    "inputAgreementV": 0.0,
+    "passed": true
+  },
+  {
+    "key": "offset_input-0-staircase",
+    "source": "staircase",
+    "mode": "offset_input",
+    "gain": 0,
+    "peakV": 1.1187752987515398e-05,
+    "rmsV": 2.290969803142382e-06,
+    "inputAgreementV": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "key": "offset_input-0-ramp",
+    "source": "ramp",
+    "mode": "offset_input",
+    "gain": 0,
+    "peakV": 1.8027774851825384e-06,
+    "rmsV": 6.921414433195544e-07,
+    "inputAgreementV": 8.326672684688674e-17,
+    "passed": true
+  },
+  {
+    "key": "offset_input-0-pulse",
+    "source": "pulse",
+    "mode": "offset_input",
+    "gain": 0,
+    "peakV": 3.688491975006869e-05,
+    "rmsV": 5.094766146924186e-06,
+    "inputAgreementV": 1.6948248360293405e-15,
+    "passed": true
+  },
+  {
+    "key": "offset_input-0-sine1",
+    "source": "sine1",
+    "mode": "offset_input",
+    "gain": 0,
+    "peakV": 1.4243378875927748e-06,
+    "rmsV": 8.518874008505521e-07,
+    "inputAgreementV": 1.249000902703301e-16,
+    "passed": true
+  },
+  {
+    "key": "offset_input-0-sine5",
+    "source": "sine5",
+    "mode": "offset_input",
+    "gain": 0,
+    "peakV": 4.3282730082805365e-06,
+    "rmsV": 9.089113571056053e-07,
+    "inputAgreementV": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "key": "offset_input-0.5-flat",
+    "source": "flat",
+    "mode": "offset_input",
+    "gain": 0.5,
+    "peakV": 1.4625814505515866e-07,
+    "rmsV": 1.4625757880946718e-07,
+    "inputAgreementV": 0.0,
+    "passed": true
+  },
+  {
+    "key": "offset_input-0.5-staircase",
+    "source": "staircase",
+    "mode": "offset_input",
+    "gain": 0.5,
+    "peakV": 5.964242387995755e-06,
+    "rmsV": 1.331899676684119e-06,
+    "inputAgreementV": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "key": "offset_input-0.5-ramp",
+    "source": "ramp",
+    "mode": "offset_input",
+    "gain": 0.5,
+    "peakV": 9.841860263530566e-07,
+    "rmsV": 1.746149195452533e-07,
+    "inputAgreementV": 8.326672684688674e-17,
+    "passed": true
+  },
+  {
+    "key": "offset_input-0.5-pulse",
+    "source": "pulse",
+    "mode": "offset_input",
+    "gain": 0.5,
+    "peakV": 1.9314343622754693e-05,
+    "rmsV": 3.0076503712788514e-06,
+    "inputAgreementV": 1.6948248360293405e-15,
+    "passed": true
+  },
+  {
+    "key": "offset_input-0.5-sine1",
+    "source": "sine1",
+    "mode": "offset_input",
+    "gain": 0.5,
+    "peakV": 4.576592476570468e-07,
+    "rmsV": 1.824580867622038e-07,
+    "inputAgreementV": 1.249000902703301e-16,
+    "passed": true
+  },
+  {
+    "key": "offset_input-0.5-sine5",
+    "source": "sine5",
+    "mode": "offset_input",
+    "gain": 0.5,
+    "peakV": 1.8471600398972665e-06,
+    "rmsV": 2.577420277573091e-07,
+    "inputAgreementV": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "key": "offset_input-1-flat",
+    "source": "flat",
+    "mode": "offset_input",
+    "gain": 1,
+    "peakV": 1.3175446844648775e-11,
+    "rmsV": 7.535801353710115e-12,
+    "inputAgreementV": 0.0,
+    "passed": true
+  },
+  {
+    "key": "offset_input-1-staircase",
+    "source": "staircase",
+    "mode": "offset_input",
+    "gain": 1,
+    "peakV": 3.2750572604441086e-05,
+    "rmsV": 6.9566058090173555e-06,
+    "inputAgreementV": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "key": "offset_input-1-ramp",
+    "source": "ramp",
+    "mode": "offset_input",
+    "gain": 1,
+    "peakV": 4.834440529816186e-06,
+    "rmsV": 5.531443300818723e-07,
+    "inputAgreementV": 8.326672684688674e-17,
+    "passed": true
+  },
+  {
+    "key": "offset_input-1-pulse",
+    "source": "pulse",
+    "mode": "offset_input",
+    "gain": 1,
+    "peakV": 0.00010478061590615817,
+    "rmsV": 1.5738775302874022e-05,
+    "inputAgreementV": 1.6948248360293405e-15,
+    "passed": true
+  },
+  {
+    "key": "offset_input-1-sine1",
+    "source": "sine1",
+    "mode": "offset_input",
+    "gain": 1,
+    "peakV": 2.125994237836548e-06,
+    "rmsV": 1.99062859405056e-07,
+    "inputAgreementV": 1.249000902703301e-16,
+    "passed": true
+  },
+  {
+    "key": "offset_input-1-sine5",
+    "source": "sine5",
+    "mode": "offset_input",
+    "gain": 1,
+    "peakV": 1.0583253899215661e-05,
+    "rmsV": 1.050234592498839e-06,
+    "inputAgreementV": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "key": "offset_thru-0-flat",
+    "source": "flat",
+    "mode": "offset_thru",
+    "gain": 0,
+    "peakV": 6.923930083169161e-07,
+    "rmsV": 6.923923438847349e-07,
+    "inputAgreementV": 0.0,
+    "passed": true
+  },
+  {
+    "key": "offset_thru-0-staircase",
+    "source": "staircase",
+    "mode": "offset_thru",
+    "gain": 0,
+    "peakV": 1.1183772744005616e-05,
+    "rmsV": 2.290255312227336e-06,
+    "inputAgreementV": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "key": "offset_thru-0-ramp",
+    "source": "ramp",
+    "mode": "offset_thru",
+    "gain": 0,
+    "peakV": 1.80278531408673e-06,
+    "rmsV": 6.919268719824846e-07,
+    "inputAgreementV": 8.326672684688674e-17,
+    "passed": true
+  },
+  {
+    "key": "offset_thru-0-pulse",
+    "source": "pulse",
+    "mode": "offset_thru",
+    "gain": 0,
+    "peakV": 3.689643421757316e-05,
+    "rmsV": 5.093884157775581e-06,
+    "inputAgreementV": 1.6948248360293405e-15,
+    "passed": true
+  },
+  {
+    "key": "offset_thru-0-sine1",
+    "source": "sine1",
+    "mode": "offset_thru",
+    "gain": 0,
+    "peakV": 1.4246693327835125e-06,
+    "rmsV": 8.517835961172507e-07,
+    "inputAgreementV": 1.249000902703301e-16,
+    "passed": true
+  },
+  {
+    "key": "offset_thru-0-sine5",
+    "source": "sine5",
+    "mode": "offset_thru",
+    "gain": 0,
+    "peakV": 4.329954973625316e-06,
+    "rmsV": 9.083310299552907e-07,
+    "inputAgreementV": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "key": "offset_thru-0.5-flat",
+    "source": "flat",
+    "mode": "offset_thru",
+    "gain": 0.5,
+    "peakV": 1.4625753103070238e-07,
+    "rmsV": 1.4625643213561047e-07,
+    "inputAgreementV": 0.0,
+    "passed": true
+  },
+  {
+    "key": "offset_thru-0.5-staircase",
+    "source": "staircase",
+    "mode": "offset_thru",
+    "gain": 0.5,
+    "peakV": 5.964109568573628e-06,
+    "rmsV": 1.3317911901020094e-06,
+    "inputAgreementV": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "key": "offset_thru-0.5-ramp",
+    "source": "ramp",
+    "mode": "offset_thru",
+    "gain": 0.5,
+    "peakV": 9.83760907180553e-07,
+    "rmsV": 1.7461137529190816e-07,
+    "inputAgreementV": 8.326672684688674e-17,
+    "passed": true
+  },
+  {
+    "key": "offset_thru-0.5-pulse",
+    "source": "pulse",
+    "mode": "offset_thru",
+    "gain": 0.5,
+    "peakV": 1.9319799906380997e-05,
+    "rmsV": 3.0075993149945328e-06,
+    "inputAgreementV": 1.6948248360293405e-15,
+    "passed": true
+  },
+  {
+    "key": "offset_thru-0.5-sine1",
+    "source": "sine1",
+    "mode": "offset_thru",
+    "gain": 0.5,
+    "peakV": 4.5773416113004117e-07,
+    "rmsV": 1.824565160104434e-07,
+    "inputAgreementV": 1.249000902703301e-16,
+    "passed": true
+  },
+  {
+    "key": "offset_thru-0.5-sine5",
+    "source": "sine5",
+    "mode": "offset_thru",
+    "gain": 0.5,
+    "peakV": 1.8465746554896523e-06,
+    "rmsV": 2.577260261830662e-07,
+    "inputAgreementV": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "key": "offset_thru-1-flat",
+    "source": "flat",
+    "mode": "offset_thru",
+    "gain": 1,
+    "peakV": 3.2317343245935604e-12,
+    "rmsV": 2.7079782458278453e-12,
+    "inputAgreementV": 0.0,
+    "passed": true
+  },
+  {
+    "key": "offset_thru-1-staircase",
+    "source": "staircase",
+    "mode": "offset_thru",
+    "gain": 1,
+    "peakV": 3.275214510738145e-05,
+    "rmsV": 6.955745553897835e-06,
+    "inputAgreementV": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "key": "offset_thru-1-ramp",
+    "source": "ramp",
+    "mode": "offset_thru",
+    "gain": 1,
+    "peakV": 4.8373472069061785e-06,
+    "rmsV": 5.531706103385454e-07,
+    "inputAgreementV": 8.326672684688674e-17,
+    "passed": true
+  },
+  {
+    "key": "offset_thru-1-pulse",
+    "source": "pulse",
+    "mode": "offset_thru",
+    "gain": 1,
+    "peakV": 0.00010480378992694384,
+    "rmsV": 1.5738834835601057e-05,
+    "inputAgreementV": 1.6948248360293405e-15,
+    "passed": true
+  },
+  {
+    "key": "offset_thru-1-sine1",
+    "source": "sine1",
+    "mode": "offset_thru",
+    "gain": 1,
+    "peakV": 2.1266841771644396e-06,
+    "rmsV": 1.9906702455093895e-07,
+    "inputAgreementV": 1.249000902703301e-16,
+    "passed": true
+  },
+  {
+    "key": "offset_thru-1-sine5",
+    "source": "sine5",
+    "mode": "offset_thru",
+    "gain": 1,
+    "peakV": 1.058685245279578e-05,
+    "rmsV": 1.0502357896506414e-06,
+    "inputAgreementV": 5.551115123125783e-16,
+    "passed": true
+  }
+]
