@@ -1,0 +1,458 @@
+{
+  "updatedAt": "2026-09-09T01:41:01.561154+00:00",
+  "completed": 9,
+  "attempted": 18,
+  "max_difference_v": 7.925100448114009e-08,
+  "cases": [
+    {
+      "mode": "offset_input",
+      "gain": 0,
+      "runs": [
+        {
+          "mode": "offset_input",
+          "gain": 0,
+          "setting": "relative",
+          "reltol": 1e-05,
+          "abstol": 1e-07,
+          "folder": "offset_input-g0-relative",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 80922,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "max_difference_v": 7.429934791025605e-08
+        },
+        {
+          "mode": "offset_input",
+          "gain": 0,
+          "setting": "absolute",
+          "reltol": 0.0001,
+          "abstol": 1e-08,
+          "folder": "offset_input-g0-absolute",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 80057,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "max_difference_v": 1.0627273366869971e-11
+        },
+        {
+          "mode": "offset_input",
+          "gain": 0,
+          "setting": "both",
+          "reltol": 1e-05,
+          "abstol": 1e-08,
+          "folder": "offset_input-g0-both",
+          "status": "failed",
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 17738,
+          "last_time_ns": 110.51517693809029,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "max_difference_v": null
+        }
+      ]
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0.5,
+      "runs": [
+        {
+          "mode": "offset_input",
+          "gain": 0.5,
+          "setting": "relative",
+          "reltol": 1e-05,
+          "abstol": 1e-07,
+          "folder": "offset_input-g0.5-relative",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 81836,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "max_difference_v": 5.8683366360723355e-08
+        },
+        {
+          "mode": "offset_input",
+          "gain": 0.5,
+          "setting": "absolute",
+          "reltol": 0.0001,
+          "abstol": 1e-08,
+          "folder": "offset_input-g0.5-absolute",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 80115,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "max_difference_v": 1.4683003327076172e-08
+        },
+        {
+          "mode": "offset_input",
+          "gain": 0.5,
+          "setting": "both",
+          "reltol": 1e-05,
+          "abstol": 1e-08,
+          "folder": "offset_input-g0.5-both",
+          "status": "failed",
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 19093,
+          "last_time_ns": 118.4753381783175,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "max_difference_v": null
+        }
+      ]
+    },
+    {
+      "mode": "offset_input",
+      "gain": 1,
+      "runs": [
+        {
+          "mode": "offset_input",
+          "gain": 1,
+          "setting": "relative",
+          "reltol": 1e-05,
+          "abstol": 1e-07,
+          "folder": "offset_input-g1-relative",
+          "status": "failed",
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 16869,
+          "last_time_ns": 105.0176973468902,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "max_difference_v": null
+        },
+        {
+          "mode": "offset_input",
+          "gain": 1,
+          "setting": "absolute",
+          "reltol": 0.0001,
+          "abstol": 1e-08,
+          "folder": "offset_input-g1-absolute",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 80130,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "max_difference_v": 2.068671789423604e-09
+        },
+        {
+          "mode": "offset_input",
+          "gain": 1,
+          "setting": "both",
+          "reltol": 1e-05,
+          "abstol": 1e-08,
+          "folder": "offset_input-g1-both",
+          "status": "failed",
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 18201,
+          "last_time_ns": 112.89064382073309,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "max_difference_v": null
+        }
+      ]
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0,
+      "runs": [
+        {
+          "mode": "offset_thru",
+          "gain": 0,
+          "setting": "relative",
+          "reltol": 1e-05,
+          "abstol": 1e-07,
+          "folder": "offset_thru-g0-relative",
+          "status": "failed",
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 49406,
+          "last_time_ns": 306.46988945673144,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "max_difference_v": null
+        },
+        {
+          "mode": "offset_thru",
+          "gain": 0,
+          "setting": "absolute",
+          "reltol": 0.0001,
+          "abstol": 1e-08,
+          "folder": "offset_thru-g0-absolute",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 80055,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "max_difference_v": 4.6603332304329115e-11
+        },
+        {
+          "mode": "offset_thru",
+          "gain": 0,
+          "setting": "both",
+          "reltol": 1e-05,
+          "abstol": 1e-08,
+          "folder": "offset_thru-g0-both",
+          "status": "failed",
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 50282,
+          "last_time_ns": 311.1964185985211,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "max_difference_v": null
+        }
+      ]
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0.5,
+      "runs": [
+        {
+          "mode": "offset_thru",
+          "gain": 0.5,
+          "setting": "relative",
+          "reltol": 1e-05,
+          "abstol": 1e-07,
+          "folder": "offset_thru-g0.5-relative",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 80600,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "max_difference_v": 6.942717173386015e-08
+        },
+        {
+          "mode": "offset_thru",
+          "gain": 0.5,
+          "setting": "absolute",
+          "reltol": 0.0001,
+          "abstol": 1e-08,
+          "folder": "offset_thru-g0.5-absolute",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 80047,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "max_difference_v": 2.54486431927603e-11
+        },
+        {
+          "mode": "offset_thru",
+          "gain": 0.5,
+          "setting": "both",
+          "reltol": 1e-05,
+          "abstol": 1e-08,
+          "folder": "offset_thru-g0.5-both",
+          "status": "failed",
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 49223,
+          "last_time_ns": 305.8399922997982,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "max_difference_v": null
+        }
+      ]
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 1,
+      "runs": [
+        {
+          "mode": "offset_thru",
+          "gain": 1,
+          "setting": "relative",
+          "reltol": 1e-05,
+          "abstol": 1e-07,
+          "folder": "offset_thru-g1-relative",
+          "status": "failed",
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 52345,
+          "last_time_ns": 322.8667558823545,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "max_difference_v": null
+        },
+        {
+          "mode": "offset_thru",
+          "gain": 1,
+          "setting": "absolute",
+          "reltol": 0.0001,
+          "abstol": 1e-08,
+          "folder": "offset_thru-g1-absolute",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 80086,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "max_difference_v": 7.925100448114009e-08
+        },
+        {
+          "mode": "offset_thru",
+          "gain": 1,
+          "setting": "both",
+          "reltol": 1e-05,
+          "abstol": 1e-08,
+          "folder": "offset_thru-g1-both",
+          "status": "failed",
+          "checks": {
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true,
+            "tl074_devices": true
+          },
+          "rows": 18142,
+          "last_time_ns": 113.03294829398341,
+          "warnings": [
+            "Netlist warning: Voltage Node (XU4:IKA) connected to only 1 device Terminal",
+            "Netlist warning: Voltage Node (XU4:N16985445) connected to only 1 device"
+          ],
+          "max_difference_v": null
+        }
+      ]
+    }
+  ]
+}

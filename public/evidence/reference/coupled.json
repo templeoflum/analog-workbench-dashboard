@@ -16991,5 +16991,5 @@
   "crossDiagnosticCases": 5,
   "frozenCompleted": 16,
   "frozenAttempted": 18,
-  "toleranceFinding": "At the finest timestep, separate relative-only and absolute-only tightening complete for one center-gain case; tightening both stops at about 306 ns. No accuracy threshold assigned."
+  "toleranceFinding": "Expanded tolerance study: relative tighter 3/6 complete; absolute tighter 6/6; both tighter 0/6. Joint-tolerance failures remain unresolved."
 }
