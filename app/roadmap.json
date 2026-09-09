@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-09T12:07:24.604640+00:00",
+  "updatedAt": "2026-09-09T12:34:45.729713+00:00",
   "destination": "A playable analog video instrument whose behavior can be traced to documented circuitry and repeated through a measurement bench.",
-  "current": "Bounded cross-simulator attempt stopped without qualification",
-  "next": "Pause numerical qualification with this reference. Physical measurements or another documented reference are needed before promoting Cadet fidelity.",
-  "decision": "Xyce stopped during the rising edge at209.10 ns. No complete comparison is available. The agreed single attempt is finished; retain the provisional prototype without model tuning or an open-ended solver investigation.",
+  "current": "Usable Phosphlux instrument slice delivered",
+  "next": "Pivot to Artifice: inspect its retained GLIC reference and verify a small image-processing path before expanding the interface.",
+  "decision": "Hardware validation is deferred by the user. Preserve the provisional Phosphlux instrument and all evidence. Further simulator investigation is paused; next development effort moves to Artifice.",
   "phases": [
     {
       "title": "Preserve the research and choose a tractable circuit",
@@ -28,16 +28,16 @@
     },
     {
       "title": "Validate one complete Cadet module",
-      "state": "Not yet",
+      "state": "Hardware validation deferred",
       "result": "A playable partial dynamic signal path now passes 24 named reference cases. The full power/reference circuit remains unqualified. Physical-board measurements: zero.",
-      "gate": "Cover the controls and operating range, account for the modeled power/output path, and compare with named references and physical measurements.",
+      "gate": "Reopen when an identified board and suitable measurement equipment or sufficiently documented independent reference are available.",
       "href": "/evidence/reference/report.md"
     },
     {
       "title": "Turn the validated model into a playable module",
-      "state": "Bounded prototype working",
-      "result": "Playable partial channel, diagnostic comparisons and recorded characterization at six settings. Positive-gain staircase windows do not support the declared plateau fit; large modeled pulse overshoot is exposed.",
-      "gate": "Browser performance qualification, broader controls and inputs, saved patches and media IO remain open. This partial prototype does not clear full-module qualification.",
+      "state": "Usable provisional instrument",
+      "result": "Source selection, play/pause/step/restart, local saved patches, patch import/export, PNG snapshots and voltage CSV export. Existing diagnostic and measurement views remain.",
+      "gate": "Hardware fidelity is not established. This bounded usability slice is complete; broader instrument development pivots to Artifice.",
       "href": "/evidence/characterization/report.md"
     },
     {
