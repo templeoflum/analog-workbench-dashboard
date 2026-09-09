@@ -1,0 +1,791 @@
+{
+  "updatedAt": "2026-09-09T02:43:47.125452+00:00",
+  "cases": [
+    {
+      "mode": "offset_input",
+      "gain": 0,
+      "unseeded": "failed",
+      "seeded": "completed",
+      "lower": "failed",
+      "higher": "completed",
+      "values": [
+        0.2112091852324476,
+        2.49557101734218,
+        0.3994558212893115
+      ],
+      "seeds": {
+        "output": 0.2112079435102929,
+        "offset": 0.3994558212743514,
+        "ref": 2.495571017342176
+      },
+      "transient": {
+        "folder": "transient-offset_input-g0-seeded",
+        "status": "failed",
+        "checks": {
+          "exit_success": true,
+          "no_error": false,
+          "klu": true,
+          "endpoint": false,
+          "finite": true,
+          "monotone": true
+        },
+        "rows": 9,
+        "last_time_ns": 3.872776031494142e-05,
+        "warnings": [
+          "Warning: singular matrix:  check node xu31.710",
+          "Warning: singular matrix:  check node xu31.710"
+        ],
+        "mode": "offset_input",
+        "gain": 0,
+        "kind": "transient",
+        "seeded": true,
+        "seeds": {
+          "output": 0.2112079435102929,
+          "offset": 0.3994558212743514,
+          "ref": 2.495571017342176
+        }
+      }
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0.5,
+      "unseeded": "completed",
+      "seeded": "completed",
+      "lower": "failed",
+      "higher": "completed",
+      "values": [
+        0.01182144988413873,
+        2.495571017342183,
+        0.3994558212893026
+      ],
+      "seeds": {
+        "output": 0.01182089878401378,
+        "offset": 0.399455821274338,
+        "ref": 2.495571017342176
+      },
+      "transient": {
+        "folder": "transient-offset_input-g0.5-seeded",
+        "status": "failed",
+        "checks": {
+          "exit_success": true,
+          "no_error": false,
+          "klu": true,
+          "endpoint": false,
+          "finite": true,
+          "monotone": true
+        },
+        "rows": 4,
+        "last_time_ns": 3.5171508789062496e-05,
+        "warnings": [
+          "Warning: singular matrix:  check node xu31.710"
+        ],
+        "mode": "offset_input",
+        "gain": 0.5,
+        "kind": "transient",
+        "seeded": true,
+        "seeds": {
+          "output": 0.01182089878401378,
+          "offset": 0.399455821274338,
+          "ref": 2.495571017342176
+        }
+      }
+    },
+    {
+      "mode": "offset_input",
+      "gain": 1,
+      "unseeded": "completed",
+      "seeded": "completed",
+      "lower": "completed",
+      "higher": "completed",
+      "values": [
+        -0.1815143787393287,
+        2.495571017342145,
+        0.3994558212892856
+      ],
+      "seeds": {
+        "output": -0.1815153887834955,
+        "offset": 0.3994558212743253,
+        "ref": 2.495571017342176
+      },
+      "transient": {
+        "folder": "transient-offset_input-g1-seeded",
+        "status": "failed",
+        "checks": {
+          "exit_success": true,
+          "no_error": false,
+          "klu": true,
+          "endpoint": false,
+          "finite": true,
+          "monotone": true
+        },
+        "rows": 4,
+        "last_time_ns": 3.51562537252903e-05,
+        "warnings": [
+          "Warning: singular matrix:  check node xu31.710"
+        ],
+        "mode": "offset_input",
+        "gain": 1,
+        "kind": "transient",
+        "seeded": true,
+        "seeds": {
+          "output": -0.1815153887834955,
+          "offset": 0.3994558212743253,
+          "ref": 2.495571017342176
+        }
+      }
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0,
+      "unseeded": "completed",
+      "seeded": "completed",
+      "lower": "failed",
+      "higher": "completed",
+      "values": [
+        -0.1862210593960573,
+        2.495571017342199,
+        0.3994558212893969
+      ],
+      "seeds": {
+        "output": -0.1862223011125871,
+        "offset": 0.3994558212744304,
+        "ref": 2.495571017342176
+      },
+      "transient": {
+        "folder": "transient-offset_thru-g0-seeded",
+        "status": "failed",
+        "checks": {
+          "exit_success": true,
+          "no_error": false,
+          "klu": true,
+          "endpoint": false,
+          "finite": true,
+          "monotone": true
+        },
+        "rows": 19,
+        "last_time_ns": 3.1366410199552776e-05,
+        "warnings": [
+          "Warning: singular matrix:  check node xu31.72"
+        ],
+        "mode": "offset_thru",
+        "gain": 0,
+        "kind": "transient",
+        "seeded": true,
+        "seeds": {
+          "output": -0.1862223011125871,
+          "offset": 0.3994558212744304,
+          "ref": 2.495571017342176
+        }
+      }
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0.5,
+      "unseeded": "completed",
+      "seeded": "completed",
+      "lower": "completed",
+      "higher": "completed",
+      "values": [
+        -0.1868925558863586,
+        2.495571017342183,
+        0.3994558212893969
+      ],
+      "seeds": {
+        "output": -0.186893106982769,
+        "offset": 0.39945582127443,
+        "ref": 2.495571017342176
+      },
+      "transient": {
+        "folder": "transient-offset_thru-g0.5-seeded",
+        "status": "failed",
+        "checks": {
+          "exit_success": true,
+          "no_error": false,
+          "klu": true,
+          "endpoint": false,
+          "finite": true,
+          "monotone": true
+        },
+        "rows": 13,
+        "last_time_ns": 3.5172509495168915e-05,
+        "warnings": [
+          "Warning: singular matrix:  check node xu31.72"
+        ],
+        "mode": "offset_thru",
+        "gain": 0.5,
+        "kind": "transient",
+        "seeded": true,
+        "seeds": {
+          "output": -0.186893106982769,
+          "offset": 0.39945582127443,
+          "ref": 2.495571017342176
+        }
+      }
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 1,
+      "unseeded": "completed",
+      "seeded": "completed",
+      "lower": "completed",
+      "higher": "completed",
+      "values": [
+        -0.1814997071539253,
+        2.495571017342185,
+        0.3994558212893992
+      ],
+      "seeds": {
+        "output": -0.1815007172184653,
+        "offset": 0.3994558212744333,
+        "ref": 2.495571017342176
+      },
+      "transient": {
+        "folder": "transient-offset_thru-g1-seeded",
+        "status": "failed",
+        "checks": {
+          "exit_success": true,
+          "no_error": false,
+          "klu": true,
+          "endpoint": false,
+          "finite": true,
+          "monotone": true
+        },
+        "rows": 27,
+        "last_time_ns": 4.6905823983252044e-05,
+        "warnings": [
+          "Warning: singular matrix:  check node xu31.72",
+          "Warning: singular matrix:  check node xu31.72"
+        ],
+        "mode": "offset_thru",
+        "gain": 1,
+        "kind": "transient",
+        "seeded": true,
+        "seeds": {
+          "output": -0.1815007172184653,
+          "offset": 0.3994558212744333,
+          "ref": 2.495571017342176
+        }
+      }
+    }
+  ],
+  "dcCompleted": 20,
+  "dcAttempted": 24,
+  "transientCompleted": 0,
+  "transientAttempted": 30,
+  "maxSeedOutputChangeV": 6.569711441528625e-11,
+  "alternatives": [
+    {
+      "folder": "alternative-trap-klu-offset_input-g0",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 9,
+      "last_time_ns": 3.7853240966796875e-05,
+      "warnings": [
+        "Warning: singular matrix:  check node xu31.710",
+        "Warning: singular matrix:  check node xu31.710"
+      ],
+      "method": "trap",
+      "solver": "klu",
+      "mode": "offset_input",
+      "gain": 0
+    },
+    {
+      "folder": "alternative-trap-klu-offset_input-g0.5",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 18,
+      "last_time_ns": 8.984375000000001e-05,
+      "warnings": [
+        "Warning: singular matrix:  check node xu31.710",
+        "Warning: singular matrix:  check node xu31.710"
+      ],
+      "method": "trap",
+      "solver": "klu",
+      "mode": "offset_input",
+      "gain": 0.5
+    },
+    {
+      "folder": "alternative-trap-klu-offset_input-g1",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 9,
+      "last_time_ns": 9.76600665599108e-05,
+      "warnings": [
+        "Warning: singular matrix:  check node xu31.710",
+        "Warning: singular matrix:  check node xu31.710"
+      ],
+      "method": "trap",
+      "solver": "klu",
+      "mode": "offset_input",
+      "gain": 1
+    },
+    {
+      "folder": "alternative-trap-klu-offset_thru-g0",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 52,
+      "last_time_ns": 1.0329483309760701e-05,
+      "warnings": [
+        "Warning: singular matrix:  check node xu31.72"
+      ],
+      "method": "trap",
+      "solver": "klu",
+      "mode": "offset_thru",
+      "gain": 0
+    },
+    {
+      "folder": "alternative-trap-klu-offset_thru-g0.5",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 28,
+      "last_time_ns": 8.4610041230917e-05,
+      "warnings": [
+        "Warning: singular matrix:  check node xu31.72"
+      ],
+      "method": "trap",
+      "solver": "klu",
+      "mode": "offset_thru",
+      "gain": 0.5
+    },
+    {
+      "folder": "alternative-trap-klu-offset_thru-g1",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 32,
+      "last_time_ns": 9.778862528037281e-05,
+      "warnings": [
+        "Warning: singular matrix:  check node xu31.72"
+      ],
+      "method": "trap",
+      "solver": "klu",
+      "mode": "offset_thru",
+      "gain": 1
+    },
+    {
+      "folder": "alternative-gear-sparse-offset_input-g0",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_ns": null,
+      "warnings": [
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed"
+      ],
+      "method": "gear",
+      "solver": "sparse",
+      "mode": "offset_input",
+      "gain": 0
+    },
+    {
+      "folder": "alternative-gear-sparse-offset_input-g0.5",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_ns": null,
+      "warnings": [
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed"
+      ],
+      "method": "gear",
+      "solver": "sparse",
+      "mode": "offset_input",
+      "gain": 0.5
+    },
+    {
+      "folder": "alternative-gear-sparse-offset_input-g1",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_ns": null,
+      "warnings": [
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed"
+      ],
+      "method": "gear",
+      "solver": "sparse",
+      "mode": "offset_input",
+      "gain": 1
+    },
+    {
+      "folder": "alternative-gear-sparse-offset_thru-g0",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_ns": null,
+      "warnings": [
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed"
+      ],
+      "method": "gear",
+      "solver": "sparse",
+      "mode": "offset_thru",
+      "gain": 0
+    },
+    {
+      "folder": "alternative-gear-sparse-offset_thru-g0.5",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_ns": null,
+      "warnings": [
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed"
+      ],
+      "method": "gear",
+      "solver": "sparse",
+      "mode": "offset_thru",
+      "gain": 0.5
+    },
+    {
+      "folder": "alternative-gear-sparse-offset_thru-g1",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_ns": null,
+      "warnings": [
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed"
+      ],
+      "method": "gear",
+      "solver": "sparse",
+      "mode": "offset_thru",
+      "gain": 1
+    },
+    {
+      "folder": "alternative-trap-sparse-offset_input-g0",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_ns": null,
+      "warnings": [
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed"
+      ],
+      "method": "trap",
+      "solver": "sparse",
+      "mode": "offset_input",
+      "gain": 0
+    },
+    {
+      "folder": "alternative-trap-sparse-offset_input-g0.5",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_ns": null,
+      "warnings": [
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed"
+      ],
+      "method": "trap",
+      "solver": "sparse",
+      "mode": "offset_input",
+      "gain": 0.5
+    },
+    {
+      "folder": "alternative-trap-sparse-offset_input-g1",
+      "status": "failed",
+      "reason": "timeout45s",
+      "method": "trap",
+      "solver": "sparse",
+      "mode": "offset_input",
+      "gain": 1
+    },
+    {
+      "folder": "alternative-trap-sparse-offset_thru-g0",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_ns": null,
+      "warnings": [
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed"
+      ],
+      "method": "trap",
+      "solver": "sparse",
+      "mode": "offset_thru",
+      "gain": 0
+    },
+    {
+      "folder": "alternative-trap-sparse-offset_thru-g0.5",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_ns": null,
+      "warnings": [
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed"
+      ],
+      "method": "trap",
+      "solver": "sparse",
+      "mode": "offset_thru",
+      "gain": 0.5
+    },
+    {
+      "folder": "alternative-trap-sparse-offset_thru-g1",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_ns": null,
+      "warnings": [
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed"
+      ],
+      "method": "trap",
+      "solver": "sparse",
+      "mode": "offset_thru",
+      "gain": 1
+    }
+  ],
+  "alias": [
+    {
+      "folder": "node-alias-offset_input-g0",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 1,
+      "last_time_ns": 0.0,
+      "warnings": [
+        "Warning: singular matrix:  check node b_minus"
+      ],
+      "mode": "offset_input",
+      "gain": 0
+    },
+    {
+      "folder": "node-alias-offset_input-g0.5",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 1,
+      "last_time_ns": 0.0,
+      "warnings": [
+        "Warning: singular matrix:  check node b_minus"
+      ],
+      "mode": "offset_input",
+      "gain": 0.5
+    },
+    {
+      "folder": "node-alias-offset_input-g1",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 1,
+      "last_time_ns": 0.0,
+      "warnings": [
+        "Warning: singular matrix:  check node xu4.3"
+      ],
+      "mode": "offset_input",
+      "gain": 1
+    },
+    {
+      "folder": "node-alias-offset_thru-g0",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_ns": null,
+      "warnings": [
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed",
+        "Warning: singular matrix:  check node xu4.3"
+      ],
+      "mode": "offset_thru",
+      "gain": 0
+    },
+    {
+      "folder": "node-alias-offset_thru-g0.5",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": false,
+        "monotone": false
+      },
+      "rows": 0,
+      "last_time_ns": null,
+      "warnings": [
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed",
+        "Warning: singular matrix:  check node xu4.3"
+      ],
+      "mode": "offset_thru",
+      "gain": 0.5
+    },
+    {
+      "folder": "node-alias-offset_thru-g1",
+      "status": "failed",
+      "checks": {
+        "exit_success": true,
+        "no_error": false,
+        "selected_solver": true,
+        "endpoint": false,
+        "finite": true,
+        "monotone": true
+      },
+      "rows": 1,
+      "last_time_ns": 0.0,
+      "warnings": [
+        "Warning: singular matrix:  check node xu32.26"
+      ],
+      "mode": "offset_thru",
+      "gain": 1
+    }
+  ]
+}
