@@ -1,0 +1,1382 @@
+{
+  "attempted": 42,
+  "completed": 36,
+  "model_sha256": "16b5a02e9ea470c9d06c7ced18dafbf2f83968cccf3d9e8bf031bc728dcb9c60",
+  "cases": [
+    {
+      "kind": "gain1",
+      "load_ohms": 1000,
+      "runs": [
+        {
+          "folder": "xyce-gain1-load1000-coarse",
+          "status": "completed",
+          "warnings": [],
+          "checks": {
+            "no_duplicate_options": true,
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 40046,
+          "last_time_ns": 500.00000000000006,
+          "simulator": "xyce",
+          "kind": "gain1",
+          "load_ohms": 1000,
+          "label": "coarse",
+          "max_step_ns": 0.0125
+        },
+        {
+          "folder": "xyce-gain1-load1000-middle",
+          "status": "completed",
+          "warnings": [],
+          "checks": {
+            "no_duplicate_options": true,
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 80045,
+          "last_time_ns": 500.00000000000006,
+          "simulator": "xyce",
+          "kind": "gain1",
+          "load_ohms": 1000,
+          "label": "middle",
+          "max_step_ns": 0.00625
+        },
+        {
+          "folder": "xyce-gain1-load1000-fine",
+          "status": "failed",
+          "warnings": [],
+          "checks": {
+            "no_duplicate_options": true,
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 32003,
+          "last_time_ns": 99.99999999993385,
+          "simulator": "xyce",
+          "kind": "gain1",
+          "load_ohms": 1000,
+          "label": "fine",
+          "max_step_ns": 0.003125
+        },
+        {
+          "folder": "ngspice-gain1-load1000-coarse",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 40132,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "gain1",
+          "load_ohms": 1000,
+          "label": "coarse",
+          "max_step_ns": 0.0125
+        },
+        {
+          "folder": "ngspice-gain1-load1000-middle",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 80098,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "gain1",
+          "load_ohms": 1000,
+          "label": "middle",
+          "max_step_ns": 0.00625
+        },
+        {
+          "folder": "ngspice-gain1-load1000-fine",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 160058,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "gain1",
+          "load_ohms": 1000,
+          "label": "fine",
+          "max_step_ns": 0.003125
+        },
+        {
+          "folder": "ngspice-gain1-load1000-tight",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 160198,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "gain1",
+          "load_ohms": 1000,
+          "label": "tight",
+          "max_step_ns": 0.003125
+        }
+      ],
+      "comparisons": [
+        {
+          "kind": "gain1",
+          "load_ohms": 1000,
+          "label": "xyce timestep coarse-middle",
+          "folders": [
+            "xyce-gain1-load1000-coarse",
+            "xyce-gain1-load1000-middle"
+          ],
+          "max_difference_v": 4.560232446888801e-06
+        },
+        {
+          "kind": "gain1",
+          "load_ohms": 1000,
+          "label": "xyce timestep middle-fine",
+          "folders": [
+            "xyce-gain1-load1000-middle",
+            "xyce-gain1-load1000-fine"
+          ],
+          "max_difference_v": null
+        },
+        {
+          "kind": "gain1",
+          "load_ohms": 1000,
+          "label": "ngspice timestep coarse-middle",
+          "folders": [
+            "ngspice-gain1-load1000-coarse",
+            "ngspice-gain1-load1000-middle"
+          ],
+          "max_difference_v": 4.444514914200837e-06
+        },
+        {
+          "kind": "gain1",
+          "load_ohms": 1000,
+          "label": "ngspice timestep middle-fine",
+          "folders": [
+            "ngspice-gain1-load1000-middle",
+            "ngspice-gain1-load1000-fine"
+          ],
+          "max_difference_v": 1.1516880135120644e-06
+        },
+        {
+          "kind": "gain1",
+          "load_ohms": 1000,
+          "label": "cross-simulator coarse",
+          "folders": [
+            "xyce-gain1-load1000-coarse",
+            "ngspice-gain1-load1000-coarse"
+          ],
+          "max_difference_v": 2.1971710220634877e-06
+        },
+        {
+          "kind": "gain1",
+          "load_ohms": 1000,
+          "label": "cross-simulator middle",
+          "folders": [
+            "xyce-gain1-load1000-middle",
+            "ngspice-gain1-load1000-middle"
+          ],
+          "max_difference_v": 5.227526405412325e-07
+        },
+        {
+          "kind": "gain1",
+          "load_ohms": 1000,
+          "label": "cross-simulator fine",
+          "folders": [
+            "xyce-gain1-load1000-fine",
+            "ngspice-gain1-load1000-fine"
+          ],
+          "max_difference_v": null
+        },
+        {
+          "kind": "gain1",
+          "load_ohms": 1000,
+          "label": "ngspice tighter tolerance",
+          "folders": [
+            "ngspice-gain1-load1000-fine",
+            "ngspice-gain1-load1000-tight"
+          ],
+          "max_difference_v": 8.559710309996582e-08
+        }
+      ],
+      "decreasing": {
+        "xyce": null,
+        "ngspice": true
+      }
+    },
+    {
+      "kind": "gain1",
+      "load_ohms": 100000,
+      "runs": [
+        {
+          "folder": "xyce-gain1-load100000-coarse",
+          "status": "completed",
+          "warnings": [],
+          "checks": {
+            "no_duplicate_options": true,
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 40091,
+          "last_time_ns": 500.00000000000006,
+          "simulator": "xyce",
+          "kind": "gain1",
+          "load_ohms": 100000,
+          "label": "coarse",
+          "max_step_ns": 0.0125
+        },
+        {
+          "folder": "xyce-gain1-load100000-middle",
+          "status": "completed",
+          "warnings": [],
+          "checks": {
+            "no_duplicate_options": true,
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 80089,
+          "last_time_ns": 500.00000000000006,
+          "simulator": "xyce",
+          "kind": "gain1",
+          "load_ohms": 100000,
+          "label": "middle",
+          "max_step_ns": 0.00625
+        },
+        {
+          "folder": "xyce-gain1-load100000-fine",
+          "status": "failed",
+          "warnings": [],
+          "checks": {
+            "no_duplicate_options": true,
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 32003,
+          "last_time_ns": 99.99999999993385,
+          "simulator": "xyce",
+          "kind": "gain1",
+          "load_ohms": 100000,
+          "label": "fine",
+          "max_step_ns": 0.003125
+        },
+        {
+          "folder": "ngspice-gain1-load100000-coarse",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 40132,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "gain1",
+          "load_ohms": 100000,
+          "label": "coarse",
+          "max_step_ns": 0.0125
+        },
+        {
+          "folder": "ngspice-gain1-load100000-middle",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 80098,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "gain1",
+          "load_ohms": 100000,
+          "label": "middle",
+          "max_step_ns": 0.00625
+        },
+        {
+          "folder": "ngspice-gain1-load100000-fine",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 160058,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "gain1",
+          "load_ohms": 100000,
+          "label": "fine",
+          "max_step_ns": 0.003125
+        },
+        {
+          "folder": "ngspice-gain1-load100000-tight",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 160198,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "gain1",
+          "load_ohms": 100000,
+          "label": "tight",
+          "max_step_ns": 0.003125
+        }
+      ],
+      "comparisons": [
+        {
+          "kind": "gain1",
+          "load_ohms": 100000,
+          "label": "xyce timestep coarse-middle",
+          "folders": [
+            "xyce-gain1-load100000-coarse",
+            "xyce-gain1-load100000-middle"
+          ],
+          "max_difference_v": 4.590259426090482e-06
+        },
+        {
+          "kind": "gain1",
+          "load_ohms": 100000,
+          "label": "xyce timestep middle-fine",
+          "folders": [
+            "xyce-gain1-load100000-middle",
+            "xyce-gain1-load100000-fine"
+          ],
+          "max_difference_v": null
+        },
+        {
+          "kind": "gain1",
+          "load_ohms": 100000,
+          "label": "ngspice timestep coarse-middle",
+          "folders": [
+            "ngspice-gain1-load100000-coarse",
+            "ngspice-gain1-load100000-middle"
+          ],
+          "max_difference_v": 4.548477859925293e-06
+        },
+        {
+          "kind": "gain1",
+          "load_ohms": 100000,
+          "label": "ngspice timestep middle-fine",
+          "folders": [
+            "ngspice-gain1-load100000-middle",
+            "ngspice-gain1-load100000-fine"
+          ],
+          "max_difference_v": 1.1789352784563611e-06
+        },
+        {
+          "kind": "gain1",
+          "load_ohms": 100000,
+          "label": "cross-simulator coarse",
+          "folders": [
+            "xyce-gain1-load100000-coarse",
+            "ngspice-gain1-load100000-coarse"
+          ],
+          "max_difference_v": 2.2251900275646608e-06
+        },
+        {
+          "kind": "gain1",
+          "load_ohms": 100000,
+          "label": "cross-simulator middle",
+          "folders": [
+            "xyce-gain1-load100000-middle",
+            "ngspice-gain1-load100000-middle"
+          ],
+          "max_difference_v": 5.269132729978504e-07
+        },
+        {
+          "kind": "gain1",
+          "load_ohms": 100000,
+          "label": "cross-simulator fine",
+          "folders": [
+            "xyce-gain1-load100000-fine",
+            "ngspice-gain1-load100000-fine"
+          ],
+          "max_difference_v": null
+        },
+        {
+          "kind": "gain1",
+          "load_ohms": 100000,
+          "label": "ngspice tighter tolerance",
+          "folders": [
+            "ngspice-gain1-load100000-fine",
+            "ngspice-gain1-load100000-tight"
+          ],
+          "max_difference_v": 8.68533009453637e-08
+        }
+      ],
+      "decreasing": {
+        "xyce": null,
+        "ngspice": true
+      }
+    },
+    {
+      "kind": "gain2",
+      "load_ohms": 1000,
+      "runs": [
+        {
+          "folder": "xyce-gain2-load1000-coarse",
+          "status": "completed",
+          "warnings": [],
+          "checks": {
+            "no_duplicate_options": true,
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 40050,
+          "last_time_ns": 500.00000000000006,
+          "simulator": "xyce",
+          "kind": "gain2",
+          "load_ohms": 1000,
+          "label": "coarse",
+          "max_step_ns": 0.0125
+        },
+        {
+          "folder": "xyce-gain2-load1000-middle",
+          "status": "completed",
+          "warnings": [],
+          "checks": {
+            "no_duplicate_options": true,
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 80060,
+          "last_time_ns": 500.00000000000006,
+          "simulator": "xyce",
+          "kind": "gain2",
+          "load_ohms": 1000,
+          "label": "middle",
+          "max_step_ns": 0.00625
+        },
+        {
+          "folder": "xyce-gain2-load1000-fine",
+          "status": "failed",
+          "warnings": [],
+          "checks": {
+            "no_duplicate_options": true,
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 32003,
+          "last_time_ns": 99.999999999951,
+          "simulator": "xyce",
+          "kind": "gain2",
+          "load_ohms": 1000,
+          "label": "fine",
+          "max_step_ns": 0.003125
+        },
+        {
+          "folder": "ngspice-gain2-load1000-coarse",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 40132,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "gain2",
+          "load_ohms": 1000,
+          "label": "coarse",
+          "max_step_ns": 0.0125
+        },
+        {
+          "folder": "ngspice-gain2-load1000-middle",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 80098,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "gain2",
+          "load_ohms": 1000,
+          "label": "middle",
+          "max_step_ns": 0.00625
+        },
+        {
+          "folder": "ngspice-gain2-load1000-fine",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 160058,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "gain2",
+          "load_ohms": 1000,
+          "label": "fine",
+          "max_step_ns": 0.003125
+        },
+        {
+          "folder": "ngspice-gain2-load1000-tight",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 160198,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "gain2",
+          "load_ohms": 1000,
+          "label": "tight",
+          "max_step_ns": 0.003125
+        }
+      ],
+      "comparisons": [
+        {
+          "kind": "gain2",
+          "load_ohms": 1000,
+          "label": "xyce timestep coarse-middle",
+          "folders": [
+            "xyce-gain2-load1000-coarse",
+            "xyce-gain2-load1000-middle"
+          ],
+          "max_difference_v": 4.857516415601726e-06
+        },
+        {
+          "kind": "gain2",
+          "load_ohms": 1000,
+          "label": "xyce timestep middle-fine",
+          "folders": [
+            "xyce-gain2-load1000-middle",
+            "xyce-gain2-load1000-fine"
+          ],
+          "max_difference_v": null
+        },
+        {
+          "kind": "gain2",
+          "load_ohms": 1000,
+          "label": "ngspice timestep coarse-middle",
+          "folders": [
+            "ngspice-gain2-load1000-coarse",
+            "ngspice-gain2-load1000-middle"
+          ],
+          "max_difference_v": 3.707702674882185e-06
+        },
+        {
+          "kind": "gain2",
+          "load_ohms": 1000,
+          "label": "ngspice timestep middle-fine",
+          "folders": [
+            "ngspice-gain2-load1000-middle",
+            "ngspice-gain2-load1000-fine"
+          ],
+          "max_difference_v": 9.548142566040418e-07
+        },
+        {
+          "kind": "gain2",
+          "load_ohms": 1000,
+          "label": "cross-simulator coarse",
+          "folders": [
+            "xyce-gain2-load1000-coarse",
+            "ngspice-gain2-load1000-coarse"
+          ],
+          "max_difference_v": 2.4286486804414587e-06
+        },
+        {
+          "kind": "gain2",
+          "load_ohms": 1000,
+          "label": "cross-simulator middle",
+          "folders": [
+            "xyce-gain2-load1000-middle",
+            "ngspice-gain2-load1000-middle"
+          ],
+          "max_difference_v": 4.370621505267458e-07
+        },
+        {
+          "kind": "gain2",
+          "load_ohms": 1000,
+          "label": "cross-simulator fine",
+          "folders": [
+            "xyce-gain2-load1000-fine",
+            "ngspice-gain2-load1000-fine"
+          ],
+          "max_difference_v": null
+        },
+        {
+          "kind": "gain2",
+          "load_ohms": 1000,
+          "label": "ngspice tighter tolerance",
+          "folders": [
+            "ngspice-gain2-load1000-fine",
+            "ngspice-gain2-load1000-tight"
+          ],
+          "max_difference_v": 9.698613367969955e-08
+        }
+      ],
+      "decreasing": {
+        "xyce": null,
+        "ngspice": true
+      }
+    },
+    {
+      "kind": "gain2",
+      "load_ohms": 100000,
+      "runs": [
+        {
+          "folder": "xyce-gain2-load100000-coarse",
+          "status": "completed",
+          "warnings": [],
+          "checks": {
+            "no_duplicate_options": true,
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 40032,
+          "last_time_ns": 500.00000000000006,
+          "simulator": "xyce",
+          "kind": "gain2",
+          "load_ohms": 100000,
+          "label": "coarse",
+          "max_step_ns": 0.0125
+        },
+        {
+          "folder": "xyce-gain2-load100000-middle",
+          "status": "completed",
+          "warnings": [],
+          "checks": {
+            "no_duplicate_options": true,
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 80034,
+          "last_time_ns": 500.00000000000006,
+          "simulator": "xyce",
+          "kind": "gain2",
+          "load_ohms": 100000,
+          "label": "middle",
+          "max_step_ns": 0.00625
+        },
+        {
+          "folder": "xyce-gain2-load100000-fine",
+          "status": "failed",
+          "warnings": [],
+          "checks": {
+            "no_duplicate_options": true,
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 32003,
+          "last_time_ns": 99.99999999993385,
+          "simulator": "xyce",
+          "kind": "gain2",
+          "load_ohms": 100000,
+          "label": "fine",
+          "max_step_ns": 0.003125
+        },
+        {
+          "folder": "ngspice-gain2-load100000-coarse",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 40132,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "gain2",
+          "load_ohms": 100000,
+          "label": "coarse",
+          "max_step_ns": 0.0125
+        },
+        {
+          "folder": "ngspice-gain2-load100000-middle",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 80098,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "gain2",
+          "load_ohms": 100000,
+          "label": "middle",
+          "max_step_ns": 0.00625
+        },
+        {
+          "folder": "ngspice-gain2-load100000-fine",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 160058,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "gain2",
+          "load_ohms": 100000,
+          "label": "fine",
+          "max_step_ns": 0.003125
+        },
+        {
+          "folder": "ngspice-gain2-load100000-tight",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 160199,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "gain2",
+          "load_ohms": 100000,
+          "label": "tight",
+          "max_step_ns": 0.003125
+        }
+      ],
+      "comparisons": [
+        {
+          "kind": "gain2",
+          "load_ohms": 100000,
+          "label": "xyce timestep coarse-middle",
+          "folders": [
+            "xyce-gain2-load100000-coarse",
+            "xyce-gain2-load100000-middle"
+          ],
+          "max_difference_v": 4.935135469008589e-06
+        },
+        {
+          "kind": "gain2",
+          "load_ohms": 100000,
+          "label": "xyce timestep middle-fine",
+          "folders": [
+            "xyce-gain2-load100000-middle",
+            "xyce-gain2-load100000-fine"
+          ],
+          "max_difference_v": null
+        },
+        {
+          "kind": "gain2",
+          "load_ohms": 100000,
+          "label": "ngspice timestep coarse-middle",
+          "folders": [
+            "ngspice-gain2-load100000-coarse",
+            "ngspice-gain2-load100000-middle"
+          ],
+          "max_difference_v": 3.8075882899113456e-06
+        },
+        {
+          "kind": "gain2",
+          "load_ohms": 100000,
+          "label": "ngspice timestep middle-fine",
+          "folders": [
+            "ngspice-gain2-load100000-middle",
+            "ngspice-gain2-load100000-fine"
+          ],
+          "max_difference_v": 9.807982044862662e-07
+        },
+        {
+          "kind": "gain2",
+          "load_ohms": 100000,
+          "label": "cross-simulator coarse",
+          "folders": [
+            "xyce-gain2-load100000-coarse",
+            "ngspice-gain2-load100000-coarse"
+          ],
+          "max_difference_v": 2.52627076369194e-06
+        },
+        {
+          "kind": "gain2",
+          "load_ohms": 100000,
+          "label": "cross-simulator middle",
+          "folders": [
+            "xyce-gain2-load100000-middle",
+            "ngspice-gain2-load100000-middle"
+          ],
+          "max_difference_v": 4.6858117302983615e-07
+        },
+        {
+          "kind": "gain2",
+          "load_ohms": 100000,
+          "label": "cross-simulator fine",
+          "folders": [
+            "xyce-gain2-load100000-fine",
+            "ngspice-gain2-load100000-fine"
+          ],
+          "max_difference_v": null
+        },
+        {
+          "kind": "gain2",
+          "load_ohms": 100000,
+          "label": "ngspice tighter tolerance",
+          "folders": [
+            "ngspice-gain2-load100000-fine",
+            "ngspice-gain2-load100000-tight"
+          ],
+          "max_difference_v": 9.934979250392217e-08
+        }
+      ],
+      "decreasing": {
+        "xyce": null,
+        "ngspice": true
+      }
+    },
+    {
+      "kind": "inverting",
+      "load_ohms": 1000,
+      "runs": [
+        {
+          "folder": "xyce-inverting-load1000-coarse",
+          "status": "completed",
+          "warnings": [],
+          "checks": {
+            "no_duplicate_options": true,
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 40070,
+          "last_time_ns": 500.00000000000006,
+          "simulator": "xyce",
+          "kind": "inverting",
+          "load_ohms": 1000,
+          "label": "coarse",
+          "max_step_ns": 0.0125
+        },
+        {
+          "folder": "xyce-inverting-load1000-middle",
+          "status": "completed",
+          "warnings": [],
+          "checks": {
+            "no_duplicate_options": true,
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 80056,
+          "last_time_ns": 500.00000000000006,
+          "simulator": "xyce",
+          "kind": "inverting",
+          "load_ohms": 1000,
+          "label": "middle",
+          "max_step_ns": 0.00625
+        },
+        {
+          "folder": "xyce-inverting-load1000-fine",
+          "status": "failed",
+          "warnings": [],
+          "checks": {
+            "no_duplicate_options": true,
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 32002,
+          "last_time_ns": 99.9999999999314,
+          "simulator": "xyce",
+          "kind": "inverting",
+          "load_ohms": 1000,
+          "label": "fine",
+          "max_step_ns": 0.003125
+        },
+        {
+          "folder": "ngspice-inverting-load1000-coarse",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 40109,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "inverting",
+          "load_ohms": 1000,
+          "label": "coarse",
+          "max_step_ns": 0.0125
+        },
+        {
+          "folder": "ngspice-inverting-load1000-middle",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 80071,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "inverting",
+          "load_ohms": 1000,
+          "label": "middle",
+          "max_step_ns": 0.00625
+        },
+        {
+          "folder": "ngspice-inverting-load1000-fine",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 160030,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "inverting",
+          "load_ohms": 1000,
+          "label": "fine",
+          "max_step_ns": 0.003125
+        },
+        {
+          "folder": "ngspice-inverting-load1000-tight",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 160141,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "inverting",
+          "load_ohms": 1000,
+          "label": "tight",
+          "max_step_ns": 0.003125
+        }
+      ],
+      "comparisons": [
+        {
+          "kind": "inverting",
+          "load_ohms": 1000,
+          "label": "xyce timestep coarse-middle",
+          "folders": [
+            "xyce-inverting-load1000-coarse",
+            "xyce-inverting-load1000-middle"
+          ],
+          "max_difference_v": 1.875537131670879e-06
+        },
+        {
+          "kind": "inverting",
+          "load_ohms": 1000,
+          "label": "xyce timestep middle-fine",
+          "folders": [
+            "xyce-inverting-load1000-middle",
+            "xyce-inverting-load1000-fine"
+          ],
+          "max_difference_v": null
+        },
+        {
+          "kind": "inverting",
+          "load_ohms": 1000,
+          "label": "ngspice timestep coarse-middle",
+          "folders": [
+            "ngspice-inverting-load1000-coarse",
+            "ngspice-inverting-load1000-middle"
+          ],
+          "max_difference_v": 1.7194403396647573e-06
+        },
+        {
+          "kind": "inverting",
+          "load_ohms": 1000,
+          "label": "ngspice timestep middle-fine",
+          "folders": [
+            "ngspice-inverting-load1000-middle",
+            "ngspice-inverting-load1000-fine"
+          ],
+          "max_difference_v": 4.3702651884858223e-07
+        },
+        {
+          "kind": "inverting",
+          "load_ohms": 1000,
+          "label": "cross-simulator coarse",
+          "folders": [
+            "xyce-inverting-load1000-coarse",
+            "ngspice-inverting-load1000-coarse"
+          ],
+          "max_difference_v": 1.181330727131934e-06
+        },
+        {
+          "kind": "inverting",
+          "load_ohms": 1000,
+          "label": "cross-simulator middle",
+          "folders": [
+            "xyce-inverting-load1000-middle",
+            "ngspice-inverting-load1000-middle"
+          ],
+          "max_difference_v": 4.202571886316106e-07
+        },
+        {
+          "kind": "inverting",
+          "load_ohms": 1000,
+          "label": "cross-simulator fine",
+          "folders": [
+            "xyce-inverting-load1000-fine",
+            "ngspice-inverting-load1000-fine"
+          ],
+          "max_difference_v": null
+        },
+        {
+          "kind": "inverting",
+          "load_ohms": 1000,
+          "label": "ngspice tighter tolerance",
+          "folders": [
+            "ngspice-inverting-load1000-fine",
+            "ngspice-inverting-load1000-tight"
+          ],
+          "max_difference_v": 3.3252332914956995e-08
+        }
+      ],
+      "decreasing": {
+        "xyce": null,
+        "ngspice": true
+      }
+    },
+    {
+      "kind": "inverting",
+      "load_ohms": 100000,
+      "runs": [
+        {
+          "folder": "xyce-inverting-load100000-coarse",
+          "status": "completed",
+          "warnings": [],
+          "checks": {
+            "no_duplicate_options": true,
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 40060,
+          "last_time_ns": 500.00000000000006,
+          "simulator": "xyce",
+          "kind": "inverting",
+          "load_ohms": 100000,
+          "label": "coarse",
+          "max_step_ns": 0.0125
+        },
+        {
+          "folder": "xyce-inverting-load100000-middle",
+          "status": "completed",
+          "warnings": [],
+          "checks": {
+            "no_duplicate_options": true,
+            "exit_success": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 80063,
+          "last_time_ns": 500.00000000000006,
+          "simulator": "xyce",
+          "kind": "inverting",
+          "load_ohms": 100000,
+          "label": "middle",
+          "max_step_ns": 0.00625
+        },
+        {
+          "folder": "xyce-inverting-load100000-fine",
+          "status": "failed",
+          "warnings": [],
+          "checks": {
+            "no_duplicate_options": true,
+            "exit_success": false,
+            "endpoint": false,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 32002,
+          "last_time_ns": 99.9999999999314,
+          "simulator": "xyce",
+          "kind": "inverting",
+          "load_ohms": 100000,
+          "label": "fine",
+          "max_step_ns": 0.003125
+        },
+        {
+          "folder": "ngspice-inverting-load100000-coarse",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 40109,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "inverting",
+          "load_ohms": 100000,
+          "label": "coarse",
+          "max_step_ns": 0.0125
+        },
+        {
+          "folder": "ngspice-inverting-load100000-middle",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 80071,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "inverting",
+          "load_ohms": 100000,
+          "label": "middle",
+          "max_step_ns": 0.00625
+        },
+        {
+          "folder": "ngspice-inverting-load100000-fine",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 160030,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "inverting",
+          "load_ohms": 100000,
+          "label": "fine",
+          "max_step_ns": 0.003125
+        },
+        {
+          "folder": "ngspice-inverting-load100000-tight",
+          "status": "completed",
+          "checks": {
+            "exit_success": true,
+            "no_error": true,
+            "klu": true,
+            "endpoint": true,
+            "finite": true,
+            "monotone": true
+          },
+          "rows": 160141,
+          "last_time_ns": 500.00000000000006,
+          "warnings": [],
+          "simulator": "ngspice",
+          "kind": "inverting",
+          "load_ohms": 100000,
+          "label": "tight",
+          "max_step_ns": 0.003125
+        }
+      ],
+      "comparisons": [
+        {
+          "kind": "inverting",
+          "load_ohms": 100000,
+          "label": "xyce timestep coarse-middle",
+          "folders": [
+            "xyce-inverting-load100000-coarse",
+            "xyce-inverting-load100000-middle"
+          ],
+          "max_difference_v": 1.9259294004821993e-06
+        },
+        {
+          "kind": "inverting",
+          "load_ohms": 100000,
+          "label": "xyce timestep middle-fine",
+          "folders": [
+            "xyce-inverting-load100000-middle",
+            "xyce-inverting-load100000-fine"
+          ],
+          "max_difference_v": null
+        },
+        {
+          "kind": "inverting",
+          "load_ohms": 100000,
+          "label": "ngspice timestep coarse-middle",
+          "folders": [
+            "ngspice-inverting-load100000-coarse",
+            "ngspice-inverting-load100000-middle"
+          ],
+          "max_difference_v": 1.7680521679774852e-06
+        },
+        {
+          "kind": "inverting",
+          "load_ohms": 100000,
+          "label": "ngspice timestep middle-fine",
+          "folders": [
+            "ngspice-inverting-load100000-middle",
+            "ngspice-inverting-load100000-fine"
+          ],
+          "max_difference_v": 4.4884104387354906e-07
+        },
+        {
+          "kind": "inverting",
+          "load_ohms": 100000,
+          "label": "cross-simulator coarse",
+          "folders": [
+            "xyce-inverting-load100000-coarse",
+            "ngspice-inverting-load100000-coarse"
+          ],
+          "max_difference_v": 1.2609977527422954e-06
+        },
+        {
+          "kind": "inverting",
+          "load_ohms": 100000,
+          "label": "cross-simulator middle",
+          "folders": [
+            "xyce-inverting-load100000-middle",
+            "ngspice-inverting-load100000-middle"
+          ],
+          "max_difference_v": 4.235108647179797e-07
+        },
+        {
+          "kind": "inverting",
+          "load_ohms": 100000,
+          "label": "cross-simulator fine",
+          "folders": [
+            "xyce-inverting-load100000-fine",
+            "ngspice-inverting-load100000-fine"
+          ],
+          "max_difference_v": null
+        },
+        {
+          "kind": "inverting",
+          "load_ohms": 100000,
+          "label": "ngspice tighter tolerance",
+          "folders": [
+            "ngspice-inverting-load100000-fine",
+            "ngspice-inverting-load100000-tight"
+          ],
+          "max_difference_v": 3.324802677617811e-08
+        }
+      ],
+      "decreasing": {
+        "xyce": null,
+        "ngspice": true
+      }
+    }
+  ],
+  "updatedAt": "2026-09-09T02:23:35.205870+00:00"
+}

@@ -12,7 +12,7 @@
     "hardware_tests_run": 0,
     "model_scope": "Ideal linear DC, ideal 2.5V reference and op amps; no rail limiting."
   },
-  "updatedAt": "2026-09-09T02:14:00.416773+00:00",
+  "updatedAt": "2026-09-09T02:23:35.205870+00:00",
   "activity": [
     {
       "state": "In progress",
@@ -49,6 +49,10 @@
     {
       "state": "Diagnostic deliverable complete / qualification open",
       "text": "Reduced to one LM6172: three identical failure times, no-pulse control complete. Six same-electrical-circuit Xyce/ngspice comparisons independently reproduced; maximum0.971627771\u00b5V. Two ngspice inverters require KLU after SPARSE timeouts. Hardware and coupled-model gates remain open."
+    },
+    {
+      "state": "Working component candidate / full gate open",
+      "text": "42 load/timestep runs:24/24 ngspice/KLU and12/18 Xyce complete. ngspice successive differences decrease6/6;36 comparisons independently reproduced. Last-halving maximum1.179\u00b5V, tolerance-only0.099\u00b5V. Scoped component reference selected for next signal-path work."
     }
   ]
 }
