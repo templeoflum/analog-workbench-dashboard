@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-09T04:04:31.308826+00:00",
+  "updatedAt": "2026-09-09T04:13:31.658261+00:00",
   "destination": "A playable analog video instrument whose behavior can be traced to documented circuitry and repeated through a measurement bench.",
-  "current": "Qualify the Cadet VII coupled model",
-  "next": "Capture linear-solve residuals and diode convergence decisions in the untouched local ngspice baseline at the failing step. The separately tested and combined arithmetic rewrites did not recover the two-diode failure.",
-  "decision": "Use the findings to choose a justified solver/model approach. If the source model cannot support the needed behavior, narrow the claim or change the reference\u2014not the pass criteria after the fact.",
+  "current": "Solver investigation paused \u00b7 reassess the next deliverable",
+  "next": "Proposed: a playable, bounded dynamic signal path using ideal supply/reference assumptions, with comparisons against the stable partial model. Agree its scope and pass criteria before implementation.",
+  "decision": "Choose a deliverable that adds a working processor beyond the existing ideal DC demo and recorded curves. A bounded feasibility slice must produce demonstrable behavior; failure triggers a decision, not an automatic debugging expansion.",
   "phases": [
     {
       "title": "Preserve the research and choose a tractable circuit",
@@ -21,8 +21,8 @@
     },
     {
       "title": "Qualify the component and coupled models",
-      "state": "Current stage",
-      "result": "Untouched local source build reproduces the small failure. Two source-arithmetic candidates, separately and combined, do not fix it; no patch adopted. Original models, analytical benchmark and working partial signal path retained.",
+      "state": "Investigation paused",
+      "result": "Full model remains unqualified. Research and diagnostics are preserved; further solver patches and failure instrumentation are paused by agreement.",
       "gate": "Locate the sensitivity, justify usable numerical limits and qualify the model under the intended rails and loads.",
       "href": "/evidence/charge-integration/report.md"
     },
