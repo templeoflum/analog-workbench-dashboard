@@ -1,0 +1,50 @@
+[
+  {
+    "mode": "offset_input",
+    "gain": 0,
+    "kind": "pattern",
+    "maxErrorV": 1.0513892209747244e-05,
+    "rmsErrorV": 1.3056047998832305e-06,
+    "passed": true
+  },
+  {
+    "mode": "offset_input",
+    "gain": 0.5,
+    "kind": "pattern",
+    "maxErrorV": 8.611163557954021e-06,
+    "rmsErrorV": 7.001687040191266e-07,
+    "passed": true
+  },
+  {
+    "mode": "offset_input",
+    "gain": 1,
+    "kind": "pattern",
+    "maxErrorV": 5.42095455263944e-05,
+    "rmsErrorV": 3.977879584927907e-06,
+    "passed": true
+  },
+  {
+    "mode": "offset_thru",
+    "gain": 0,
+    "kind": "pattern",
+    "maxErrorV": 1.0504605593042449e-05,
+    "rmsErrorV": 1.305393198273417e-06,
+    "passed": true
+  },
+  {
+    "mode": "offset_thru",
+    "gain": 0.5,
+    "kind": "pattern",
+    "maxErrorV": 8.609978209783709e-06,
+    "rmsErrorV": 7.001067083070192e-07,
+    "passed": true
+  },
+  {
+    "mode": "offset_thru",
+    "gain": 1,
+    "kind": "pattern",
+    "maxErrorV": 5.420851778399627e-05,
+    "rmsErrorV": 3.977583850315978e-06,
+    "passed": true
+  }
+]

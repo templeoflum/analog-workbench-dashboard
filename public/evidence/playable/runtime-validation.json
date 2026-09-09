@@ -1,0 +1,492 @@
+{
+  "cases": [
+    {
+      "mode": "offset_input",
+      "gain": 0,
+      "kind": "pulse",
+      "chunk": 257,
+      "peakV": 0.00004486328495989511,
+      "rmsV": 0.0000074640992651749974,
+      "pythonDifferenceV": 1.3877787807814457e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0,
+      "kind": "pulse",
+      "chunk": 4096,
+      "peakV": 0.00004486328495978409,
+      "rmsV": 0.000007464099265174015,
+      "pythonDifferenceV": 1.3877787807814457e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0,
+      "kind": "ramp",
+      "chunk": 257,
+      "peakV": 0.0000028025341471393794,
+      "rmsV": 6.616605337959947e-7,
+      "pythonDifferenceV": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0,
+      "kind": "ramp",
+      "chunk": 4096,
+      "peakV": 0.000002802534147111624,
+      "rmsV": 6.616605337948267e-7,
+      "pythonDifferenceV": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0,
+      "kind": "sine",
+      "chunk": 257,
+      "peakV": 0.000004348997381484199,
+      "rmsV": 8.617232885748794e-7,
+      "pythonDifferenceV": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0,
+      "kind": "sine",
+      "chunk": 4096,
+      "peakV": 0.000004348997381484199,
+      "rmsV": 8.617232885829978e-7,
+      "pythonDifferenceV": 2.498001805406602e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0,
+      "kind": "pattern",
+      "chunk": 257,
+      "peakV": 0.000010513892209552955,
+      "rmsV": 0.0000013056047999801694,
+      "pythonDifferenceV": 2.3592239273284576e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0,
+      "kind": "pattern",
+      "chunk": 4096,
+      "peakV": 0.000010513892209608466,
+      "rmsV": 0.000001305604799984518,
+      "pythonDifferenceV": 2.636779683484747e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0.5,
+      "kind": "pulse",
+      "chunk": 257,
+      "peakV": 0.000023863037693638844,
+      "rmsV": 0.000004423360661084392,
+      "pythonDifferenceV": 4.163336342344337e-17,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0.5,
+      "kind": "pulse",
+      "chunk": 4096,
+      "peakV": 0.000023863037693638844,
+      "rmsV": 0.000004423360661084365,
+      "pythonDifferenceV": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0.5,
+      "kind": "ramp",
+      "chunk": 257,
+      "peakV": 0.000001161318259302116,
+      "rmsV": 1.983881526104407e-7,
+      "pythonDifferenceV": 2.2551405187698492e-17,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0.5,
+      "kind": "ramp",
+      "chunk": 4096,
+      "peakV": 0.0000011613182593003812,
+      "rmsV": 1.9838815261023566e-7,
+      "pythonDifferenceV": 3.122502256758253e-17,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0.5,
+      "kind": "sine",
+      "chunk": 257,
+      "peakV": 0.000001793825305060337,
+      "rmsV": 2.486216336594211e-7,
+      "pythonDifferenceV": 2.949029909160572e-17,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0.5,
+      "kind": "sine",
+      "chunk": 4096,
+      "peakV": 0.0000017938253050672759,
+      "rmsV": 2.4862163365952945e-7,
+      "pythonDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0.5,
+      "kind": "pattern",
+      "chunk": 257,
+      "peakV": 0.000008611163557943613,
+      "rmsV": 7.001687040210791e-7,
+      "pythonDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 0.5,
+      "kind": "pattern",
+      "chunk": 4096,
+      "peakV": 0.00000861116355796096,
+      "rmsV": 7.001687040226487e-7,
+      "pythonDifferenceV": 3.122502256758253e-17,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 1,
+      "kind": "pulse",
+      "chunk": 257,
+      "peakV": 0.0001308106438028256,
+      "rmsV": 0.00002317620746484778,
+      "pythonDifferenceV": 2.7755575615628914e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 1,
+      "kind": "pulse",
+      "chunk": 4096,
+      "peakV": 0.0001308106438029366,
+      "rmsV": 0.00002317620746484783,
+      "pythonDifferenceV": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 1,
+      "kind": "ramp",
+      "chunk": 257,
+      "peakV": 0.0000061995323104753475,
+      "rmsV": 8.216043646076808e-7,
+      "pythonDifferenceV": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 1,
+      "kind": "ramp",
+      "chunk": 4096,
+      "peakV": 0.000006199532310447592,
+      "rmsV": 8.216043646053048e-7,
+      "pythonDifferenceV": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 1,
+      "kind": "sine",
+      "chunk": 257,
+      "peakV": 0.00001062325766436334,
+      "rmsV": 9.915175626646982e-7,
+      "pythonDifferenceV": 2.636779683484747e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 1,
+      "kind": "sine",
+      "chunk": 4096,
+      "peakV": 0.00001062325766436334,
+      "rmsV": 9.915175626643251e-7,
+      "pythonDifferenceV": 2.636779683484747e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 1,
+      "kind": "pattern",
+      "chunk": 257,
+      "peakV": 0.000054209545526477665,
+      "rmsV": 0.00000397787958492497,
+      "pythonDifferenceV": 2.706168622523819e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_input",
+      "gain": 1,
+      "kind": "pattern",
+      "chunk": 4096,
+      "peakV": 0.00005420954552658869,
+      "rmsV": 0.000003977879584931649,
+      "pythonDifferenceV": 2.7755575615628914e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0,
+      "kind": "pulse",
+      "chunk": 257,
+      "peakV": 0.00004488127249427376,
+      "rmsV": 0.00000746277135037368,
+      "pythonDifferenceV": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0,
+      "kind": "pulse",
+      "chunk": 4096,
+      "peakV": 0.00004488127249416274,
+      "rmsV": 0.000007462771350372133,
+      "pythonDifferenceV": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0,
+      "kind": "ramp",
+      "chunk": 257,
+      "peakV": 0.0000028024932737791275,
+      "rmsV": 6.615154383644741e-7,
+      "pythonDifferenceV": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0,
+      "kind": "ramp",
+      "chunk": 4096,
+      "peakV": 0.0000028024932737791275,
+      "rmsV": 6.615154383690707e-7,
+      "pythonDifferenceV": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0,
+      "kind": "sine",
+      "chunk": 257,
+      "peakV": 0.000004350680474995983,
+      "rmsV": 8.611204064431145e-7,
+      "pythonDifferenceV": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0,
+      "kind": "sine",
+      "chunk": 4096,
+      "peakV": 0.000004350680475051494,
+      "rmsV": 8.611204064547967e-7,
+      "pythonDifferenceV": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0,
+      "kind": "pattern",
+      "chunk": 257,
+      "peakV": 0.00001050460559309796,
+      "rmsV": 0.0000013053931982372534,
+      "pythonDifferenceV": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0,
+      "kind": "pattern",
+      "chunk": 4096,
+      "peakV": 0.00001050460559309796,
+      "rmsV": 0.0000013053931982407123,
+      "pythonDifferenceV": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0.5,
+      "kind": "pulse",
+      "chunk": 257,
+      "peakV": 0.00002387156769145804,
+      "rmsV": 0.0000044233250707286755,
+      "pythonDifferenceV": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0.5,
+      "kind": "pulse",
+      "chunk": 4096,
+      "peakV": 0.00002387156769145804,
+      "rmsV": 0.00000442332507072829,
+      "pythonDifferenceV": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0.5,
+      "kind": "ramp",
+      "chunk": 257,
+      "peakV": 0.0000011607723808815251,
+      "rmsV": 1.9838490263753984e-7,
+      "pythonDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0.5,
+      "kind": "ramp",
+      "chunk": 4096,
+      "peakV": 0.0000011607723808815251,
+      "rmsV": 1.9838490263724237e-7,
+      "pythonDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0.5,
+      "kind": "sine",
+      "chunk": 257,
+      "peakV": 0.0000017932399192788218,
+      "rmsV": 2.486055003055645e-7,
+      "pythonDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0.5,
+      "kind": "sine",
+      "chunk": 4096,
+      "peakV": 0.0000017932399192788218,
+      "rmsV": 2.4860550030619053e-7,
+      "pythonDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0.5,
+      "kind": "pattern",
+      "chunk": 257,
+      "peakV": 0.000008609978209783709,
+      "rmsV": 7.001067083072523e-7,
+      "pythonDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 0.5,
+      "kind": "pattern",
+      "chunk": 4096,
+      "peakV": 0.000008609978209811464,
+      "rmsV": 7.001067083087403e-7,
+      "pythonDifferenceV": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 1,
+      "kind": "pulse",
+      "chunk": 257,
+      "peakV": 0.00013086643196658088,
+      "rmsV": 0.000023176822601356104,
+      "pythonDifferenceV": 2.498001805406602e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 1,
+      "kind": "pulse",
+      "chunk": 4096,
+      "peakV": 0.00013086643196658088,
+      "rmsV": 0.000023176822601356626,
+      "pythonDifferenceV": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 1,
+      "kind": "ramp",
+      "chunk": 257,
+      "peakV": 0.000006203240438939356,
+      "rmsV": 8.216371478462266e-7,
+      "pythonDifferenceV": 1.5265566588595902e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 1,
+      "kind": "ramp",
+      "chunk": 4096,
+      "peakV": 0.0000062032404389116,
+      "rmsV": 8.21637147843458e-7,
+      "pythonDifferenceV": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 1,
+      "kind": "sine",
+      "chunk": 257,
+      "peakV": 0.000010626855933365542,
+      "rmsV": 9.914620845052237e-7,
+      "pythonDifferenceV": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 1,
+      "kind": "sine",
+      "chunk": 4096,
+      "peakV": 0.000010626855933365542,
+      "rmsV": 9.91462084505321e-7,
+      "pythonDifferenceV": 1.5959455978986625e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 1,
+      "kind": "pattern",
+      "chunk": 257,
+      "peakV": 0.00005420851778398239,
+      "rmsV": 0.000003977583850312359,
+      "pythonDifferenceV": 1.8735013540549517e-16,
+      "passed": true
+    },
+    {
+      "mode": "offset_thru",
+      "gain": 1,
+      "kind": "pattern",
+      "chunk": 4096,
+      "peakV": 0.00005420851778409341,
+      "rmsV": 0.000003977583850320319,
+      "pythonDifferenceV": 1.6653345369377348e-16,
+      "passed": true
+    }
+  ],
+  "performance": {
+    "environment": "v22.23.2 / darwin / arm64",
+    "scope": "Node filter + pattern + one image packing; excludes browser rendering",
+    "samples": 540,
+    "p50ms": 0.29862499999998704,
+    "p95ms": 0.3734580000000278
+  },
+  "passed": true
+}

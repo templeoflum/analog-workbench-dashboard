@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-09T04:13:31.658261+00:00",
+  "updatedAt": "2026-09-09T04:47:44.991455+00:00",
   "destination": "A playable analog video instrument whose behavior can be traced to documented circuitry and repeated through a measurement bench.",
-  "current": "Solver investigation paused \u00b7 reassess the next deliverable",
-  "next": "Proposed: a playable, bounded dynamic signal path using ideal supply/reference assumptions, with comparisons against the stable partial model. Agree its scope and pass criteria before implementation.",
-  "decision": "Choose a deliverable that adds a working processor beyond the existing ideal DC demo and recorded curves. A bounded feasibility slice must produce demonstrable behavior; failure triggers a decision, not an automatic debugging expansion.",
+  "current": "Playable partial signal path delivered",
+  "next": "Review the playable six-setting demonstration. Browser draw rate is visible live; physical hardware and full-module qualification remain open.",
+  "decision": "The bounded runtime passed its fixed numerical gate. Further expansion needs a named operating range and reference; the paused solver investigation does not restart automatically.",
   "phases": [
     {
       "title": "Preserve the research and choose a tractable circuit",
@@ -29,15 +29,16 @@
     {
       "title": "Validate one complete Cadet module",
       "state": "Not yet",
-      "result": "The ideal browser example is usable, but it does not run the coupled dynamic model. Physical-board measurements: zero.",
+      "result": "A playable partial dynamic signal path now passes 24 named reference cases. The full power/reference circuit remains unqualified. Physical-board measurements: zero.",
       "gate": "Cover the controls and operating range, account for the modeled power/output path, and compare with named references and physical measurements.",
       "href": "/evidence/reference/report.md"
     },
     {
       "title": "Turn the validated model into a playable module",
-      "state": "Later",
-      "result": "Connect the qualified dynamic behavior to interactive controls, saved patches and media input/output.",
-      "gate": "Demonstrate repeatable patches and measured performance; optimization must stay inside established error limits."
+      "state": "Bounded prototype working",
+      "result": "Moving pattern, three gain settings, two offset routes, retained signal history and live draw-rate readout. 18 held-out waveform cases plus 6 pattern cases pass the fixed error limits.",
+      "gate": "Browser performance qualification, broader controls and inputs, saved patches and media IO remain open. This partial prototype does not clear full-module qualification.",
+      "href": "/evidence/playable/report.md"
     },
     {
       "title": "Expand the selected instrument",
